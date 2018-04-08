@@ -25,6 +25,6 @@ join_paired_ends.py \
 -r Read2.fastq.gz \
 -b Index.fastq.gz \
 -o join_pe_reads \
--j 40 -p 75 #should I do this?
+-j 40 -p 75
 
 source deactivate
