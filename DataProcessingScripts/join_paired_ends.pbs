@@ -1,0 +1,28 @@
+#!/bin/bash --login
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=24
+#PBS -N core_diversity_analysis
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+# Load modules and qiime
+module load miniconda/python2
+
+# Loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+
+# Setting temporary directory
+mkdir -p ~/qiime_tmp
+export TMPDIR=~/qiime_tmp
+
+# Joining Paired End Reads
+join_paired_ends.py \
+-m SeqPrep \
+-f Read1.fastq.gz \
+-r Read2.fastq.gz \
+-b Index.fastq.gz \
+-o join_pe_reads \
+-j 40 -p 75 #should I do this?
