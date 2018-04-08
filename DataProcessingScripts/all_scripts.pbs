@@ -33,7 +33,7 @@ join_paired_ends.py \
 -r Read2.fastq.gz \
 -b Index.fastq.gz \
 -o join_pe_reads \
--j 40 -p 75 #should I do this?
+-j 40 -p 75
 
 #-------------------------------------------------
 # Demultiplexing of Fastq sequence data
@@ -43,6 +43,7 @@ split_libraries_fastq.py \
 -b /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq_barcodes.fastq \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
 -o split_libraries \
+-q19 \
 --rev_comp_barcode \
 --rev_comp_mapping_barcodes \
 
