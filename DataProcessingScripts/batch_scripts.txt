@@ -27,33 +27,33 @@ export TMPDIR=~/qiime_tmp
 #-------------------------------------------------
 # Joining Paired End Reads
 #-------------------------------------------------
-#join_paired_ends.py \
-#-m SeqPrep \
-#-f Read1.fastq.gz \
-#-r Read2.fastq.gz \
-#-b Index.fastq.gz \
-#-o join_pe_reads \
-#-j 40 -p 75 #should I do this?
+join_paired_ends.py \
+-m SeqPrep \
+-f Read1.fastq.gz \
+-r Read2.fastq.gz \
+-b Index.fastq.gz \
+-o join_pe_reads \
+-j 40 -p 75 #should I do this?
 
 #-------------------------------------------------
 # Demultiplexing of Fastq sequence data
 #-------------------------------------------------
-#split_libraries_fastq.py \
-#-i /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq.gz \
-#-b /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq_barcodes.fastq \
-#-m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
-#-o split_libraries \
-#--rev_comp_barcode \
-#--rev_comp_mapping_barcodes \
+split_libraries_fastq.py \
+-i /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq.gz \
+-b /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq_barcodes.fastq \
+-m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
+-o split_libraries \
+--rev_comp_barcode \
+--rev_comp_mapping_barcodes \
 
 #-------------------------------------------------
 # Picking Operational Taxonomical Units (OTUs)
 #-------------------------------------------------
-#pick_open_reference_otus.py \
-#-i /lustre/home/d411/alorax1/new/2018_02_smb/split_libraries/seqs.fna \
-#-o 16S_SILVA128_otus \
-#-r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
-#-a -O 4 \
+pick_open_reference_otus.py \
+-i /lustre/home/d411/alorax1/new/2018_02_smb/split_libraries/seqs.fna \
+-o 16S_SILVA128_otus \
+-r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
+-a -O 4 \
 
 #-------------------------------------------------
 # Core Diversity Analysis
