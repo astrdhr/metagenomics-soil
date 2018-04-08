@@ -54,7 +54,8 @@ pick_open_reference_otus.py \
 -i /lustre/home/d411/alorax1/new/2018_02_smb/split_libraries/seqs.fna \
 -o 16S_SILVA128_otus \
 -r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
--a -O 12 \ #this is for parallelising your jobs
+-a \
+-O 12 #this is for parallelising your jobs
 
 #-------------------------------------------------
 # Core Diversity Analyses
@@ -66,6 +67,7 @@ core_diversity_analyses.py \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
 -t /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/rep_set.tre \
 -e 745 \ #this number is the fewest OTU counts obtained in the previous OTU picking step
--a -O 12 \
+-a \
+-O 12 \
 
 source deactivate
