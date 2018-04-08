@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #PBS -l walltime=02:00:00
 #PBS -l select=1:ncpus=24
-#PBS -N core_diversity_analysis
+#PBS -N join_pe_reads
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -9,7 +9,7 @@ cd $PBS_O_WORKDIR
 # Load modules and qiime
 module load miniconda/python2
 
-# Loading virtualenv
+# Load virtualenv
 echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l)
 source activate qiime1
@@ -26,3 +26,5 @@ join_paired_ends.py \
 -b Index.fastq.gz \
 -o join_pe_reads \
 -j 40 -p 75 #should I do this?
+
+source deactivate
