@@ -6,9 +6,9 @@
 Here I lay bare all my scripts used in the Illumina data processing and further downstream analyses for my work.
 
 ## Setup information
-QIIME v1.9.1 was used for the initial data processing and analyses. The (serial batch/parallel) scripts were submitted as jobs to be run on Cirrus, a High Performance Computing (HPC) system. These PBS scripts are located in the 'DataProcessingScripts' folder.
+- QIIME v1.9.1 was used for the initial data processing and analyses. The (serial batch/parallel) scripts were submitted as jobs to be run on Cirrus, a High Performance Computing (HPC) system. These PBS scripts are located in the 'DataProcessingScripts' folder.
 
-For further downstream statistical tests, I mostly worked with [R](https://www.r-project.org/). These scripts are located in the 'StatScripts' folder.
+- For further downstream statistical tests, I mostly worked with [R](https://www.r-project.org/). These scripts are located in the 'StatScripts' folder.
 
 ## Outline of pre-processing workflow
 
