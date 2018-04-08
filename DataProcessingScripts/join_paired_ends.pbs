@@ -6,10 +6,10 @@
 
 cd $PBS_O_WORKDIR
 
-# Load modules
+# Loading modules
 module load miniconda/python2
 
-# Load virtualenv
+# Loading virtualenv
 echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l)
 source activate qiime1
