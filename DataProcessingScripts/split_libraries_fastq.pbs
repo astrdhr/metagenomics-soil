@@ -26,6 +26,6 @@ split_libraries_fastq.py \
 -o split_libraries \
 -q 19 \ #optional quality filter applied
 --rev_comp_barcode \
---rev_comp_mapping_barcodes \
+--rev_comp_mapping_barcodes
 
 source deactivate
