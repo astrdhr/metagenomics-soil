@@ -57,7 +57,7 @@ pick_open_reference_otus.py \
 -a -O 12 \ #this is for parallelising your jobs
 
 #-------------------------------------------------
-# Core Diversity Analysis
+# Core Diversity Analyses
 #-------------------------------------------------
 core_diversity_analyses.py \
 --recover_from_failure \
@@ -66,5 +66,6 @@ core_diversity_analyses.py \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
 -t /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/rep_set.tre \
 -e 745 \ #this number is the fewest OTU counts obtained in the previous OTU picking step
+-a -O 12 \
 
 source deactivate
