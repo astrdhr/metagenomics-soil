@@ -44,6 +44,7 @@ split_libraries_fastq.py \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
 -o split_libraries \
 -q19 \ #optional quality filter applied
+--store_qual_scores \
 --rev_comp_barcode \
 --rev_comp_mapping_barcodes
 
