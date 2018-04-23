@@ -1,0 +1,7 @@
+pick_otus_reference_seqs_fp /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta
+
+pynast_template_alignment_fp /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set_aligned/97/97_otus_aligned.fasta
+
+assign_taxonomy_reference_seqs_fp /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta
+
+assign_taxonomy_id_to_taxonomy_fp /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/taxonomy/16S_only/97/consensus_taxonomy_7_levels.txt

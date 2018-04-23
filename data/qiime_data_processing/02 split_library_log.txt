@@ -1,0 +1,94 @@
+Input file paths
+
+Mapping filepath: /lustre/home/d411/alorax1/data/2018/2018_02_smb/2018_map.tsv (md5: 1cc32fc7b3a8d3bf37567ee6c5f56205)
+
+Sequence read filepath: /lustre/home/d411/alorax1/data/2018/join_pe_reads_none/seqprep_assembled.fastq.gz (md5: 1bd6986b045b5645773777d0cdbf96fd)
+Barcode read filepath: /lustre/home/d411/alorax1/data/2018/join_pe_reads_none/seqprep_assembled.fastq_barcodes.fastq (md5: 202489ed17be1b87118ab860ffea61c6)
+
+
+
+Quality filter results
+
+Total number of input sequences: 7763013
+
+Barcode not in mapping file: 16204
+
+Read too short after quality truncation: 1170
+
+Count of N characters exceeds limit: 0
+
+Illumina quality digit = 0: 0
+
+Barcode errors exceed max: 2317285
+
+
+
+Result summary (after quality filtering)
+
+Median sequence length: 253.00
+
+515rcbc12	1873365
+
+515rcbc22	225700
+
+515rcbc24	205778
+
+515rcbc10	203324
+
+515rcbc16	192374
+
+515rcbc29	185875
+
+515rcbc26	179530
+
+515rcbc19	164022
+
+515rcbc30	151799
+
+515rcbc31	145945
+
+515rcbc25	143737
+
+515rcbc14	138906
+
+515rcbc21	135539
+
+515rcbc18	127470
+
+515rcbc28	126452
+
+515rcbc15	125696
+
+515rcbc32	124836
+
+515rcbc17	120821
+
+515rcbc33	116366
+
+515rcbc11	109670
+
+515rcbc35	99138
+
+515rcbc23	83729
+
+515rcbc27	78818
+
+515rcbc9	73486
+
+515rcbc34	71142
+
+515rcbc13	69535
+
+515rcbc37	69077
+
+515rcbc8	46293
+
+515rcbc36	39166
+
+515rcbc20	765
+
+
+
+Total number seqs written	5428354
+
+---
