@@ -15,11 +15,11 @@ Counts/sample summary:
 Counts/sample detail (number of sequences for each sample):
 515rcbc20: 746.0
 515rcbc36: 38977.0
-515rcbc8: 46109.0
+515rcbc8:  46109.0
 515rcbc37: 68815.0
 515rcbc13: 69344.0
 515rcbc34: 70806.0
-515rcbc9: 73321.0
+515rcbc9:  73321.0
 515rcbc27: 78524.0
 515rcbc23: 83503.0
 515rcbc35: 98603.0
