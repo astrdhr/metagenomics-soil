@@ -1,0 +1,29 @@
+#!/bin/bash --login
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=32
+#PBS -N alpha_rarefaction
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+# Load modules and qiime
+module load miniconda/python2
+
+# Setting temporary directory
+mkdir -p ~/qiime_tmp
+export TMPDIR=~/qiime_tmp
+
+# Loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+
+# Performing alpha rarefaction to determine sampling depth for core diversity analyses
+alpha_rarefaction.py \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
+-m /lustre/home/d411/alorax1/data/2018/2018_02_smb/2018_map.tsv \
+-o /lustre/home/d411/alorax1/data/2018/alpha_rare \
+-a \
+-O 16 \
+
+source deactivate

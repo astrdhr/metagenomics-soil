@@ -33,7 +33,8 @@ join_paired_ends.py \
 -r Read2.fastq.gz \
 -b Index.fastq.gz \
 -o join_pe_reads \
--j 40 -p 75 #optional quality filter applied
+-j 40 \
+-p 75 #optional quality filter applied
 
 #-------------------------------------------------
 # Demultiplexing of Fastq sequence data
@@ -67,7 +68,7 @@ core_diversity_analyses.py \
 -o cda_silva \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
 -t /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/rep_set.tre \
--e 745 \ #this number is the fewest OTU counts obtained in the previous OTU picking step
+-e 35000 \ #this number is obtained by determining sequence count where curve levels off from alpha_rarefaction.py script
 -a \
 -O 12
 

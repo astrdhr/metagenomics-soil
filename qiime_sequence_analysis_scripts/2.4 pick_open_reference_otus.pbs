@@ -20,8 +20,8 @@ source activate qiime1
 
 # Picking Operational Taxonomical Units (OTUs)
 pick_open_reference_otus.py \
--i /lustre/home/d411/alorax1/new/2018_02_smb/split_libraries/seqs.fna \
--o 16S_SILVA128_otus \
+-i /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.fna \
+-o /lustre/home/d411/alorax1/data/2018/otu_open_ref \
 -r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
 -a \
 -O 16 #this is for parallelising jobs

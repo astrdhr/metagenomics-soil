@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #PBS -l walltime=01:00:00
-#PBS -l select=1:ncpus=2
-#PBS -N qual_none_2018
+#PBS -l select=1:ncpus=32
+#PBS -N all_quality_scripts
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -23,16 +23,17 @@ source activate qiime1
 #-m /lustre/home/d411/alorax1/data/all_years/allyears_map.txt \
 #-o /lustre/home/d411/alorax1/data/all_years/validate_mapping_file
 
-# Generating Quality Scores
-#quality_scores_plot.py \
-#-q /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.qual \
-#-o /lustre/home/d411/alorax1/data/2018/quality_none_histograms
-
 # Converting qual file to the right format
 #convert_fastaqual_fastq.py \
 #-f /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.fna \
 #-q /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.qual \
 #-o /lustre/home/d411/alorax1/data/2018/converted_fastq
+## or use sed on command line 's/\[//g;s/\]//g' seqs.qual > seqs_without_brackets.qual
+
+# Generating Quality Scores
+#quality_scores_plot.py \
+#-q /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs_without_brackets.qual \
+#-o /lustre/home/d411/alorax1/data/2018/quality_none_histograms
 
 # Identifying Chimeric Sequences
 #identify_chimeric_seqs.py \
@@ -40,5 +41,13 @@ source activate qiime1
 #-i /lustre/home/d411/alorax1/test/new/2018_02_smb/split_libraries/seqs.fna \
 #-r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
 #-o
+
+# Performing alpha rarefaction to determine sampling depth for core diversity analyses
+alpha_rarefaction.py \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
+-m /lustre/home/d411/alorax1/data/2018/2018_02_smb/2018_map.tsv \
+-o /lustre/home/d411/alorax1/data/2018/alpha_rare \
+-a \
+-O 16 \
 
 source deactivate

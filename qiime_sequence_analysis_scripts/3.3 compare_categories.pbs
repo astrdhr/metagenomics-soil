@@ -1,0 +1,30 @@
+#!/bin/bash --login
+#PBS -l walltime=00:03:00
+#PBS -l select=1:ncpus=2
+#PBS -N compare_33
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+# Load modules and qiime
+module load miniconda/python2
+
+# Setting temporary directory
+mkdir -p ~/qiime_tmp
+export TMPDIR=~/qiime_tmp
+
+# Loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+
+# Comparing categories
+compare_categories.py \
+--method adonis \
+-i /lustre/home/d411/alorax1/data/2018/5000_core_diversity_analyses_updated_map_v2/bdiv_even5000/unweighted_unifrac_dm.txt \
+-m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
+-c SampleAbioticFactors \
+-o /lustre/home/d411/alorax1/data/2018/compare_cat/adonis/SampleAbioticFactors \
+-n 999
+
+source deactivate
