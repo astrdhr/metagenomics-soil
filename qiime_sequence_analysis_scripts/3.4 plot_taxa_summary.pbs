@@ -1,0 +1,27 @@
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=2
+#PBS -N pts
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+# Load modules and qiime
+module load miniconda/python2
+
+# Setting temporary directory
+mkdir -p ~/qiime_tmp
+export TMPDIR=~/qiime_tmp
+
+# Loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+
+# Make taxonomy summary charts based on taxonomy assignment
+plot_taxa_summary.py \
+-i /lustre/home/d411/alorax1/data/2018/tax_mapping_no_mapping/otu_table_mc2_w_tax_L2.txt,/lustre/home/d411/alorax1/data/2018/tax_mapping_no_mapping/otu_table_mc2_w_tax_L3.txt,/lustre/home/d411/alorax1/data/2018/tax_mapping_no_mapping/otu_table_mc2_w_tax_L6.txt \
+-l Phylum,Class,Genus \
+-c pie,bar,area \
+-o /lustre/home/d411/alorax1/data/2018/phylum_class_genus_charts/
+
+source deactivate

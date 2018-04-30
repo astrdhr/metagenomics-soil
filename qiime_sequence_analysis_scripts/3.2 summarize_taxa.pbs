@@ -1,5 +1,5 @@
 #!/bin/bash --login
-#PBS -l walltime=00:10:00
+#PBS -l walltime=00:05:00
 #PBS -l select=1:ncpus=2
 #PBS -N taxa_mapping
 #PBS -A d411-training
