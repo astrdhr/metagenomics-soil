@@ -1,0 +1,70 @@
+---
+title: "Sourcetracker"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+> All of the code on this page is run on the command line, unless otherwise stated.
+
+# Installing sourcetracker
+Once we `ssh` into Cirrus and are in our home directory (or wherever you want to install this), we clone SourceTracker from Dan Knight's GitHub repository.
+
+```{}
+# clone this repo
+git clone https://github.com/danknights/sourcetracker.git
+
+# Enter repo folder
+cd sourcetracker
+```
+
+Now we just have to configure a few things, which will allow us to run SourceTracker from the command line, rather than in R. To do this, we need to have the path of our top-level SourceTracker repository folder script stored in the environment variable, `SOURCETRACKER_PATH`. I did this:
+
+```{}
+# Creating a system variable called SOURCETRACKER_PATH
+# we'll add this to a .bash_profile file in our home directory.
+echo "" >> ~/.bash_profile
+echo "export SOURCETRACKER_PATH=/lustre/home/d411/alorax1/sourcetracker" >> ~/.bash_profile
+source ~/.bash_profile
+
+# To check if it's installed and accessible to QIIME
+print_qiime_config.py
+# if it worked it'll say
+sourcetracker is installed ... ok
+# you can also run:
+R --slave --vanilla --args -h < $SOURCETRACKER_PATH/sourcetracker_for_qiime.r
+# if you see SourceTracker's help text appear, then it worked.
+```
+
+# Filter OTUs present in <1% of samples from OTU table
+We filter OTUs that are present in very few samples under the assumption that they are unlikely to yield useful source tracking information. "Few samples" = <1% of samples. To determine this for my dataset, I took 1% of the mean of my counts/sample, which gave me 1782 samples (not rounded).
+
+```{}
+# To filter OTU table:
+filter_otus_from_otu_table.py -i otu_table.biom -o filtered_otu_table.biom -s 1
+```
+But I didn't do this...
+
+# Convert table from BIOM to txt format
+SourceTracker can only work with `.txt` files. So I'm going to go into my directory where my otu `BIOM` table is stored, and convert it.
+```{}
+# Convert .biom to .txt format
+biom convert -i otu_table_mc2_w_tax.biom -o otu_table_mc2_w_tax.txt --to-tsv
+```
+
+# Run SourceTracker
+Running SourceTracker from my QIIME environment. Note: the mapping file must contain two additional columns: `Env` and `SourceSink` where you should write what environment the samples came from, and say whether a sample is a `source` or `sink`, respectively.
+
+A `source` is usually multiple samples that are from an environment of interest, whereas a `sink` is typically a single sample.
+```{}
+R --slave --vanilla --args \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.txt \
+-m /lustre/home/d411/alorax1/data/2018/updated_2018_map_sourcetracker.txt \
+-o /lustre/home/d411/alorax1/data/2018/sourcetracker_out < $SOURCETRACKER_PATH/sourcetracker_for_qiime.r
+```
+
+And we're done! You'll find a directory containing PDF files containing images, I got this image as an example:
+![](C:\Users\tropa\Pictures\sourcetracker_ex.png)
+
+> Note: SourceTracker2 is a major improvement however, as it can run jobs in parallel.
