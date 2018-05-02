@@ -44,7 +44,7 @@ We filter OTUs that are present in very few samples under the assumption that th
 # To filter OTU table:
 filter_otus_from_otu_table.py -i otu_table.biom -o filtered_otu_table.biom -s 1
 ```
-But I didn't do this...
+But I didn't do this in this case...
 
 # Convert table from BIOM to txt format
 SourceTracker can only work with `.txt` files. So I'm going to go into my directory where my otu `BIOM` table is stored, and convert it.
