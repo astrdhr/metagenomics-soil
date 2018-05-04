@@ -17,3 +17,9 @@ For further downstream statistical tests, I mostly worked with [R](https://www.r
 ## Primer
 
 The `16S rRNA` (ribosomal RNA) gene encodes for part of the ribosome (more specifically, the 30S small subunit) found in `prokaryotic cells`. Sections of this gene are `conserved` across the genomes of all `bacterial species`, and variations within the `coding sequence` are used to reconstruct `phylogenies`; allowing different bacterial species to be told apart and how they are related to each other. Hence, highly complex bacterial `communities` are commonly identified using `16S rRNA gene sequencing`.
+
+## Basic workflow
+The `16S rRNA gene` is unable to distinguish between bacterial `species` or `phenotype`. Furthermore, a 250 nt region of that gene is even less able to delineate a `species`. Different `species` can have identifical `V4 sequences`, however the `genus` level, while not perfect, can still be far more accurate. Therefore, I have used a `97% threshold`, to avoid the possibility of any threshold greater misconstruing:
+- Intragenomic variation
+- Intraspecies variation
+as different Operational Taxonomic Units (OTUs). They may not be due to `sequence artefacts` or `contamination`.
