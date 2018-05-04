@@ -14,6 +14,6 @@ QIIME v1.9.1 was used for the initial data processing and analyses. The (serial 
 For further downstream statistical tests, I mostly worked with [R](https://www.r-project.org/). These scripts are located in the `StatScripts` folder. A few notes:
 - Comments are added at the beginning of each script and in-line for clarification of their use.
 
-## Outline of pre-processing workflow
+## Primer
 
-insert diagram here pls
+The `16S rRNA` (ribosomal RNA) gene encodes for part of the ribosome (more specifically, the 30S small subunit) found in `prokaryotic cells`. Sections of this gene are `conserved` across the genomes of all `bacterial species`, and variations within the `coding sequence` are used to reconstruct `phylogenies`; allowing different bacterial species to be told apart and how they are related to each other. Hence, highly complex bacterial `communities` are commonly identified using `16S rRNA gene sequencing`.

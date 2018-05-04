@@ -1,0 +1,41 @@
+---
+title: "Creating an interactive map of our sample sites"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+Here, I have created an interactive map of our sample collection sites using the mapping file. First I'm going to install some packages and access its library.
+```{r}
+install.packages("leaflet", repos = "http://cran.us.r-project.org")
+library(leaflet)
+library(sp)
+
+```
+
+Next I'm going to retrieve the mapping file, and store it in the variable 'data'.
+```{r}
+data <- read.csv("allyears_map_corrected.csv")
+```
+
+Now I'm going to make sure the contents of the longitude/latitude columns are numeric.
+```{r}
+data$SampleLongitude <- as.numeric(data$SampleLongitude)
+data$SampleLatitude <- as.numeric(data$SampleLatitude)
+```
+
+I've created a new SpatialPoints dataframe, and inside of this function I am telling R which columns to find the lattitude (first number) and longitude (second number) from the mapping file (which I have represented as 'data').
+```{r}
+data.SP <- SpatialPointsDataFrame(data[,c(8,9)], data[,-c(8,9)])
+```
+
+Now I'm going to add the markers.
+```{r}
+m <- leaflet() %>% addTiles() %>%
+  addCircleMarkers(data = data, lng = ~SampleLongitude, lat = ~SampleLatitude, popup = ~X.SampleID)
+```
+
+Now for the part you've all been waiting for. Running m generates an interactive mapping file. You can click on the points to see which SAMPLEID they belong to.
+```{r}
+m %>% addProviderTiles(providers$CartoDB.Positron)
+```
