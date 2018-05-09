@@ -1,5 +1,5 @@
 #!/bin/bash --login
-#PBS -l walltime=00:05:00
+#PBS -l walltime=03:00:00
 #PBS -l select=1:ncpus=2
 #PBS -N distance_boxplots
 #PBS -A d411-training
@@ -18,15 +18,24 @@ echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l)
 source activate qiime1
 
-# Plotting within and between distances for SampleMoisture
+# Plotting within and between distances for mapping file categories (WEIGHTED)
 time make_distance_boxplots.py \
 -m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
--o /lustre/home/d411/alorax1/data/2018/distance_boxplots/test \
--d /lustre/home/d411/alorax1/data/2018/try2_35000_cda/bdiv_even35000/unweighted_unifrac_dm.txt \
--f SampleMoisture \
+-o /lustre/home/d411/alorax1/data/2018/distance_boxplots/WEIGHTED \
+-d /lustre/home/d411/alorax1/data/2018/try2_35000_cda/bdiv_even35000/weighted_unifrac_dm.txt \
+-f "SoilCompactness,SoilTexture,SamplePh,SamplePotassium,SampleNitrogen,SamplePhosphorus,SampleLongitude,SampleLatitude,SampleDepth,SampleFootFall,SampleVegetation,SampleGrass,SampleNearbyObjects,Sample
+Habitat,SampleDistanceFromTree,SampleTrees,SampleLeaves,SampleFauna,SampleRoots,SampleWeatherTemp,SampleMoisture" \
 --save_raw_data \
 -n 999
 
-
+# Plotting within and between distances for mapping file categories (UNWEIGHTED)
+time make_distance_boxplots.py \
+-m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
+-o /lustre/home/d411/alorax1/data/2018/distance_boxplots/UNWEIGHTED \
+-d /lustre/home/d411/alorax1/data/2018/try2_35000_cda/bdiv_even35000/unweighted_unifrac_dm.txt \
+-f "SoilCompactness,SoilTexture,SamplePh,SamplePotassium,SampleNitrogen,SamplePhosphorus,SampleLongitude,SampleLatitude,SampleDepth,SampleFootFall,SampleVegetation,SampleGrass,SampleNearbyObjects,Sample
+Habitat,SampleDistanceFromTree,SampleTrees,SampleLeaves,SampleFauna,SampleRoots,SampleWeatherTemp,SampleMoisture" \
+--save_raw_data \
+-n 999
 
 source deactivate
