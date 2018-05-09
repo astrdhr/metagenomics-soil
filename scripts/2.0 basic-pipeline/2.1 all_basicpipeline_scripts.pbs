@@ -27,7 +27,7 @@ source activate qiime1
 #-------------------------------------------------
 # Joining Paired End Reads
 #-------------------------------------------------
-join_paired_ends.py \
+time join_paired_ends.py \
 -m SeqPrep \
 -f Read1.fastq.gz \
 -r Read2.fastq.gz \
@@ -39,7 +39,7 @@ join_paired_ends.py \
 #-------------------------------------------------
 # Demultiplexing of Fastq sequence data
 #-------------------------------------------------
-split_libraries_fastq.py \
+time split_libraries_fastq.py \
 -i /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq.gz \
 -b /lustre/home/d411/alorax1/new/2018_02_smb/join_pe_reads/seqprep_assembled.fastq_barcodes.fastq \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
@@ -52,7 +52,7 @@ split_libraries_fastq.py \
 #-------------------------------------------------
 # Picking Operational Taxonomical Units (OTUs)
 #-------------------------------------------------
-pick_open_reference_otus.py \
+time pick_open_reference_otus.py \
 -i /lustre/home/d411/alorax1/new/2018_02_smb/split_libraries/seqs.fna \
 -o 16S_SILVA128_otus \
 -r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
@@ -62,7 +62,7 @@ pick_open_reference_otus.py \
 #-------------------------------------------------
 # Core Diversity Analyses
 #-------------------------------------------------
-core_diversity_analyses.py \
+time core_diversity_analyses.py \
 --recover_from_failure \
 -i /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/otu_table_mc2_w_tax.biom \
 -o cda_silva \

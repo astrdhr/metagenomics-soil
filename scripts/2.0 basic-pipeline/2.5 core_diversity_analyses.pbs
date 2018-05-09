@@ -1,5 +1,5 @@
 #!/bin/bash --login
-#PBS -l walltime=01:00:00
+#PBS -l walltime=00:30:00
 #PBS -l select=1:ncpus=32
 #PBS -N core_diversity_analyses
 #PBS -A d411-training
@@ -24,7 +24,7 @@ core_diversity_analyses.py \
 -i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
 -o /lustre/home/d411/alorax1/data/2018/120000_core_diversity_analyses_updated_map_v2 \
 -m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
--t /lustre/home/d411/alorax1/data/2018/silva/OPEN/poro_150/rep_set.tre \
+-t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre \
 -e 35000 \ #this number is obtained by determining sequence count where curve levels off from alpha_rarefaction.py script
 -a \
 -O 16

@@ -1,0 +1,28 @@
+#!/bin/bash --login
+#PBS -l walltime=01:00:00
+#PBS -l select=1:ncpus=2
+#PBS -N tax_ratios
+#PBS -A d411-training
+
+cd $PBS_O_WORKDIR
+
+# Load modules and qiime
+module load miniconda/python2
+
+# Setting temporary directory
+mkdir -p ~/qiime_tmp
+export TMPDIR=~/qiime_tmp
+
+# Loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+
+# Compute log ratio abundance of specified taxonomic groups
+time compute_taxonomy_ratios.py \
+-i /lustre/home/d411alorax1/data/2018/35000_core_diversity_analyses_updated_map_v2/table_mc35000.biom \
+nomy_ratios.pbs
+-e md \
+-o /lustre/home/d411/alorax1/data/2018/taxonomy_ratios.txt
+
+source deactivate
