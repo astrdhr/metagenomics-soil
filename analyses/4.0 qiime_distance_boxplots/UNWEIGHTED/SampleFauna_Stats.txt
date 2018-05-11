@@ -1,0 +1,29 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleFauna	All between SampleFauna	-0.580603699978	0.561831292444	1	0.534	1.000
+All within SampleFauna	N/A vs. N/A	0.307766185492	0.758384922637	1	0.750	1.000
+All within SampleFauna	Worms vs. Worms	-2.10440650183	0.0362640282607	0.761544593474	0.031	0.651
+All within SampleFauna	Log fauna vs. N/A	1.95804886745	0.0512031525452	1	0.052	1.000
+All within SampleFauna	Log fauna vs. Worms	0.645297337336	0.519290719394	1	0.522	1.000
+All within SampleFauna	N/A vs. Worms	-1.45023939154	0.147825417753	1	0.151	1.000
+All between SampleFauna	N/A vs. N/A	0.820304730476	0.412538401271	1	0.429	1.000
+All between SampleFauna	Worms vs. Worms	-1.57101118224	0.118273125786	1	0.121	1.000
+All between SampleFauna	Log fauna vs. N/A	1.87030441296	0.0632235686293	1	0.061	1.000
+All between SampleFauna	Log fauna vs. Worms	0.653086937004	0.514727350022	1	0.523	1.000
+All between SampleFauna	N/A vs. Worms	-0.722790150165	0.470468623733	1	0.481	1.000
+N/A vs. N/A	Worms vs. Worms	-2.21303871729	0.0277604119917	0.582968651825	0.027	0.567
+N/A vs. N/A	Log fauna vs. N/A	1.85318488434	0.0649308399981	1	0.059	1.000
+N/A vs. N/A	Log fauna vs. Worms	0.593028068931	0.553685889692	1	0.578	1.000
+N/A vs. N/A	N/A vs. Worms	-1.67033503331	0.0957079958763	1	0.108	1.000
+Worms vs. Worms	Log fauna vs. N/A	3.51620876548	0.00137207382073	0.0288135502353	0.003	0.063
+Worms vs. Worms	Log fauna vs. Worms	1.58688139715	0.136554517758	1	0.121	1.000
+Worms vs. Worms	N/A vs. Worms	1.2130402982	0.22743890757	1	0.238	1.000
+Log fauna vs. N/A	Log fauna vs. Worms	-0.344012011139	0.733603990313	1	0.728	1.000
+Log fauna vs. N/A	N/A vs. Worms	-2.17519996738	0.0313438413221	0.658220667764	0.040	0.840
+Log fauna vs. Worms	N/A vs. Worms	-0.810270380361	0.419415887297	1	0.452	1.000

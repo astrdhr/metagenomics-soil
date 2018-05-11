@@ -1,0 +1,128 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleGrass	All between SampleGrass	0.535063151154	0.592900566372	1	0.578	1.000
+All within SampleGrass	None vs. None	-2.46725480979	0.0146822948457	1	0.019	1.000
+All within SampleGrass	Grass vs. Grass	1.61734386793	0.108209544337	1	0.105	1.000
+All within SampleGrass	N/A vs. N/A	2.85359735243	0.00506738233548	0.608085880257	0.009	1.000
+All within SampleGrass	Adjacent vs. Adjacent	-1.13104577488	[ 0.26063729]	1	0.186	1.000
+All within SampleGrass	None vs. Grass	-1.47906917465	0.140769176146	1	0.156	1.000
+All within SampleGrass	None vs. Litte grass	-1.08902429226	0.278439981247	1	0.262	1.000
+All within SampleGrass	None vs. N/A	0.61482287413	0.539448138447	1	0.549	1.000
+All within SampleGrass	None vs. Adjacent	-1.35985922373	0.1763221862	1	0.200	1.000
+All within SampleGrass	Grass vs. Litte grass	1.14260956641	0.255659316964	1	0.266	1.000
+All within SampleGrass	Grass vs. N/A	3.21022277114	0.00160488690832	0.192586428999	0.001	0.120
+All within SampleGrass	Grass vs. Adjacent	0.5448803467	0.586855522459	1	0.607	1.000
+All within SampleGrass	Litte grass vs. N/A	1.1239473347	0.263482192546	1	0.257	1.000
+All within SampleGrass	Litte grass vs. Adjacent	0.00937668546294	0.992536389516	1	0.993	1.000
+All within SampleGrass	N/A vs. Adjacent	1.29746433472	0.197023874429	1	0.201	1.000
+All between SampleGrass	None vs. None	-3.56073600813	0.000420339798407	0.0504407758088	0.002	0.240
+All between SampleGrass	Grass vs. Grass	1.54770181742	0.122661334948	1	0.119	1.000
+All between SampleGrass	N/A vs. N/A	2.97709605085	0.00313194877313	0.375833852776	0.002	0.240
+All between SampleGrass	Adjacent vs. Adjacent	-1.21715934344	[ 0.22450019]	1	0.128	1.000
+All between SampleGrass	None vs. Grass	-2.420702523	0.015949977757	1	0.014	1.000
+All between SampleGrass	None vs. Litte grass	-1.46523735861	0.143869640387	1	0.152	1.000
+All between SampleGrass	None vs. N/A	0.3018591473	0.76292632834	1	0.775	1.000
+All between SampleGrass	None vs. Adjacent	-1.91797161023	0.0560016200201	1	0.056	1.000
+All between SampleGrass	Grass vs. Litte grass	1.11952030684	0.263793348581	1	0.296	1.000
+All between SampleGrass	Grass vs. N/A	3.29209354937	0.00109433147041	0.131319776449	0.004	0.480
+All between SampleGrass	Grass vs. Adjacent	0.378331576756	0.705439128715	1	0.746	1.000
+All between SampleGrass	Litte grass vs. N/A	1.10564665618	0.269748007521	1	0.236	1.000
+All between SampleGrass	Litte grass vs. Adjacent	-0.0779101658958	0.937951277745	1	0.940	1.000
+All between SampleGrass	N/A vs. Adjacent	1.25855917147	0.209127533748	1	0.178	1.000
+None vs. None	Grass vs. Grass	3.30695429814	0.00140774462987	0.168929355585	0.003	0.360
+None vs. None	N/A vs. N/A	4.22504867892	6.72786970937e-05	0.00807344365124	0.001	0.120
+None vs. None	Adjacent vs. Adjacent	-1.39030108081	[ 0.1701416]	1	0.161	1.000
+None vs. None	None vs. Grass	1.26106311012	0.20936866359	1	0.205	1.000
+None vs. None	None vs. Litte grass	0.228902817993	0.819674335712	1	0.814	1.000
+None vs. None	None vs. N/A	2.87146851102	0.00477201723391	0.572642068069	0.003	0.360
+None vs. None	None vs. Adjacent	0.342505656796	0.732928421364	1	0.742	1.000
+None vs. None	Grass vs. Litte grass	2.08664524388	0.0411074087178	1	0.044	1.000
+None vs. None	Grass vs. N/A	5.40709273282	3.81779771352e-07	4.58135725623e-05	0.001	0.120
+None vs. None	Grass vs. Adjacent	1.94128079727	0.0563093368615	1	0.046	1.000
+None vs. None	Litte grass vs. N/A	2.01186260903	0.0487313008889	1	0.041	1.000
+None vs. None	Litte grass vs. Adjacent	0.544850379942	0.588059008144	1	0.605	1.000
+None vs. None	N/A vs. Adjacent	2.51050533619	0.014476228937	1	0.014	1.000
+Grass vs. Grass	N/A vs. N/A	2.00190048211	0.0510857057427	1	0.057	1.000
+Grass vs. Grass	Adjacent vs. Adjacent	-1.33160143608	[ 0.19412471]	1	0.217	1.000
+Grass vs. Grass	None vs. Grass	-2.79135555161	0.00615575039335	0.738690047202	0.013	1.000
+Grass vs. Grass	None vs. Litte grass	-2.5801402082	0.0139807051691	1	0.011	1.000
+Grass vs. Grass	None vs. N/A	-1.19747165606	0.233871326253	1	0.231	1.000
+Grass vs. Grass	None vs. Adjacent	-2.52569457562	0.0149021259005	1	0.019	1.000
+Grass vs. Grass	Grass vs. Litte grass	0.38374878696	0.70355399268	1	0.694	1.000
+Grass vs. Grass	Grass vs. N/A	1.10008597873	0.27451374819	1	0.305	1.000
+Grass vs. Grass	Grass vs. Adjacent	-0.932823198088	0.356243096074	1	0.348	1.000
+Grass vs. Grass	Litte grass vs. N/A	0.460020991263	0.648517875857	1	0.636	1.000
+Grass vs. Grass	Litte grass vs. Adjacent	-0.716213106163	0.479791080706	1	0.500	1.000
+Grass vs. Grass	N/A vs. Adjacent	0.181806043513	0.856653149252	1	0.861	1.000
+N/A vs. N/A	Adjacent vs. Adjacent	-1.0430369733	[ 0.30937567]	1	0.293	1.000
+N/A vs. N/A	None vs. Grass	-3.99140093873	0.000120630041762	0.0144756050115	0.001	0.120
+N/A vs. N/A	None vs. Litte grass	-3.86318061367	0.0005553598922	0.066643187064	0.001	0.120
+N/A vs. N/A	None vs. N/A	-2.55315515858	0.0122505642421	1	0.015	1.000
+N/A vs. N/A	None vs. Adjacent	-3.49416256811	0.00115541816843	0.138650180212	0.002	0.240
+N/A vs. N/A	Grass vs. Litte grass	-1.22128239862	0.232536450759	1	0.247	1.000
+N/A vs. N/A	Grass vs. N/A	-1.42863943896	0.157259453879	1	0.153	1.000
+N/A vs. N/A	Grass vs. Adjacent	-2.7358552329	0.00970427503356	1	0.007	0.840
+N/A vs. N/A	Litte grass vs. N/A	-1.17353558624	0.251219762348	1	0.260	1.000
+N/A vs. N/A	Litte grass vs. Adjacent	-1.81772488989	0.0834027935534	1	0.075	1.000
+N/A vs. N/A	N/A vs. Adjacent	-1.4397791105	0.159349677989	1	0.161	1.000
+Adjacent vs. Adjacent	None vs. Grass	-1.42022145581	[ 0.159117]	1	0.120	1.000
+Adjacent vs. Adjacent	None vs. Litte grass	-1.44449288427	[ 0.17919342]	1	0.145	1.000
+Adjacent vs. Adjacent	None vs. N/A	-1.09524540351	[ 0.27686793]	1	0.184	1.000
+Adjacent vs. Adjacent	None vs. Adjacent	-1.21205571937	[ 0.23895233]	1	0.166	1.000
+Adjacent vs. Adjacent	Grass vs. Litte grass	-1.67923319101	[ 0.13699954]	1	0.117	1.000
+Adjacent vs. Adjacent	Grass vs. N/A	-1.33979320828	[ 0.18582218]	1	0.178	1.000
+Adjacent vs. Adjacent	Grass vs. Adjacent	-1.5117704646	[ 0.15137191]	1	0.128	1.000
+Adjacent vs. Adjacent	Litte grass vs. N/A	-7.49774383874	[ 0.00029105]	[ 0.03492556]	0.058	1.000
+Adjacent vs. Adjacent	Litte grass vs. Adjacent	-1.8212360858	[ 0.31966893]	1	0.343	1.000
+Adjacent vs. Adjacent	N/A vs. Adjacent	-1.09871156251	[ 0.29182616]	1	0.430	1.000
+None vs. Grass	None vs. Litte grass	-0.45111604737	0.652912806327	1	0.665	1.000
+None vs. Grass	None vs. N/A	2.02390174717	0.0446134719529	1	0.056	1.000
+None vs. Grass	None vs. Adjacent	-0.51213825029	0.609599968831	1	0.634	1.000
+None vs. Grass	Grass vs. Litte grass	1.82828707127	0.0706781373503	1	0.059	1.000
+None vs. Grass	Grass vs. N/A	4.86396854965	3.01622910182e-06	0.000361947492218	0.001	0.120
+None vs. Grass	Grass vs. Adjacent	1.42087898051	0.158401850322	1	0.157	1.000
+None vs. Grass	Litte grass vs. N/A	1.77492711993	0.0791817830987	1	0.068	1.000
+None vs. Grass	Litte grass vs. Adjacent	0.320402202469	0.749423020973	1	0.725	1.000
+None vs. Grass	N/A vs. Adjacent	2.15757388889	0.0333559307613	1	0.037	1.000
+None vs. Litte grass	None vs. N/A	1.41586636386	0.160426192163	1	0.155	1.000
+None vs. Litte grass	None vs. Adjacent	0.0367140379841	0.970948420876	1	0.964	1.000
+None vs. Litte grass	Grass vs. Litte grass	2.03117645847	0.0581752440238	1	0.043	1.000
+None vs. Litte grass	Grass vs. N/A	4.04279914839	0.00014240620524	0.0170887446288	0.001	0.120
+None vs. Litte grass	Grass vs. Adjacent	1.56034335427	0.131249640121	1	0.121	1.000
+None vs. Litte grass	Litte grass vs. N/A	2.0505982564	0.0570581910236	1	0.028	1.000
+None vs. Litte grass	Litte grass vs. Adjacent	0.48183023961	0.639370073008	1	0.633	1.000
+None vs. Litte grass	N/A vs. Adjacent	2.10915438704	0.0460244961049	1	0.045	1.000
+None vs. N/A	None vs. Adjacent	-1.72858785129	0.0870646676452	1	0.074	1.000
+None vs. N/A	Grass vs. Litte grass	0.933665052205	0.35318496854	1	0.351	1.000
+None vs. N/A	Grass vs. N/A	2.63666216683	0.00938473063336	1	0.011	1.000
+None vs. N/A	Grass vs. Adjacent	0.202570382305	0.839923058088	1	0.840	1.000
+None vs. N/A	Litte grass vs. N/A	0.932421278916	0.353856190536	1	0.368	1.000
+None vs. N/A	Litte grass vs. Adjacent	-0.12359824668	0.901955446437	1	0.897	1.000
+None vs. N/A	N/A vs. Adjacent	1.0071785657	0.316579447819	1	0.304	1.000
+None vs. Adjacent	Grass vs. Litte grass	1.70970927905	0.0983814011021	1	0.089	1.000
+None vs. Adjacent	Grass vs. N/A	4.14450203095	8.76150344606e-05	0.0105138041353	0.001	0.120
+None vs. Adjacent	Grass vs. Adjacent	1.44057679924	0.158345585055	1	0.187	1.000
+None vs. Adjacent	Litte grass vs. N/A	1.66899147027	0.10667569994	1	0.099	1.000
+None vs. Adjacent	Litte grass vs. Adjacent	0.392032269883	0.698806324468	1	0.714	1.000
+None vs. Adjacent	N/A vs. Adjacent	1.96878953621	0.0571723521281	1	0.049	1.000
+Grass vs. Litte grass	Grass vs. N/A	0.265568056956	0.791452950526	1	0.773	1.000
+Grass vs. Litte grass	Grass vs. Adjacent	-1.07177229941	0.295439422094	1	0.309	1.000
+Grass vs. Litte grass	Litte grass vs. N/A	0.118534605459	0.90745609878	1	0.924	1.000
+Grass vs. Litte grass	Litte grass vs. Adjacent	-1.20152027702	0.26390930454	1	0.232	1.000
+Grass vs. Litte grass	N/A vs. Adjacent	-0.186651497996	0.853814217342	1	0.840	1.000
+Grass vs. N/A	Grass vs. Adjacent	-2.08994879433	0.040256890526	1	0.033	1.000
+Grass vs. N/A	Litte grass vs. N/A	-0.160146827363	0.87329455653	1	0.883	1.000
+Grass vs. N/A	Litte grass vs. Adjacent	-1.24658277483	0.217739744891	1	0.218	1.000
+Grass vs. N/A	N/A vs. Adjacent	-0.61322537797	0.541773067394	1	0.536	1.000
+Grass vs. Adjacent	Litte grass vs. N/A	1.16430877293	0.257356281668	1	0.259	1.000
+Grass vs. Adjacent	Litte grass vs. Adjacent	-0.2829165964	0.78086831073	1	0.813	1.000
+Grass vs. Adjacent	N/A vs. Adjacent	0.899516341113	0.376048946545	1	0.369	1.000
+Litte grass vs. N/A	Litte grass vs. Adjacent	-2.51564831151	0.0400646251124	1	0.025	1.000
+Litte grass vs. N/A	N/A vs. Adjacent	-0.260847121284	0.797016693679	1	0.773	1.000
+Litte grass vs. Adjacent	N/A vs. Adjacent	0.690518143214	0.50115695576	1	0.545	1.000

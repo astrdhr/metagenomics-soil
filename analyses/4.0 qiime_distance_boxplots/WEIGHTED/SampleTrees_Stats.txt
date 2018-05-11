@@ -1,0 +1,36 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleTrees	All between SampleTrees	0.436758937526	0.662519518325	1	0.646	1.000
+All within SampleTrees	1 vs. 1	0.0322653505117	0.974286288897	1	0.969	1.000
+All within SampleTrees	2 vs. 2	0.857161985083	0.392629465764	1	0.393	1.000
+All within SampleTrees	N/A vs. N/A	-0.172627467372	0.863100134656	1	0.858	1.000
+All within SampleTrees	1 vs. 2	1.90709590932	0.0579412655942	1	0.056	1.000
+All within SampleTrees	1 vs. N/A	-0.354074412815	0.723512016079	1	0.725	1.000
+All within SampleTrees	2 vs. N/A	0.644063898608	0.520294728525	1	0.534	1.000
+All between SampleTrees	1 vs. 1	-0.359528804259	0.719426057662	1	0.701	1.000
+All between SampleTrees	2 vs. 2	0.826659342672	0.409228013396	1	0.379	1.000
+All between SampleTrees	N/A vs. N/A	-0.492185834338	0.622936344113	1	0.646	1.000
+All between SampleTrees	1 vs. 2	1.74926581481	0.0813177426274	1	0.076	1.000
+All between SampleTrees	1 vs. N/A	-0.844863045457	0.398677649409	1	0.391	1.000
+All between SampleTrees	2 vs. N/A	0.443153087461	0.657997203094	1	0.653	1.000
+1 vs. 1	2 vs. 2	1.21256820808	0.228399527523	1	0.236	1.000
+1 vs. 1	N/A vs. N/A	-0.194444769454	0.846082255886	1	0.831	1.000
+1 vs. 1	1 vs. 2	2.45644851194	0.0153407800786	0.4295418422	0.015	0.420
+1 vs. 1	1 vs. N/A	-0.36361703672	0.716442936422	1	0.721	1.000
+1 vs. 1	2 vs. N/A	0.740961354816	0.460106549565	1	0.486	1.000
+2 vs. 2	N/A vs. N/A	-0.68041841846	0.498584165325	1	0.580	1.000
+2 vs. 2	1 vs. 2	-0.547865693593	0.586617065783	1	0.602	1.000
+2 vs. 2	1 vs. N/A	-0.919270877948	0.359264111294	1	0.354	1.000
+2 vs. 2	2 vs. N/A	-0.658621896827	0.514216492644	1	0.502	1.000
+N/A vs. N/A	1 vs. 2	1.54693564036	0.124859237488	1	0.130	1.000
+N/A vs. N/A	1 vs. N/A	-0.0708067507622	0.943612556743	1	0.947	1.000
+N/A vs. N/A	2 vs. N/A	0.581350711965	0.562312214534	1	0.588	1.000
+1 vs. 2	1 vs. N/A	-2.14238219473	0.0333248125944	0.933094752643	0.035	0.980
+1 vs. 2	2 vs. N/A	-1.0568036054	0.293948936561	1	0.287	1.000
+1 vs. N/A	2 vs. N/A	0.856858681654	0.392538370125	1	0.403	1.000

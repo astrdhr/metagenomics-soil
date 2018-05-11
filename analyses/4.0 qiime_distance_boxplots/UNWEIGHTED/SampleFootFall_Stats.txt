@@ -1,0 +1,23 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleFootFall	All between SampleFootFall	3.40707664697	0.000722518436439	0.0108377765466	0.002	0.030
+All within SampleFootFall	none vs. none	0.0	1.0	1	1.000	1.000
+All within SampleFootFall	high vs. none	3.21173280692	0.00143304675797	0.0214957013695	0.004	0.060
+All within SampleFootFall	high vs. minimal	-1.05312778258	[ 0.29300893]	1	0.284	1.000
+All within SampleFootFall	none vs. minimal	1.63133026473	0.103657905354	1	0.095	1.000
+All between SampleFootFall	none vs. none	-3.40707664697	0.000722518436439	0.0108377765466	0.002	0.030
+All between SampleFootFall	high vs. none	0.672680194016	0.503089191634	1	0.508	1.000
+All between SampleFootFall	high vs. minimal	-0.588732113727	[ 0.55849573]	1	0.648	1.000
+All between SampleFootFall	none vs. minimal	-0.692728706919	0.490485888558	1	0.509	1.000
+none vs. none	high vs. none	3.21173280692	0.00143304675797	0.0214957013695	0.002	0.030
+none vs. none	high vs. minimal	-1.05312778258	[ 0.29300893]	1	0.280	1.000
+none vs. none	none vs. minimal	1.63133026473	0.103657905354	1	0.111	1.000
+high vs. none	high vs. minimal	-0.532070936384	[ 0.59919452]	1	0.678	1.000
+high vs. none	none vs. minimal	-1.17620396847	0.244870095914	1	0.242	1.000
+high vs. minimal	none vs. minimal	-0.650281907154	[ 0.5212153]	1	0.553	1.000

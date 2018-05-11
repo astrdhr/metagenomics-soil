@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleLeaves	All between SampleLeaves	-1.97757602557	0.0486557812893	0.486557812893	0.054	0.540
+All within SampleLeaves	Leaves vs. Leaves	1.08621062215	0.278391841598	1	0.273	1.000
+All within SampleLeaves	N/A vs. N/A	-0.360866947223	0.718382976845	1	0.716	1.000
+All within SampleLeaves	Leaves vs. N/A	-1.97757602557	0.0486557812893	0.486557812893	0.053	0.530
+All between SampleLeaves	Leaves vs. Leaves	2.51448726332	0.0126562326256	0.126562326256	0.017	0.170
+All between SampleLeaves	N/A vs. N/A	1.50780773441	0.132461722172	1	0.136	1.000
+All between SampleLeaves	Leaves vs. N/A	0.0	1.0	1	1.000	1.000
+Leaves vs. Leaves	N/A vs. N/A	-1.24588843615	0.214106868339	1	0.222	1.000
+Leaves vs. Leaves	Leaves vs. N/A	-2.51448726332	0.0126562326256	0.126562326256	0.012	0.120
+N/A vs. N/A	Leaves vs. N/A	-1.50780773441	0.132461722172	1	0.129	1.000

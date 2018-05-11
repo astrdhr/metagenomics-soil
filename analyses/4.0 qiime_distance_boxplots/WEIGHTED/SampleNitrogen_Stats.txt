@@ -1,0 +1,128 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleNitrogen	All between SampleNitrogen	-0.377080298684	0.706311921883	1	0.713	1.000
+All within SampleNitrogen	Low-Medium vs. Low-Medium	-0.251977248657	[ 0.80151236]	1	0.755	1.000
+All within SampleNitrogen	Medium vs. Medium	-2.74642495889	0.00685339124884	0.82240694986	0.005	0.600
+All within SampleNitrogen	Trace vs. Trace	0.568533152522	0.570340840614	1	0.565	1.000
+All within SampleNitrogen	Low vs. Low	2.26018496978	0.0254991166511	1	0.027	1.000
+All within SampleNitrogen	Low-Medium vs. Medium	-1.49698071261	0.136879453698	1	0.133	1.000
+All within SampleNitrogen	Low-Medium vs. Trace	0.617118300476	0.538166260512	1	0.530	1.000
+All within SampleNitrogen	Low-Medium vs. Trace-Low	-0.937950717727	0.350235461183	1	0.308	1.000
+All within SampleNitrogen	Low-Medium vs. Low	0.833390335553	0.406214248243	1	0.410	1.000
+All within SampleNitrogen	Medium vs. Trace	-2.14371590089	0.0332391970716	1	0.033	1.000
+All within SampleNitrogen	Medium vs. Trace-Low	-1.01528361058	0.312013342715	1	0.313	1.000
+All within SampleNitrogen	Medium vs. Low	-0.143536119051	0.886053225606	1	0.897	1.000
+All within SampleNitrogen	Trace vs. Trace-Low	-1.13899906465	0.256864387324	1	0.262	1.000
+All within SampleNitrogen	Trace vs. Low	2.77637222692	0.00604421856323	0.725306227588	0.011	1.000
+All within SampleNitrogen	Trace-Low vs. Low	0.104013625335	0.917333634432	1	0.925	1.000
+All between SampleNitrogen	Low-Medium vs. Low-Medium	-0.278160554797	[ 0.78108733]	1	0.732	1.000
+All between SampleNitrogen	Medium vs. Medium	-2.70755832393	0.00715404041128	0.858484849354	0.007	0.840
+All between SampleNitrogen	Trace vs. Trace	0.930288620896	0.352833178389	1	0.363	1.000
+All between SampleNitrogen	Low vs. Low	2.29927462526	0.0221671110717	1	0.026	1.000
+All between SampleNitrogen	Low-Medium vs. Medium	-1.33329635782	0.183436086562	1	0.176	1.000
+All between SampleNitrogen	Low-Medium vs. Trace	0.800738284164	0.423886699069	1	0.420	1.000
+All between SampleNitrogen	Low-Medium vs. Trace-Low	-0.826112619992	0.409416999709	1	0.401	1.000
+All between SampleNitrogen	Low-Medium vs. Low	0.929196821672	0.353531654867	1	0.371	1.000
+All between SampleNitrogen	Medium vs. Trace	-2.20416568768	0.0281116017174	1	0.037	1.000
+All between SampleNitrogen	Medium vs. Trace-Low	-0.898234128358	0.369790795966	1	0.399	1.000
+All between SampleNitrogen	Medium vs. Low	0.0870850481896	0.93065656807	1	0.939	1.000
+All between SampleNitrogen	Trace vs. Trace-Low	-0.957698507581	0.338980851618	1	0.331	1.000
+All between SampleNitrogen	Trace vs. Low	3.14857095244	0.00177509741382	0.213011689659	0.002	0.240
+All between SampleNitrogen	Trace-Low vs. Low	0.198151078996	0.843063340275	1	0.861	1.000
+Low-Medium vs. Low-Medium	Medium vs. Medium	-0.607689964713	[ 0.55023171]	1	0.643	1.000
+Low-Medium vs. Low-Medium	Trace vs. Trace	-0.226531986723	[ 0.82138798]	1	0.865	1.000
+Low-Medium vs. Low-Medium	Low vs. Low	0.797701420729	[ 0.43836523]	1	0.367	1.000
+Low-Medium vs. Low-Medium	Low-Medium vs. Medium	-0.542878939386	[ 0.59639855]	1	0.509	1.000
+Low-Medium vs. Low-Medium	Low-Medium vs. Trace	-0.20243991033	[ 0.84121128]	1	0.823	1.000
+Low-Medium vs. Low-Medium	Low-Medium vs. Trace-Low	-2.83755791443	[ 0.21570287]	1	0.345	1.000
+Low-Medium vs. Low-Medium	Low-Medium vs. Low	-0.0246757435892	[ 0.98075556]	1	0.965	1.000
+Low-Medium vs. Low-Medium	Medium vs. Trace	-0.463616852716	[ 0.64404158]	1	0.651	1.000
+Low-Medium vs. Low-Medium	Medium vs. Trace-Low	-0.355238521506	[ 0.73456517]	1	0.607	1.000
+Low-Medium vs. Low-Medium	Medium vs. Low	-0.22074530662	[ 0.82638636]	1	0.818	1.000
+Low-Medium vs. Low-Medium	Trace vs. Trace-Low	-0.608345591157	[ 0.55429876]	1	0.531	1.000
+Low-Medium vs. Low-Medium	Trace vs. Low	0.160402908987	[ 0.87298376]	1	0.881	1.000
+Low-Medium vs. Low-Medium	Trace-Low vs. Low	-0.276124525977	[ 0.79350186]	1	0.567	1.000
+Medium vs. Medium	Trace vs. Trace	3.26596168477	0.00150850481126	0.181020577352	0.004	0.480
+Medium vs. Medium	Low vs. Low	3.15925409838	0.00331319105934	0.397582927121	0.004	0.480
+Medium vs. Medium	Low-Medium vs. Medium	0.572330359507	0.570977046063	1	0.560	1.000
+Medium vs. Medium	Low-Medium vs. Trace	2.5308431535	0.0149444722087	1	0.013	1.000
+Medium vs. Medium	Low-Medium vs. Trace-Low	0.0461402853602	0.963634404134	1	0.985	1.000
+Medium vs. Medium	Low-Medium vs. Low	2.08343155186	0.045548703684	1	0.031	1.000
+Medium vs. Medium	Medium vs. Trace	1.17988224846	0.240592417961	1	0.251	1.000
+Medium vs. Medium	Medium vs. Trace-Low	0.431088341697	0.669957298832	1	0.670	1.000
+Medium vs. Medium	Medium vs. Low	1.89323435797	0.0630727319061	1	0.068	1.000
+Medium vs. Medium	Trace vs. Trace-Low	0.807987457885	0.425063791927	1	0.442	1.000
+Medium vs. Medium	Trace vs. Low	4.8504522724	4.69373456502e-06	0.000563248147802	0.001	0.120
+Medium vs. Medium	Trace-Low vs. Low	1.14871065118	0.261547775072	1	0.282	1.000
+Trace vs. Trace	Low vs. Low	2.50026051053	0.014200916883	1	0.021	1.000
+Trace vs. Trace	Low-Medium vs. Medium	-2.05950075937	0.0423351302565	1	0.041	1.000
+Trace vs. Trace	Low-Medium vs. Trace	0.298230473283	0.766133927013	1	0.749	1.000
+Trace vs. Trace	Low-Medium vs. Trace-Low	-1.34578053173	0.18227212783	1	0.217	1.000
+Trace vs. Trace	Low-Medium vs. Low	0.729129209957	0.467858794974	1	0.473	1.000
+Trace vs. Trace	Medium vs. Trace	-2.51442437157	0.0128685132901	1	0.010	1.000
+Trace vs. Trace	Medium vs. Trace-Low	-1.41038312581	0.162163352879	1	0.157	1.000
+Trace vs. Trace	Medium vs. Low	-0.561054118974	0.575824529841	1	0.584	1.000
+Trace vs. Trace	Trace vs. Trace-Low	-1.70642425198	0.0914163262867	1	0.094	1.000
+Trace vs. Trace	Trace vs. Low	2.46296991656	0.0148804509643	1	0.025	1.000
+Trace vs. Trace	Trace-Low vs. Low	-0.101945919557	0.91904848261	1	0.909	1.000
+Low vs. Low	Low-Medium vs. Medium	-3.07117034876	0.00482233366716	0.578680040059	0.001	0.120
+Low vs. Low	Low-Medium vs. Trace	-2.60833837806	0.0128307689797	1	0.017	1.000
+Low vs. Low	Low-Medium vs. Trace-Low	-4.14837543615	0.000857935680607	0.102952281673	0.002	0.240
+Low vs. Low	Low-Medium vs. Low	-2.24918315596	0.0335552409009	1	0.032	1.000
+Low vs. Low	Medium vs. Trace	-2.80359668669	0.0060304831239	0.723657974868	0.006	0.720
+Low vs. Low	Medium vs. Trace-Low	-2.14922992261	0.044037935479	1	0.018	1.000
+Low vs. Low	Medium vs. Low	-1.86299618426	0.0678062484536	1	0.062	1.000
+Low vs. Low	Trace vs. Trace-Low	-3.49260734693	0.00172835985942	0.207403183131	0.002	0.240
+Low vs. Low	Trace vs. Low	-1.42973082896	0.156218584465	1	0.149	1.000
+Low vs. Low	Trace-Low vs. Low	-2.24932165156	0.0365436985622	1	0.032	1.000
+Low-Medium vs. Medium	Low-Medium vs. Trace	1.93946608475	0.0598950731807	1	0.059	1.000
+Low-Medium vs. Medium	Low-Medium vs. Trace-Low	-0.259750207411	0.798837336224	1	0.773	1.000
+Low-Medium vs. Medium	Low-Medium vs. Low	1.83717981301	0.0785977745757	1	0.081	1.000
+Low-Medium vs. Medium	Medium vs. Trace	0.262689331804	0.793314750214	1	0.800	1.000
+Low-Medium vs. Medium	Medium vs. Trace-Low	0.0288575566454	0.97727915904	1	0.978	1.000
+Low-Medium vs. Medium	Medium vs. Low	1.0545222146	0.296339386311	1	0.283	1.000
+Low-Medium vs. Medium	Trace vs. Trace-Low	0.246169960945	0.807560629019	1	0.804	1.000
+Low-Medium vs. Medium	Trace vs. Low	3.67754150878	0.000400314174488	0.0480377009386	0.002	0.240
+Low-Medium vs. Medium	Trace-Low vs. Low	0.886430147284	0.387075841769	1	0.396	1.000
+Low-Medium vs. Trace	Low-Medium vs. Trace-Low	-1.78566769105	0.0858236672113	1	0.089	1.000
+Low-Medium vs. Trace	Low-Medium vs. Low	0.603715167171	0.549818518048	1	0.552	1.000
+Low-Medium vs. Trace	Medium vs. Trace	-1.80446582037	0.0737754983465	1	0.072	1.000
+Low-Medium vs. Trace	Medium vs. Trace-Low	-1.33784978441	0.190677649284	1	0.187	1.000
+Low-Medium vs. Trace	Medium vs. Low	-0.582071039962	0.562501928921	1	0.582	1.000
+Low-Medium vs. Trace	Trace vs. Trace-Low	-1.84428668641	0.0731597276237	1	0.069	1.000
+Low-Medium vs. Trace	Trace vs. Low	1.62002593645	0.108314431695	1	0.108	1.000
+Low-Medium vs. Trace	Trace-Low vs. Low	-0.291411394477	0.772742178004	1	0.773	1.000
+Low-Medium vs. Trace-Low	Low-Medium vs. Low	3.15803327394	0.00825092642319	0.990111170782	0.012	1.000
+Low-Medium vs. Trace-Low	Medium vs. Trace	0.362320437789	0.717952672234	1	0.748	1.000
+Low-Medium vs. Trace-Low	Medium vs. Trace-Low	0.191558620046	0.853526016398	1	0.800	1.000
+Low-Medium vs. Trace-Low	Medium vs. Low	0.709659456118	0.481836826786	1	0.495	1.000
+Low-Medium vs. Trace-Low	Trace vs. Trace-Low	0.494929803902	0.62890905124	1	0.610	1.000
+Low-Medium vs. Trace-Low	Trace vs. Low	2.31109747863	0.0234695278797	1	0.031	1.000
+Low-Medium vs. Trace-Low	Trace-Low vs. Low	1.33309188043	0.230883943112	1	0.277	1.000
+Low-Medium vs. Low	Medium vs. Trace	-1.57219042239	0.119033927931	1	0.123	1.000
+Low-Medium vs. Low	Medium vs. Trace-Low	-1.26950409646	0.22136583922	1	0.221	1.000
+Low-Medium vs. Low	Medium vs. Low	-0.732193141578	0.467338100094	1	0.443	1.000
+Low-Medium vs. Low	Trace vs. Trace-Low	-1.99335633141	0.0582146771675	1	0.057	1.000
+Low-Medium vs. Low	Trace vs. Low	0.595408692598	0.553098477272	1	0.540	1.000
+Low-Medium vs. Low	Trace-Low vs. Low	-0.789095172311	0.441593240786	1	0.439	1.000
+Medium vs. Trace	Medium vs. Trace-Low	-0.149210261189	0.881700730364	1	0.890	1.000
+Medium vs. Trace	Medium vs. Low	1.31763375533	0.18992601761	1	0.166	1.000
+Medium vs. Trace	Trace vs. Trace-Low	0.0219678698005	0.98251650293	1	0.986	1.000
+Medium vs. Trace	Trace vs. Low	4.38480756912	2.04803828994e-05	0.00245764594792	0.001	0.120
+Medium vs. Trace	Trace-Low vs. Low	0.727133839255	0.468932070682	1	0.479	1.000
+Medium vs. Trace-Low	Medium vs. Low	0.712759421237	0.479518510121	1	0.487	1.000
+Medium vs. Trace-Low	Trace vs. Trace-Low	0.142314087719	0.888412775391	1	0.899	1.000
+Medium vs. Trace-Low	Trace vs. Low	2.55826756419	0.0123360761466	1	0.030	1.000
+Medium vs. Trace-Low	Trace-Low vs. Low	0.595513817039	0.563551502691	1	0.684	1.000
+Medium vs. Low	Trace vs. Trace-Low	-0.802487852043	0.425854722864	1	0.422	1.000
+Medium vs. Low	Trace vs. Low	2.22520064079	0.0279684819011	1	0.034	1.000
+Medium vs. Low	Trace-Low vs. Low	0.134277762851	0.89376872909	1	0.907	1.000
+Trace vs. Trace-Low	Trace vs. Low	3.41493364959	0.000962792242958	0.115535069155	0.001	0.120
+Trace vs. Trace-Low	Trace-Low vs. Low	0.875218666161	0.393652952541	1	0.397	1.000
+Trace vs. Low	Trace-Low vs. Low	-1.17114141385	0.244933913234	1	0.253	1.000

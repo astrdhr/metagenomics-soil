@@ -59,6 +59,21 @@ time pick_open_reference_otus.py \
 -a \
 -O 12 #this is for parallelising your jobs
 
+# Or picking closed reference OTUs
+time pick_closed_reference_otus.py \
+-i /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.fna \
+-o /lustre/home/d411/alorax1/data/2018/silva_closed_otus \
+-r /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta \
+-a \
+-O 18
+
+# Or picking de novo reference OTUs
+time pick_de_novo_otus.py \
+-i /lustre/home/d411/alorax1/data/2018/split_libraries_none_19/seqs.fna \
+-o /lustre/home/d411/alorax1/data/2018/silva_de_novo_otus \
+-a \
+-O 18
+
 #-------------------------------------------------
 # Core Diversity Analyses
 #-------------------------------------------------

@@ -1,0 +1,74 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SamplePotassium	All between SamplePotassium	-1.85895726224	0.0637601107494	1	0.077	1.000
+All within SamplePotassium	Medium vs. Medium	-1.09963395914	0.273313982266	1	0.269	1.000
+All within SamplePotassium	Trace-Low vs. Trace-Low	-0.0780905936876	[ 0.93787077]	1	0.968	1.000
+All within SamplePotassium	Low vs. Low	-2.95226830202	0.00364222596844	0.240386913917	0.007	0.462
+All within SamplePotassium	Trace vs. Trace	1.71737998429	0.0871997276117	1	0.099	1.000
+All within SamplePotassium	Medium vs. Trace-Low	-0.436706508465	0.662973820657	1	0.659	1.000
+All within SamplePotassium	Medium vs. Low	-2.71984672627	0.0072097922771	0.475846290288	0.012	0.792
+All within SamplePotassium	Medium vs. Trace	-0.349660487872	0.726943911963	1	0.733	1.000
+All within SamplePotassium	Trace-Low vs. Low	-1.95753749688	0.0521528398029	1	0.047	1.000
+All within SamplePotassium	Trace-Low vs. Trace	1.10906831894	0.269014586737	1	0.263	1.000
+All within SamplePotassium	Low vs. Trace	-2.11198851342	0.035721128059	1	0.034	1.000
+All between SamplePotassium	Medium vs. Medium	-0.343064257745	0.731810330369	1	0.748	1.000
+All between SamplePotassium	Trace-Low vs. Trace-Low	-0.246947022828	[ 0.80513829]	1	0.793	1.000
+All between SamplePotassium	Low vs. Low	-1.94135547707	0.0531904338269	1	0.055	1.000
+All between SamplePotassium	Trace vs. Trace	3.31006106065	0.00102393128653	0.0675794649109	0.002	0.132
+All between SamplePotassium	Medium vs. Trace-Low	0.206690110822	0.836403728793	1	0.842	1.000
+All between SamplePotassium	Medium vs. Low	-1.44458146924	0.149612186891	1	0.157	1.000
+All between SamplePotassium	Medium vs. Trace	1.17239632322	0.241853974587	1	0.234	1.000
+All between SamplePotassium	Trace-Low vs. Low	-1.05124902849	0.294047429879	1	0.285	1.000
+All between SamplePotassium	Trace-Low vs. Trace	1.92268043239	0.0554763654662	1	0.050	1.000
+All between SamplePotassium	Low vs. Trace	-0.713323822706	0.476092647326	1	0.450	1.000
+Medium vs. Medium	Trace-Low vs. Trace-Low	-0.404235658163	[ 0.69547695]	1	0.780	1.000
+Medium vs. Medium	Low vs. Low	-0.685622680626	0.498395798591	1	0.489	1.000
+Medium vs. Medium	Trace vs. Trace	2.48693418416	0.014346070001	0.946840620068	0.024	1.000
+Medium vs. Medium	Medium vs. Trace-Low	0.448790117896	0.658939144671	1	0.664	1.000
+Medium vs. Medium	Medium vs. Low	-0.420688413652	0.676077771095	1	0.671	1.000
+Medium vs. Medium	Medium vs. Trace	1.04455709453	0.299260430483	1	0.274	1.000
+Medium vs. Medium	Trace-Low vs. Low	-0.387522558373	0.702093202666	1	0.703	1.000
+Medium vs. Medium	Trace-Low vs. Trace	1.86039081633	0.0705825432995	1	0.071	1.000
+Medium vs. Medium	Low vs. Trace	0.0621864720853	0.95052419718	1	0.954	1.000
+Trace-Low vs. Trace-Low	Low vs. Low	-0.46346674822	[ 0.64803393]	1	0.764	1.000
+Trace-Low vs. Trace-Low	Trace vs. Trace	0.178665502219	[ 0.85854794]	1	0.883	1.000
+Trace-Low vs. Trace-Low	Medium vs. Trace-Low	-0.189049186959	[ 0.85424876]	1	0.846	1.000
+Trace-Low vs. Trace-Low	Medium vs. Low	-0.483367256734	[ 0.63193337]	1	0.691	1.000
+Trace-Low vs. Trace-Low	Medium vs. Trace	-0.14424129192	[ 0.88570204]	1	0.891	1.000
+Trace-Low vs. Trace-Low	Trace-Low vs. Low	-0.399508537656	[ 0.69600465]	1	0.728	1.000
+Trace-Low vs. Trace-Low	Trace-Low vs. Trace	0.172884013155	[ 0.8639436]	1	0.891	1.000
+Trace-Low vs. Trace-Low	Low vs. Trace	-0.283113399295	[ 0.77765267]	1	0.773	1.000
+Low vs. Low	Trace vs. Trace	4.39238247936	2.37721153649e-05	0.00156895961408	0.001	0.066
+Low vs. Low	Medium vs. Trace-Low	1.02192122183	0.315267941087	1	0.304	1.000
+Low vs. Low	Medium vs. Low	0.584636087774	0.561227269371	1	0.557	1.000
+Low vs. Low	Medium vs. Trace	2.62409034748	0.0101391959155	0.66918693042	0.010	0.660
+Low vs. Low	Trace-Low vs. Low	0.337381987478	0.737965587834	1	0.730	1.000
+Low vs. Low	Trace-Low vs. Trace	2.68770409764	0.00980043787094	0.646828899482	0.003	0.198
+Low vs. Low	Low vs. Trace	1.26503142828	0.208232236961	1	0.189	1.000
+Trace vs. Trace	Medium vs. Trace-Low	-1.48661797373	0.139900644413	1	0.138	1.000
+Trace vs. Trace	Medium vs. Low	-4.52108468562	1.31204784256e-05	0.000865951576087	0.001	0.066
+Trace vs. Trace	Medium vs. Trace	-2.14191894009	0.0335594183538	1	0.035	1.000
+Trace vs. Trace	Trace-Low vs. Low	-3.41708476882	0.000871315685628	0.0575068352514	0.002	0.132
+Trace vs. Trace	Trace-Low vs. Trace	0.17673769423	0.859983282217	1	0.867	1.000
+Trace vs. Trace	Low vs. Trace	-3.40735368082	0.000787439138132	0.0519709831167	0.001	0.066
+Medium vs. Trace-Low	Medium vs. Low	-0.901437868736	0.372377081493	1	0.382	1.000
+Medium vs. Trace-Low	Medium vs. Trace	0.316922065959	0.752098519272	1	0.724	1.000
+Medium vs. Trace-Low	Trace-Low vs. Low	-0.746865394498	0.463052659984	1	0.458	1.000
+Medium vs. Trace-Low	Trace-Low vs. Trace	1.12714449991	0.266748691757	1	0.285	1.000
+Medium vs. Trace-Low	Low vs. Trace	-0.399586783124	0.690215155663	1	0.705	1.000
+Medium vs. Low	Medium vs. Trace	2.39779196499	0.0182099996068	1	0.017	1.000
+Medium vs. Low	Trace-Low vs. Low	-0.0910825515815	0.927814085512	1	0.931	1.000
+Medium vs. Low	Trace-Low vs. Trace	2.84668029976	0.00595607341414	0.393100845333	0.010	0.660
+Medium vs. Low	Low vs. Trace	0.783017051151	0.434958776859	1	0.431	1.000
+Medium vs. Trace	Trace-Low vs. Low	-1.82011619817	0.0721801482581	1	0.073	1.000
+Medium vs. Trace	Trace-Low vs. Trace	1.44262045191	0.152161549382	1	0.135	1.000
+Medium vs. Trace	Low vs. Trace	-1.51773677104	0.130854819681	1	0.129	1.000
+Trace-Low vs. Low	Trace-Low vs. Trace	2.24169187368	0.0303220883123	1	0.025	1.000
+Trace-Low vs. Low	Low vs. Trace	0.610768047881	0.542537839059	1	0.558	1.000
+Trace-Low vs. Trace	Low vs. Trace	-1.99419645413	0.048175411834	1	0.033	1.000

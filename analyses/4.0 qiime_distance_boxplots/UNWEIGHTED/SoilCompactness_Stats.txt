@@ -1,0 +1,74 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SoilCompactness	All between SoilCompactness	-1.98817599178	0.0474666563919	1	0.054	1.000
+All within SoilCompactness	Compact vs. Compact	-1.81275227413	0.0723491965626	1	0.079	1.000
+All within SoilCompactness	Crumbly vs. Crumbly	2.51911097247	0.012677099367	0.836688558223	0.012	0.792
+All within SoilCompactness	Fine vs. Fine	-2.54356527455	0.0121720732679	0.80335683568	0.018	1.000
+All within SoilCompactness	N/A vs. N/A	-1.66690017531	0.0983283727777	1	0.095	1.000
+All within SoilCompactness	Compact vs. Crumbly	0.39879174221	0.690524652798	1	0.680	1.000
+All within SoilCompactness	Compact vs. Fine	-2.73694190958	0.00696140660174	0.459452835715	0.006	0.396
+All within SoilCompactness	Compact vs. N/A	-2.11564084532	0.0362828421923	1	0.040	1.000
+All within SoilCompactness	Crumbly vs. Fine	-1.44786261099	0.149303556954	1	0.150	1.000
+All within SoilCompactness	Crumbly vs. N/A	-1.01299525117	0.31265134313	1	0.341	1.000
+All within SoilCompactness	Fine vs. N/A	-2.08509392051	0.0389583088112	1	0.036	1.000
+All between SoilCompactness	Compact vs. Compact	-0.929232784989	0.353489127945	1	0.342	1.000
+All between SoilCompactness	Crumbly vs. Crumbly	4.34420057562	1.81773332426e-05	0.00119970399401	0.001	0.066
+All between SoilCompactness	Fine vs. Fine	-1.60756323032	0.108926387288	1	0.110	1.000
+All between SoilCompactness	N/A vs. N/A	-1.05957288931	0.290185651188	1	0.297	1.000
+All between SoilCompactness	Compact vs. Crumbly	2.16399013556	0.0311079185866	1	0.025	1.000
+All between SoilCompactness	Compact vs. Fine	-1.68490901802	0.0929291529585	1	0.105	1.000
+All between SoilCompactness	Compact vs. N/A	-1.07702348693	0.282281040178	1	0.291	1.000
+All between SoilCompactness	Crumbly vs. Fine	0.0797820424501	0.936452605078	1	0.946	1.000
+All between SoilCompactness	Crumbly vs. N/A	0.344791201229	0.730462052467	1	0.720	1.000
+All between SoilCompactness	Fine vs. N/A	-1.04112712421	0.298592809256	1	0.329	1.000
+Compact vs. Compact	Crumbly vs. Crumbly	3.59044297263	0.000571337421827	0.0377082698406	0.002	0.132
+Compact vs. Compact	Fine vs. Fine	-0.374021262013	0.710710917341	1	0.691	1.000
+Compact vs. Compact	N/A vs. N/A	-0.511571018189	0.614845466698	1	0.619	1.000
+Compact vs. Compact	Compact vs. Crumbly	2.28097577434	0.0250509509212	1	0.023	1.000
+Compact vs. Compact	Compact vs. Fine	-0.122695645278	0.902795358144	1	0.902	1.000
+Compact vs. Compact	Compact vs. N/A	0.0603858763888	0.952173304738	1	0.955	1.000
+Compact vs. Compact	Crumbly vs. Fine	0.882227128323	0.379835042302	1	0.382	1.000
+Compact vs. Compact	Crumbly vs. N/A	1.08993514021	0.280028691793	1	0.287	1.000
+Compact vs. Compact	Fine vs. N/A	0.121742024748	0.903698071599	1	0.914	1.000
+Crumbly vs. Crumbly	Fine vs. Fine	-4.32962735952	4.06230342568e-05	0.00268112026095	0.001	0.066
+Crumbly vs. Crumbly	N/A vs. N/A	-2.98454815782	0.00390898027628	0.257992698235	0.005	0.330
+Crumbly vs. Crumbly	Compact vs. Crumbly	-2.1806619981	0.0309283175006	1	0.028	1.000
+Crumbly vs. Crumbly	Compact vs. Fine	-4.52530128953	1.58188817137e-05	0.0010440461931	0.001	0.066
+Crumbly vs. Crumbly	Compact vs. N/A	-4.07796773586	9.94548051906e-05	0.00656401714258	0.001	0.066
+Crumbly vs. Crumbly	Crumbly vs. Fine	-3.57820170782	0.000468113774508	0.0308955091175	0.001	0.066
+Crumbly vs. Crumbly	Crumbly vs. N/A	-3.14868706631	0.0021026436908	0.138774483593	0.001	0.066
+Crumbly vs. Crumbly	Fine vs. N/A	-3.9505080244	0.000152700711368	0.0100782469503	0.001	0.066
+Fine vs. Fine	N/A vs. N/A	-0.153984014113	0.878858643869	1	0.871	1.000
+Fine vs. Fine	Compact vs. Crumbly	2.98058153603	0.00368990128525	0.243533484826	0.003	0.198
+Fine vs. Fine	Compact vs. Fine	0.265543058449	0.791486527199	1	0.783	1.000
+Fine vs. Fine	Compact vs. N/A	0.474303714463	0.637683176736	1	0.665	1.000
+Fine vs. Fine	Crumbly vs. Fine	1.44760864849	0.15076348686	1	0.132	1.000
+Fine vs. Fine	Crumbly vs. N/A	1.61693130289	0.110592184788	1	0.108	1.000
+Fine vs. Fine	Fine vs. N/A	0.523795799055	0.602881918323	1	0.593	1.000
+N/A vs. N/A	Compact vs. Crumbly	2.09102928652	0.0398676796579	1	0.037	1.000
+N/A vs. N/A	Compact vs. Fine	0.306954487933	0.760263304084	1	0.777	1.000
+N/A vs. N/A	Compact vs. N/A	0.527685106978	0.601874905782	1	0.600	1.000
+N/A vs. N/A	Crumbly vs. Fine	1.00780612819	0.316310663115	1	0.301	1.000
+N/A vs. N/A	Crumbly vs. N/A	1.20177318055	0.234896097382	1	0.244	1.000
+N/A vs. N/A	Fine vs. N/A	0.510766568886	0.613020416688	1	0.615	1.000
+Compact vs. Crumbly	Compact vs. Fine	-3.01493610963	0.00318014881959	0.209889822093	0.003	0.198
+Compact vs. Crumbly	Compact vs. N/A	-2.57668121087	0.0115318173888	0.761099947662	0.013	0.858
+Compact vs. Crumbly	Crumbly vs. Fine	-1.73063177175	0.0855205459505	1	0.100	1.000
+Compact vs. Crumbly	Crumbly vs. N/A	-1.36629214404	0.174445336889	1	0.182	1.000
+Compact vs. Crumbly	Fine vs. N/A	-2.47115757996	0.0151932604423	1	0.016	1.000
+Compact vs. Fine	Compact vs. N/A	0.206731992193	0.83687548377	1	0.823	1.000
+Compact vs. Fine	Crumbly vs. Fine	1.41584100008	0.15932896301	1	0.188	1.000
+Compact vs. Fine	Crumbly vs. N/A	1.50311592607	0.136389489881	1	0.143	1.000
+Compact vs. Fine	Fine vs. N/A	0.283615406292	0.777566857991	1	0.771	1.000
+Compact vs. N/A	Crumbly vs. Fine	0.996666002037	0.321196414303	1	0.320	1.000
+Compact vs. N/A	Crumbly vs. N/A	1.19686398119	0.235397349245	1	0.230	1.000
+Compact vs. N/A	Fine vs. N/A	0.0754150443487	0.940185428209	1	0.938	1.000
+Crumbly vs. Fine	Crumbly vs. N/A	0.233640793416	0.815631371174	1	0.817	1.000
+Crumbly vs. Fine	Fine vs. N/A	-0.939888194637	0.349334266896	1	0.332	1.000
+Crumbly vs. N/A	Fine vs. N/A	-1.10640080225	0.272136919145	1	0.273	1.000

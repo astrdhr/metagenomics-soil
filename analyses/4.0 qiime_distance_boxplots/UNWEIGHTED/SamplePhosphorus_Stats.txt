@@ -1,0 +1,218 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SamplePhosphorus	All between SamplePhosphorus	-3.57252984619	0.00039620309564	0.0820140407975	0.001	0.207
+All within SamplePhosphorus	Medium vs. Medium	0.4439579129	0.65747638442	1	0.654	1.000
+All within SamplePhosphorus	High vs. High	-1.12252452932	[ 0.26364677]	1	0.255	1.000
+All within SamplePhosphorus	Trace-Low vs. Trace-Low	3.94356930085	[ 0.0001288]	[ 0.02666175]	0.001	0.207
+All within SamplePhosphorus	Low vs. Low	-0.524775057706	0.600461412288	1	0.595	1.000
+All within SamplePhosphorus	Low-Medium vs. Medium	-3.52315872798	0.000567525706223	0.117477821188	0.003	0.621
+All within SamplePhosphorus	Low-Medium vs. Trace	0.466054043448	[ 0.64193351]	1	0.632	1.000
+All within SamplePhosphorus	Low-Medium vs. High	-2.37474411144	0.018968173426	1	0.020	1.000
+All within SamplePhosphorus	Low-Medium vs. Trace-Low	-3.14478666926	0.00204451260128	0.423214108465	0.006	1.000
+All within SamplePhosphorus	Low-Medium vs. Low	-2.74274718008	0.00688387937839	1	0.005	1.000
+All within SamplePhosphorus	Medium vs. Trace	0.959211109645	0.339016794794	1	0.339	1.000
+All within SamplePhosphorus	Medium vs. High	-2.49422743379	0.0136199722237	1	0.015	1.000
+All within SamplePhosphorus	Medium vs. Trace-Low	-7.8064373421	6.73751713697e-13	1.39466604735e-10	0.001	0.207
+All within SamplePhosphorus	Medium vs. Low	0.594143702775	0.552946892957	1	0.532	1.000
+All within SamplePhosphorus	Trace vs. High	-1.72519772869	0.0867802198175	1	0.073	1.000
+All within SamplePhosphorus	Trace vs. Trace-Low	-1.79580779884	0.0747617393822	1	0.068	1.000
+All within SamplePhosphorus	Trace vs. Low	0.956129831065	0.34064308902	1	0.361	1.000
+All within SamplePhosphorus	High vs. Trace-Low	-3.72218107166	0.000287472595432	0.0595068272544	0.001	0.207
+All within SamplePhosphorus	High vs. Low	-1.347787832	0.179772284278	1	0.182	1.000
+All within SamplePhosphorus	Trace-Low vs. Low	-4.96212629599	1.8814680003e-06	0.000389463876062	0.001	0.207
+All between SamplePhosphorus	Medium vs. Medium	3.70612466629	0.000242255478428	0.0501468840345	0.001	0.207
+All between SamplePhosphorus	High vs. High	-1.2625166229	[ 0.20785229]	1	0.226	1.000
+All between SamplePhosphorus	Trace-Low vs. Trace-Low	2.84040770245	[ 0.00484862]	1	0.011	1.000
+All between SamplePhosphorus	Low vs. Low	1.36225217728	0.174150514245	1	0.184	1.000
+All between SamplePhosphorus	Low-Medium vs. Medium	-1.54466059092	0.123541920253	1	0.129	1.000
+All between SamplePhosphorus	Low-Medium vs. Trace	0.0240402170317	[ 0.98083829]	1	0.986	1.000
+All between SamplePhosphorus	Low-Medium vs. High	-1.42382137319	0.155648531111	1	0.163	1.000
+All between SamplePhosphorus	Low-Medium vs. Trace-Low	-2.07408048348	0.0390160893122	1	0.028	1.000
+All between SamplePhosphorus	Low-Medium vs. Low	-1.25104188881	0.211974794537	1	0.209	1.000
+All between SamplePhosphorus	Medium vs. Trace	2.14961639341	0.032430204802	1	0.033	1.000
+All between SamplePhosphorus	Medium vs. High	-0.219830173024	0.826153426072	1	0.802	1.000
+All between SamplePhosphorus	Medium vs. Trace-Low	-5.05928130798	7.35906931749e-07	0.000152332734872	0.001	0.207
+All between SamplePhosphorus	Medium vs. Low	3.98858867972	7.94147488286e-05	0.0164388530075	0.001	0.207
+All between SamplePhosphorus	Trace vs. High	-0.89963247699	0.369114559357	1	0.378	1.000
+All between SamplePhosphorus	Trace vs. Trace-Low	-0.979725657921	0.32809536097	1	0.343	1.000
+All between SamplePhosphorus	Trace vs. Low	1.78114154322	0.0759850424649	1	0.082	1.000
+All between SamplePhosphorus	High vs. Trace-Low	-2.33369750251	0.0203375954959	1	0.009	1.000
+All between SamplePhosphorus	High vs. Low	0.245678418886	0.806108006301	1	0.820	1.000
+All between SamplePhosphorus	Trace-Low vs. Low	-2.90876275152	0.00391427177903	0.810254258259	0.006	1.000
+Medium vs. Medium	High vs. High	-1.1475976487	[ 0.25376776]	1	0.260	1.000
+Medium vs. Medium	Trace-Low vs. Trace-Low	4.30255641428	[  3.82465408e-05]	[ 0.00791703]	0.004	0.828
+Medium vs. Medium	Low vs. Low	-0.822398534959	0.41234453089	1	0.390	1.000
+Medium vs. Medium	Low-Medium vs. Medium	-3.96923750722	0.000124296478501	0.0257293710497	0.002	0.414
+Medium vs. Medium	Low-Medium vs. Trace	0.561410958915	[ 0.57572518]	1	0.569	1.000
+Medium vs. Medium	Low-Medium vs. High	-2.63933787251	0.00957182820535	1	0.007	1.000
+Medium vs. Medium	Low-Medium vs. Trace-Low	-3.44296279594	0.000827535621784	0.171299873709	0.003	0.621
+Medium vs. Medium	Low-Medium vs. Low	-3.09383813687	0.00250020629747	0.517542703576	0.002	0.414
+Medium vs. Medium	Medium vs. Trace	0.791016383449	0.430521459666	1	0.426	1.000
+Medium vs. Medium	Medium vs. High	-2.90238270493	0.00433633454111	0.897621250009	0.006	1.000
+Medium vs. Medium	Medium vs. Trace-Low	-8.21605186351	1.63867520055e-13	3.39205766514e-11	0.001	0.207
+Medium vs. Medium	Medium vs. Low	0.145755853868	0.884245791827	1	0.863	1.000
+Medium vs. Medium	Trace vs. High	-1.93879445036	0.0552106894945	1	0.059	1.000
+Medium vs. Medium	Trace vs. Trace-Low	-1.99398837727	0.048746035663	1	0.043	1.000
+Medium vs. Medium	Trace vs. Low	0.850063212054	0.397119788897	1	0.407	1.000
+Medium vs. Medium	High vs. Trace-Low	-4.10021728941	8.0649871816e-05	0.0166945234659	0.001	0.207
+Medium vs. Medium	High vs. Low	-1.62858544071	0.106045426623	1	0.104	1.000
+Medium vs. Medium	Trace-Low vs. Low	-5.33380448235	4.64942772238e-07	9.62431538533e-05	0.001	0.207
+High vs. High	Trace-Low vs. Trace-Low	N/A	N/A	N/A	N/A	N/A
+High vs. High	Low vs. Low	-1.22014577851	[ 0.23296]	1	0.270	1.000
+High vs. High	Low-Medium vs. Medium	-2.79531914935	[ 0.01431155]	1	0.038	1.000
+High vs. High	Low-Medium vs. Trace	N/A	N/A	N/A	N/A	N/A
+High vs. High	Low-Medium vs. High	-8.0452393479	[ 0.07872622]	1	0.337	1.000
+High vs. High	Low-Medium vs. Trace-Low	-1.40041754379	[ 0.3947733]	1	0.691	1.000
+High vs. High	Low-Medium vs. Low	-2.49426718611	[ 0.04133757]	1	0.122	1.000
+High vs. High	Medium vs. Trace	-0.736015959059	[ 0.47387336]	1	0.450	1.000
+High vs. High	Medium vs. High	-1.92802640447	[ 0.06369525]	1	0.028	1.000
+High vs. High	Medium vs. Trace-Low	-2.24719045363	[ 0.03240602]	1	0.036	1.000
+High vs. High	Medium vs. Low	-1.03460068095	[ 0.30295337]	1	0.346	1.000
+High vs. High	Trace vs. High	-2.57857557699	[ 0.23552046]	1	0.352	1.000
+High vs. High	Trace vs. Trace-Low	-0.8084637481	[ 0.56717463]	1	0.667	1.000
+High vs. High	Trace vs. Low	-0.593720877437	[ 0.57137762]	1	0.587	1.000
+High vs. High	High vs. Trace-Low	-2.63052840551	[ 0.07828959]	1	0.159	1.000
+High vs. High	High vs. Low	-1.30785790046	[ 0.21061137]	1	0.140	1.000
+High vs. High	Trace-Low vs. Low	-1.76213154495	[ 0.0984069]	1	0.044	1.000
+Trace-Low vs. Trace-Low	Low vs. Low	3.80125304576	[ 0.00074696]	[ 0.15462103]	0.033	1.000
+Trace-Low vs. Trace-Low	Low-Medium vs. Medium	4.09416193526	[ 0.00109454]	[ 0.22657026]	0.064	1.000
+Trace-Low vs. Trace-Low	Low-Medium vs. Trace	N/A	N/A	N/A	N/A	N/A
+Trace-Low vs. Trace-Low	Low-Medium vs. High	6.50004434715	[ 0.09717893]	1	0.333	1.000
+Trace-Low vs. Trace-Low	Low-Medium vs. Trace-Low	0.699647997609	[ 0.6113502]	1	0.661	1.000
+Trace-Low vs. Trace-Low	Low-Medium vs. Low	3.5003073417	[ 0.0099889]	1	0.081	1.000
+Trace-Low vs. Trace-Low	Medium vs. Trace	3.6051412426	[ 0.00286907]	[ 0.59389663]	0.045	1.000
+Trace-Low vs. Trace-Low	Medium vs. High	4.14028316286	[ 0.00027299]	[ 0.05650987]	0.004	0.828
+Trace-Low vs. Trace-Low	Medium vs. Trace-Low	1.88320512626	[ 0.06973762]	1	0.067	1.000
+Trace-Low vs. Trace-Low	Medium vs. Low	3.96755574326	[ 0.00012455]	[ 0.02578101]	0.001	0.207
+Trace-Low vs. Trace-Low	Trace vs. High	2.99240992579	[ 0.20531707]	1	0.320	1.000
+Trace-Low vs. Trace-Low	Trace vs. Trace-Low	0.883652010717	[ 0.53927235]	1	0.673	1.000
+Trace-Low vs. Trace-Low	Trace vs. Low	3.30491342263	[ 0.01303236]	1	0.120	1.000
+Trace-Low vs. Trace-Low	High vs. Trace-Low	1.80410613862	[ 0.1689839]	1	0.191	1.000
+Trace-Low vs. Trace-Low	High vs. Low	3.16471017274	[ 0.00641053]	1	0.063	1.000
+Trace-Low vs. Trace-Low	Trace-Low vs. Low	1.82754890373	[ 0.08757724]	1	0.135	1.000
+Low vs. Low	Low-Medium vs. Medium	-2.8450802494	0.00689938595411	1	0.015	1.000
+Low vs. Low	Low-Medium vs. Trace	0.354417750114	[ 0.725779]	1	0.817	1.000
+Low vs. Low	Low-Medium vs. High	-2.20168231463	0.0360938997018	1	0.032	1.000
+Low vs. Low	Low-Medium vs. Trace-Low	-2.81489011876	0.00883221721236	1	0.012	1.000
+Low vs. Low	Low-Medium vs. Low	-2.29162490567	0.0282456883021	1	0.029	1.000
+Low vs. Low	Medium vs. Trace	1.11733166741	0.270357408272	1	0.253	1.000
+Low vs. Low	Medium vs. High	-1.58806407551	0.117902579451	1	0.126	1.000
+Low vs. Low	Medium vs. Trace-Low	-5.23854708388	2.53318790994e-06	0.000524369897357	0.002	0.414
+Low vs. Low	Medium vs. Low	0.868102325828	0.386762993942	1	0.388	1.000
+Low vs. Low	Trace vs. High	-1.54729673273	0.133021176612	1	0.142	1.000
+Low vs. Low	Trace vs. Trace-Low	-1.50819447364	0.142706439753	1	0.130	1.000
+Low vs. Low	Trace vs. Low	1.09810901212	0.279872791128	1	0.266	1.000
+Low vs. Low	High vs. Trace-Low	-3.33757980129	0.00226580077737	0.469020760915	0.004	0.828
+Low vs. Low	High vs. Low	-0.774970283985	0.44269864521	1	0.413	1.000
+Low vs. Low	Trace-Low vs. Low	-3.51297018574	0.00107466346396	0.22245533704	0.003	0.621
+Low-Medium vs. Medium	Low-Medium vs. Trace	-0.634979764531	[ 0.53568207]	1	0.501	1.000
+Low-Medium vs. Medium	Low-Medium vs. High	-1.4338213332	0.172139840741	1	0.188	1.000
+Low-Medium vs. Medium	Low-Medium vs. Trace-Low	-2.05418970981	0.0578136387529	1	0.055	1.000
+Low-Medium vs. Medium	Low-Medium vs. Low	-0.161560972935	0.87319588516	1	0.878	1.000
+Low-Medium vs. Medium	Medium vs. Trace	3.46999262901	0.00170426123859	0.352782076389	0.004	0.828
+Low-Medium vs. Medium	Medium vs. High	1.7908842359	0.0803529910443	1	0.081	1.000
+Low-Medium vs. Medium	Medium vs. Trace-Low	-2.06922377711	0.0445688645573	1	0.052	1.000
+Low-Medium vs. Medium	Medium vs. Low	3.74850535184	0.000264304569698	0.0547110459274	0.001	0.207
+Low-Medium vs. Medium	Trace vs. High	-0.538353784595	0.598231482197	1	0.611	1.000
+Low-Medium vs. Medium	Trace vs. Trace-Low	-0.519371872388	0.611080055997	1	0.662	1.000
+Low-Medium vs. Medium	Trace vs. Low	3.20329074247	0.00427077928631	0.884051312266	0.004	0.828
+Low-Medium vs. Medium	High vs. Trace-Low	-2.17541405545	0.0439981671164	1	0.047	1.000
+Low-Medium vs. Medium	High vs. Low	1.71322447559	0.097344169346	1	0.103	1.000
+Low-Medium vs. Medium	Trace-Low vs. Low	-1.08922451213	0.285023829421	1	0.309	1.000
+Low-Medium vs. Trace	Low-Medium vs. High	-3.48426460338	[ 0.17793026]	1	0.341	1.000
+Low-Medium vs. Trace	Low-Medium vs. Trace-Low	-0.741898528485	[ 0.59364816]	1	0.675	1.000
+Low-Medium vs. Trace	Low-Medium vs. Low	-0.614544273949	[ 0.55829379]	1	0.699	1.000
+Low-Medium vs. Trace	Medium vs. Trace	0.625243729917	[ 0.54186912]	1	0.550	1.000
+Low-Medium vs. Trace	Medium vs. High	-0.0251823445808	[ 0.98008201]	1	1.000	1.000
+Low-Medium vs. Trace	Medium vs. Trace-Low	-0.952019433269	[ 0.34895508]	1	0.448	1.000
+Low-Medium vs. Trace	Medium vs. Low	0.533928994874	[ 0.59438665]	1	0.692	1.000
+Low-Medium vs. Trace	Trace vs. High	-0.831677770592	[ 0.55833839]	1	0.651	1.000
+Low-Medium vs. Trace	Trace vs. Trace-Low	-0.277865830412	[ 0.82745784]	1	1.000	1.000
+Low-Medium vs. Trace	Trace vs. Low	0.628776596903	[ 0.54945482]	1	0.801	1.000
+Low-Medium vs. Trace	High vs. Trace-Low	-1.23995696111	[ 0.303139]	1	0.368	1.000
+Low-Medium vs. Trace	High vs. Low	0.0946083870794	[ 0.92587814]	1	0.886	1.000
+Low-Medium vs. Trace	Trace-Low vs. Low	-0.636512945092	[ 0.53403562]	1	0.657	1.000
+Low-Medium vs. High	Low-Medium vs. Trace-Low	-0.409430989197	0.72190847097	1	1.000	1.000
+Low-Medium vs. High	Low-Medium vs. Low	1.16758276014	0.276593653221	1	0.270	1.000
+Low-Medium vs. High	Medium vs. Trace	2.35942066081	0.0322812348472	1	0.036	1.000
+Low-Medium vs. High	Medium vs. High	2.01815102393	0.0525950498277	1	0.052	1.000
+Low-Medium vs. High	Medium vs. Trace-Low	0.0528983756493	0.958163562301	1	0.973	1.000
+Low-Medium vs. High	Medium vs. Low	2.44901698263	0.0157696535386	1	0.013	1.000
+Low-Medium vs. High	Trace vs. High	0.813312005315	0.501464749662	1	0.687	1.000
+Low-Medium vs. High	Trace vs. Trace-Low	0.2193119334	0.846754783847	1	1.000	1.000
+Low-Medium vs. High	Trace vs. Low	2.23273354562	0.0560574036424	1	0.038	1.000
+Low-Medium vs. High	High vs. Trace-Low	-0.26148254518	0.806632351873	1	0.767	1.000
+Low-Medium vs. High	High vs. Low	1.65137827385	0.118148865673	1	0.174	1.000
+Low-Medium vs. High	Trace-Low vs. Low	0.316620838821	0.755624839946	1	0.741	1.000
+Low-Medium vs. Trace-Low	Low-Medium vs. Low	1.57534320248	0.153825901976	1	0.148	1.000
+Low-Medium vs. Trace-Low	Medium vs. Trace	2.77909369874	0.0140392532898	1	0.023	1.000
+Low-Medium vs. Trace-Low	Medium vs. High	2.73992848342	0.0102471071639	1	0.021	1.000
+Low-Medium vs. Trace-Low	Medium vs. Trace-Low	0.687104032965	0.497294835051	1	0.482	1.000
+Low-Medium vs. Trace-Low	Medium vs. Low	3.20348600043	0.00173909196446	0.359992036644	0.004	0.828
+Low-Medium vs. Trace-Low	Trace vs. High	0.694292731294	0.5593051039	1	0.666	1.000
+Low-Medium vs. Trace-Low	Trace vs. Trace-Low	0.431474326123	0.708181389909	1	0.662	1.000
+Low-Medium vs. Trace-Low	Trace vs. Low	2.45886722451	0.0393882739832	1	0.060	1.000
+Low-Medium vs. Trace-Low	High vs. Trace-Low	0.325483451883	0.761129458962	1	0.688	1.000
+Low-Medium vs. Trace-Low	High vs. Low	2.15724160068	0.0465385500909	1	0.056	1.000
+Low-Medium vs. Trace-Low	Trace-Low vs. Low	0.840452014207	0.413038833755	1	0.427	1.000
+Low-Medium vs. Low	Medium vs. Trace	2.76739126451	0.0115420279886	1	0.015	1.000
+Low-Medium vs. Low	Medium vs. High	1.53371842224	0.133841287896	1	0.142	1.000
+Low-Medium vs. Low	Medium vs. Trace-Low	-1.43109706752	0.16102662005	1	0.141	1.000
+Low-Medium vs. Low	Medium vs. Low	2.90905413019	0.00428654205212	0.887314204789	0.007	1.000
+Low-Medium vs. Low	Trace vs. High	-0.379288677657	0.714342977809	1	0.772	1.000
+Low-Medium vs. Low	Trace vs. Trace-Low	-0.346418277343	0.737963425747	1	0.838	1.000
+Low-Medium vs. Low	Trace vs. Low	2.58647067893	0.0215367693359	1	0.032	1.000
+Low-Medium vs. Low	High vs. Trace-Low	-1.68317352845	0.123250331817	1	0.118	1.000
+Low-Medium vs. Low	High vs. Low	1.42891021191	0.167075820301	1	0.167	1.000
+Low-Medium vs. Low	Trace-Low vs. Low	-0.719330416452	0.479509462004	1	0.490	1.000
+Medium vs. Trace	Medium vs. High	-2.54420135751	0.0146270489009	1	0.014	1.000
+Medium vs. Trace	Medium vs. Trace-Low	-5.07530184201	7.90725191347e-06	0.00163680114609	0.001	0.207
+Medium vs. Trace	Medium vs. Low	-0.674892308	0.500915728593	1	0.461	1.000
+Medium vs. Trace	Trace vs. High	-1.78104417834	0.0951606247402	1	0.089	1.000
+Medium vs. Trace	Trace vs. Trace-Low	-1.64511233066	0.12073454193	1	0.118	1.000
+Medium vs. Trace	Trace vs. Low	0.1717475249	0.865280297608	1	0.875	1.000
+Medium vs. Trace	High vs. Trace-Low	-3.43090791077	0.00318721597494	0.659753706813	0.006	1.000
+Medium vs. Trace	High vs. Low	-1.55481816553	0.130836241346	1	0.122	1.000
+Medium vs. Trace	Trace-Low vs. Low	-3.59683220086	0.00118071545518	0.244408099222	0.003	0.621
+Medium vs. High	Medium vs. Trace-Low	-4.30300534658	6.55740011614e-05	0.0135738182404	0.001	0.207
+Medium vs. High	Medium vs. Low	2.82350172112	0.0054047116287	1	0.008	1.000
+Medium vs. High	Trace vs. High	-1.22968627854	0.228371589583	1	0.226	1.000
+Medium vs. High	Trace vs. Trace-Low	-1.20350783699	0.238191107908	1	0.231	1.000
+Medium vs. High	Trace vs. Low	2.3046896326	0.0270607003407	1	0.031	1.000
+Medium vs. High	High vs. Trace-Low	-3.11326849436	0.00388167143499	0.803505987043	0.003	0.621
+Medium vs. High	High vs. Low	0.447501557561	0.656708395678	1	0.658	1.000
+Medium vs. High	Trace-Low vs. Low	-2.72235811677	0.0092548501119	1	0.010	1.000
+Medium vs. Trace-Low	Medium vs. Low	7.96855939079	3.95905530581e-13	8.19524448303e-11	0.001	0.207
+Medium vs. Trace-Low	Trace vs. High	0.471772926406	0.640502247265	1	0.661	1.000
+Medium vs. Trace-Low	Trace vs. Trace-Low	0.362748005412	0.719336420725	1	0.721	1.000
+Medium vs. Trace-Low	Trace vs. Low	4.12150398762	0.000211149867241	0.0437080225189	0.001	0.207
+Medium vs. Trace-Low	High vs. Trace-Low	-0.392668051086	0.697168213064	1	0.727	1.000
+Medium vs. Trace-Low	High vs. Low	3.51681143931	0.00102674310247	0.212535822212	0.002	0.414
+Medium vs. Trace-Low	Trace-Low vs. Low	0.688239423493	0.494914768902	1	0.463	1.000
+Medium vs. Low	Trace vs. High	-1.80718026444	0.0732395683017	1	0.074	1.000
+Medium vs. Low	Trace vs. Trace-Low	-1.87124631215	0.0637462760969	1	0.048	1.000
+Medium vs. Low	Trace vs. Low	0.740551000276	0.460343508201	1	0.473	1.000
+Medium vs. Low	High vs. Trace-Low	-3.81686056024	0.000213722640993	0.0442405866856	0.001	0.207
+Medium vs. Low	High vs. Low	-1.59862537341	0.112259195946	1	0.126	1.000
+Medium vs. Low	Trace-Low vs. Low	-5.12471259944	1.01757533203e-06	0.000210638093729	0.001	0.207
+Trace vs. High	Trace vs. Trace-Low	-0.0418537163442	0.970417905507	1	1.000	1.000
+Trace vs. High	Trace vs. Low	1.69276667934	0.128956418203	1	0.195	1.000
+Trace vs. High	High vs. Trace-Low	-0.794431779922	0.471415644336	1	0.442	1.000
+Trace vs. High	High vs. Low	1.06594903754	0.302268364537	1	0.308	1.000
+Trace vs. High	Trace-Low vs. Low	-0.1414429481	0.889285611743	1	0.869	1.000
+Trace vs. Trace-Low	Trace vs. Low	1.4531442247	0.18425517484	1	0.210	1.000
+Trace vs. Trace-Low	High vs. Trace-Low	-0.447353874716	0.677775703948	1	0.708	1.000
+Trace vs. Trace-Low	High vs. Low	1.02044780308	0.322698778192	1	0.334	1.000
+Trace vs. Trace-Low	Trace-Low vs. Low	-0.0606426758916	0.952394817798	1	0.927	1.000
+Trace vs. Low	High vs. Trace-Low	-3.12318361434	0.0108152156652	1	0.009	1.000
+Trace vs. Low	High vs. Low	-1.43739271485	0.164678341419	1	0.163	1.000
+Trace vs. Low	Trace-Low vs. Low	-2.98972955217	0.00675338968631	1	0.015	1.000
+High vs. Trace-Low	High vs. Low	2.50884315703	0.0219014947173	1	0.022	1.000
+High vs. Trace-Low	Trace-Low vs. Low	0.703535508426	0.490723297502	1	0.500	1.000
+High vs. Low	Trace-Low vs. Low	-2.29088533652	0.0291686632674	1	0.032	1.000

@@ -1,0 +1,569 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleHabitat	All between SampleHabitat	-1.71540147467	0.087038382422	1	0.086	1.000
+All within SampleHabitat	Tree vs. Tree	0.524747993136	0.60028199719	1	0.598	1.000
+All within SampleHabitat	Flower bed vs. Flower bed	1.14850729529	0.253043455105	1	0.212	1.000
+All within SampleHabitat	Footpath vs. Footpath	-0.428423563475	[ 0.66912379]	1	0.633	1.000
+All within SampleHabitat	Shrub vs. Shrub	-2.4696022365	0.0148540105915	1	0.015	1.000
+All within SampleHabitat	Canal vs. Log	0.743427677204	[ 0.45870045]	1	0.376	1.000
+All within SampleHabitat	Canal vs. Open field	2.05972460157	[ 0.04162446]	1	0.045	1.000
+All within SampleHabitat	Canal vs. Tree	-5.41563037091	2.79476316462e-07	0.000150917210889	0.001	0.540
+All within SampleHabitat	Canal vs. Bench	1.10943539366	[ 0.2694983]	1	0.189	1.000
+All within SampleHabitat	Canal vs. Flower bed	-3.20437911768	0.00173413411095	0.936432419915	0.007	1.000
+All within SampleHabitat	Canal vs. Footpath	-1.00873840121	0.315146827638	1	0.268	1.000
+All within SampleHabitat	Canal vs. Shrub	-2.4307942053	0.0165203673894	1	0.022	1.000
+All within SampleHabitat	Log vs. Open field	-0.186202627984	[ 0.85260559]	1	0.854	1.000
+All within SampleHabitat	Log vs. Tree	2.18946622913	0.0303206666217	1	0.030	1.000
+All within SampleHabitat	Log vs. Bench	-0.62822347311	[ 0.53107159]	1	0.455	1.000
+All within SampleHabitat	Log vs. Flower bed	0.764274271114	0.446204047004	1	0.424	1.000
+All within SampleHabitat	Log vs. Footpath	0.630394949601	0.529644934415	1	0.487	1.000
+All within SampleHabitat	Log vs. Shrub	0.0583540344288	0.953562099831	1	0.954	1.000
+All within SampleHabitat	Open field vs. Tree	-0.626288526064	0.532207246336	1	0.526	1.000
+All within SampleHabitat	Open field vs. Bench	0.712397349289	[ 0.47762502]	1	0.427	1.000
+All within SampleHabitat	Open field vs. Flower bed	0.775768533802	0.439411878543	1	0.422	1.000
+All within SampleHabitat	Open field vs. Footpath	0.108404479515	0.913857421355	1	0.908	1.000
+All within SampleHabitat	Open field vs. Shrub	-0.999327098231	0.31961422875	1	0.293	1.000
+All within SampleHabitat	Tree vs. Bench	1.59471642994	0.113167244703	1	0.118	1.000
+All within SampleHabitat	Tree vs. Flower bed	-0.117292855337	0.906773278783	1	0.909	1.000
+All within SampleHabitat	Tree vs. Footpath	0.748610119114	0.455288350321	1	0.458	1.000
+All within SampleHabitat	Tree vs. Shrub	-2.23473871432	0.0265872309217	1	0.025	1.000
+All within SampleHabitat	Bench vs. Flower bed	-0.906413640439	0.366533413671	1	0.338	1.000
+All within SampleHabitat	Bench vs. Footpath	0.747740933906	0.456091535167	1	0.420	1.000
+All within SampleHabitat	Bench vs. Shrub	-0.466456258701	0.641720796775	1	0.609	1.000
+All within SampleHabitat	Flower bed vs. Footpath	0.608459491446	0.544004767326	1	0.502	1.000
+All within SampleHabitat	Flower bed vs. Shrub	-2.14318391986	0.03393240508	1	0.033	1.000
+All within SampleHabitat	Footpath vs. Shrub	-0.99009652814	0.324009566967	1	0.320	1.000
+All between SampleHabitat	Tree vs. Tree	2.12762650738	0.0339948381936	1	0.031	1.000
+All between SampleHabitat	Flower bed vs. Flower bed	1.13697668539	0.256493130698	1	0.255	1.000
+All between SampleHabitat	Footpath vs. Footpath	-0.484774136511	[ 0.62820764]	1	0.580	1.000
+All between SampleHabitat	Shrub vs. Shrub	-1.48580502898	0.138398573416	1	0.124	1.000
+All between SampleHabitat	Canal vs. Log	0.367188845578	[ 0.71374971]	1	0.702	1.000
+All between SampleHabitat	Canal vs. Open field	1.32416718384	[ 0.1865048]	1	0.124	1.000
+All between SampleHabitat	Canal vs. Tree	-3.37264388881	0.000842197651592	0.45478673186	0.001	0.540
+All between SampleHabitat	Canal vs. Bench	0.633284929072	[ 0.52705366]	1	0.435	1.000
+All between SampleHabitat	Canal vs. Flower bed	-2.03923468869	0.0423393079741	1	0.045	1.000
+All between SampleHabitat	Canal vs. Footpath	-0.488833033164	0.625333240113	1	0.629	1.000
+All between SampleHabitat	Canal vs. Shrub	-1.39796590661	0.163191621381	1	0.144	1.000
+All between SampleHabitat	Log vs. Open field	-0.308673908631	[ 0.75779431]	1	0.751	1.000
+All between SampleHabitat	Log vs. Tree	2.27840468346	0.0234053356329	1	0.024	1.000
+All between SampleHabitat	Log vs. Bench	-0.630033296484	[ 0.52917583]	1	0.467	1.000
+All between SampleHabitat	Log vs. Flower bed	0.856468290249	0.392450855615	1	0.411	1.000
+All between SampleHabitat	Log vs. Footpath	0.703571366058	0.48227013875	1	0.473	1.000
+All between SampleHabitat	Log vs. Shrub	0.426852313315	0.66980361541	1	0.673	1.000
+All between SampleHabitat	Open field vs. Tree	0.195444853986	0.845177011963	1	0.846	1.000
+All between SampleHabitat	Open field vs. Bench	0.344629078784	[ 0.73062653]	1	0.696	1.000
+All between SampleHabitat	Open field vs. Flower bed	0.864392498023	0.388091678287	1	0.372	1.000
+All between SampleHabitat	Open field vs. Footpath	0.323905723671	0.746245326609	1	0.740	1.000
+All between SampleHabitat	Open field vs. Shrub	-0.388851232742	0.697671545345	1	0.717	1.000
+All between SampleHabitat	Tree vs. Bench	1.84797682237	0.0655898517431	1	0.061	1.000
+All between SampleHabitat	Tree vs. Flower bed	1.03707463084	0.300460388641	1	0.309	1.000
+All between SampleHabitat	Tree vs. Footpath	1.50528487169	0.133252898352	1	0.148	1.000
+All between SampleHabitat	Tree vs. Shrub	-1.11236445314	0.266723734333	1	0.263	1.000
+All between SampleHabitat	Bench vs. Flower bed	-0.359881976721	0.71919915397	1	0.761	1.000
+All between SampleHabitat	Bench vs. Footpath	0.789098808567	0.430705637092	1	0.414	1.000
+All between SampleHabitat	Bench vs. Shrub	0.0297651790404	0.976274803175	1	0.974	1.000
+All between SampleHabitat	Flower bed vs. Footpath	0.869307389958	0.385395455877	1	0.399	1.000
+All between SampleHabitat	Flower bed vs. Shrub	-1.19002042289	0.234979245435	1	0.231	1.000
+All between SampleHabitat	Footpath vs. Shrub	-0.250446639669	0.802416298336	1	0.807	1.000
+Tree vs. Tree	Flower bed vs. Flower bed	1.31143723985	0.192543642317	1	0.196	1.000
+Tree vs. Tree	Footpath vs. Footpath	-0.461872701938	[ 0.64513731]	1	0.679	1.000
+Tree vs. Tree	Shrub vs. Shrub	-3.03360280483	0.00299849572044	1	0.003	1.000
+Tree vs. Tree	Canal vs. Log	1.02129655951	[ 0.30948381]	1	0.302	1.000
+Tree vs. Tree	Canal vs. Open field	2.68728544051	[ 0.00838887]	1	0.016	1.000
+Tree vs. Tree	Canal vs. Tree	-6.97332677478	1.91489655952e-10	1.03404414214e-07	0.001	0.540
+Tree vs. Tree	Canal vs. Bench	1.48453914155	[ 0.14069062]	1	0.127	1.000
+Tree vs. Tree	Canal vs. Flower bed	-4.17631748271	6.09826258985e-05	0.0329306179852	0.002	1.000
+Tree vs. Tree	Canal vs. Footpath	-1.3892475698	0.167696684438	1	0.177	1.000
+Tree vs. Tree	Canal vs. Shrub	-3.22142767113	0.00168599701054	0.91043838569	0.002	1.000
+Tree vs. Tree	Log vs. Open field	-0.155302521758	[ 0.87688385]	1	0.948	1.000
+Tree vs. Tree	Log vs. Tree	2.43557519273	0.0163637040281	1	0.012	1.000
+Tree vs. Tree	Log vs. Bench	-0.714752141002	[ 0.47636356]	1	0.518	1.000
+Tree vs. Tree	Log vs. Flower bed	0.827089224839	0.410044525482	1	0.406	1.000
+Tree vs. Tree	Log vs. Footpath	0.683925355018	0.495528930157	1	0.494	1.000
+Tree vs. Tree	Log vs. Shrub	-0.0918793422075	0.926964112691	1	0.913	1.000
+Tree vs. Tree	Open field vs. Tree	-1.05832209118	0.292070307036	1	0.296	1.000
+Tree vs. Tree	Open field vs. Bench	0.982022608225	[ 0.32836772]	1	0.353	1.000
+Tree vs. Tree	Open field vs. Flower bed	0.842260811478	0.401538329305	1	0.388	1.000
+Tree vs. Tree	Open field vs. Footpath	0.0236632512234	0.981166131135	1	0.981	1.000
+Tree vs. Tree	Open field vs. Shrub	-1.356052835	0.177910836636	1	0.144	1.000
+Tree vs. Tree	Tree vs. Bench	1.68285614524	0.0950470996426	1	0.087	1.000
+Tree vs. Tree	Tree vs. Flower bed	-0.579544257974	0.563103129355	1	0.571	1.000
+Tree vs. Tree	Tree vs. Footpath	0.509203802548	0.611453157077	1	0.604	1.000
+Tree vs. Tree	Tree vs. Shrub	-2.59112995184	0.0103595445683	1	0.009	1.000
+Tree vs. Tree	Bench vs. Flower bed	-1.28414126523	0.201892188986	1	0.209	1.000
+Tree vs. Tree	Bench vs. Footpath	0.832102581571	0.407239538423	1	0.410	1.000
+Tree vs. Tree	Bench vs. Shrub	-0.731541572138	0.466032759293	1	0.449	1.000
+Tree vs. Tree	Flower bed vs. Footpath	0.570578579664	0.569459724581	1	0.571	1.000
+Tree vs. Tree	Flower bed vs. Shrub	-2.61516658157	0.010082477475	1	0.014	1.000
+Tree vs. Tree	Footpath vs. Shrub	-1.3714775315	0.172943351345	1	0.150	1.000
+Flower bed vs. Flower bed	Footpath vs. Footpath	0.332301396458	[ 0.77125728]	1	0.748	1.000
+Flower bed vs. Flower bed	Shrub vs. Shrub	-1.2165593934	0.249231357739	1	0.306	1.000
+Flower bed vs. Flower bed	Canal vs. Log	1.97725740278	[ 0.1866338]	1	0.258	1.000
+Flower bed vs. Flower bed	Canal vs. Open field	3.82497531839	[ 0.0620562]	1	0.268	1.000
+Flower bed vs. Flower bed	Canal vs. Tree	-4.46718793712	0.000389080276647	0.210103349389	0.004	1.000
+Flower bed vs. Flower bed	Canal vs. Bench	2.4910313108	[ 0.13037179]	1	0.256	1.000
+Flower bed vs. Flower bed	Canal vs. Flower bed	-4.36481074084	0.0120167750453	1	0.080	1.000
+Flower bed vs. Flower bed	Canal vs. Footpath	-2.64315932411	0.0774460099095	1	0.104	1.000
+Flower bed vs. Flower bed	Canal vs. Shrub	-3.05200473745	0.0224540826719	1	0.043	1.000
+Flower bed vs. Flower bed	Log vs. Open field	0.672312797957	[ 0.57065071]	1	0.744	1.000
+Flower bed vs. Flower bed	Log vs. Tree	-0.279681052833	0.783305527223	1	0.766	1.000
+Flower bed vs. Flower bed	Log vs. Bench	0.0518374177491	[ 0.96337001]	1	1.000	1.000
+Flower bed vs. Flower bed	Log vs. Flower bed	-0.495921041953	0.645962097379	1	0.673	1.000
+Flower bed vs. Flower bed	Log vs. Footpath	-0.434857008174	0.6930485047	1	0.806	1.000
+Flower bed vs. Flower bed	Log vs. Shrub	-0.552108352462	0.60081867642	1	0.843	1.000
+Flower bed vs. Flower bed	Open field vs. Tree	-1.60660502192	0.12769369246	1	0.131	1.000
+Flower bed vs. Flower bed	Open field vs. Bench	1.93369937893	[ 0.19283275]	1	0.499	1.000
+Flower bed vs. Flower bed	Open field vs. Flower bed	-0.548913362102	0.612266011098	1	0.684	1.000
+Flower bed vs. Flower bed	Open field vs. Footpath	-1.07980946557	0.359299665115	1	0.481	1.000
+Flower bed vs. Flower bed	Open field vs. Shrub	-0.864918660817	0.420314333859	1	0.578	1.000
+Flower bed vs. Flower bed	Tree vs. Bench	-0.607075092984	0.552319432667	1	0.562	1.000
+Flower bed vs. Flower bed	Tree vs. Flower bed	-1.36735563332	0.178158363702	1	0.174	1.000
+Flower bed vs. Flower bed	Tree vs. Footpath	-1.24305245352	0.223168377544	1	0.208	1.000
+Flower bed vs. Flower bed	Tree vs. Shrub	-1.05915991771	0.292881643645	1	0.275	1.000
+Flower bed vs. Flower bed	Bench vs. Flower bed	-2.63392423975	0.0579475922706	1	0.099	1.000
+Flower bed vs. Flower bed	Bench vs. Footpath	-0.2546595692	0.815444843487	1	0.813	1.000
+Flower bed vs. Flower bed	Bench vs. Shrub	-0.799714442196	0.454363689499	1	0.586	1.000
+Flower bed vs. Flower bed	Flower bed vs. Footpath	-0.876569843404	0.409791733476	1	0.394	1.000
+Flower bed vs. Flower bed	Flower bed vs. Shrub	-1.07362508871	0.298916645688	1	0.277	1.000
+Flower bed vs. Flower bed	Footpath vs. Shrub	-0.928672596826	0.372988690081	1	0.373	1.000
+Footpath vs. Footpath	Shrub vs. Shrub	-0.592140998219	[ 0.56833171]	1	0.887	1.000
+Footpath vs. Footpath	Canal vs. Log	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Canal vs. Open field	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Canal vs. Tree	-2.37538939938	[ 0.03235702]	1	0.047	1.000
+Footpath vs. Footpath	Canal vs. Bench	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Canal vs. Flower bed	-2.51015380959	[ 0.12875867]	1	0.258	1.000
+Footpath vs. Footpath	Canal vs. Footpath	-1.99428886339	[ 0.29589606]	1	0.316	1.000
+Footpath vs. Footpath	Canal vs. Shrub	-1.61054363049	[ 0.18256801]	1	0.298	1.000
+Footpath vs. Footpath	Log vs. Open field	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Log vs. Tree	0.278581154871	[ 0.78463876]	1	0.549	1.000
+Footpath vs. Footpath	Log vs. Bench	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Log vs. Flower bed	0.024785559328	[ 0.98247665]	1	1.000	1.000
+Footpath vs. Footpath	Log vs. Footpath	0.0367314361829	[ 0.97662655]	1	1.000	1.000
+Footpath vs. Footpath	Log vs. Shrub	-0.193919798747	[ 0.85568844]	1	0.963	1.000
+Footpath vs. Footpath	Open field vs. Tree	-0.683521593019	[ 0.50543329]	1	0.578	1.000
+Footpath vs. Footpath	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Footpath vs. Footpath	Open field vs. Flower bed	0.0575788910357	[ 0.95931928]	1	1.000	1.000
+Footpath vs. Footpath	Open field vs. Footpath	-0.517643655075	[ 0.69591048]	1	1.000	1.000
+Footpath vs. Footpath	Open field vs. Shrub	-0.38102771255	[ 0.72255564]	1	0.536	1.000
+Footpath vs. Footpath	Tree vs. Bench	-0.010846203459	[ 0.9914992]	1	0.993	1.000
+Footpath vs. Footpath	Tree vs. Flower bed	-0.522220938024	[ 0.60413592]	1	0.616	1.000
+Footpath vs. Footpath	Tree vs. Footpath	-0.401020448114	[ 0.69134462]	1	0.752	1.000
+Footpath vs. Footpath	Tree vs. Shrub	-0.482393665556	[ 0.6309502]	1	0.670	1.000
+Footpath vs. Footpath	Bench vs. Flower bed	-1.71608922846	[ 0.22828245]	1	0.487	1.000
+Footpath vs. Footpath	Bench vs. Footpath	0.160470199183	[ 0.89870508]	1	1.000	1.000
+Footpath vs. Footpath	Bench vs. Shrub	-0.328059865471	[ 0.75932031]	1	0.672	1.000
+Footpath vs. Footpath	Flower bed vs. Footpath	-0.239001265384	[ 0.82059198]	1	0.856	1.000
+Footpath vs. Footpath	Flower bed vs. Shrub	-0.510225628568	[ 0.61784262]	1	0.542	1.000
+Footpath vs. Footpath	Footpath vs. Shrub	-0.40948233888	[ 0.69175981]	1	0.645	1.000
+Shrub vs. Shrub	Canal vs. Log	-0.0733528705464	[ 0.94312971]	1	1.000	1.000
+Shrub vs. Shrub	Canal vs. Open field	0.509382542576	[ 0.62273818]	1	0.831	1.000
+Shrub vs. Shrub	Canal vs. Tree	-0.891053392049	0.382127459994	1	0.364	1.000
+Shrub vs. Shrub	Canal vs. Bench	0.0886817387494	[ 0.93127685]	1	0.913	1.000
+Shrub vs. Shrub	Canal vs. Flower bed	-0.730367080309	0.480432333023	1	0.467	1.000
+Shrub vs. Shrub	Canal vs. Footpath	0.123026720901	0.904523429585	1	0.888	1.000
+Shrub vs. Shrub	Canal vs. Shrub	-0.188475102271	0.853414606397	1	0.852	1.000
+Shrub vs. Shrub	Log vs. Open field	-0.48490780919	[ 0.63932576]	1	0.897	1.000
+Shrub vs. Shrub	Log vs. Tree	2.58751837101	0.0164631191703	1	0.010	1.000
+Shrub vs. Shrub	Log vs. Bench	-0.680594052183	[ 0.51325503]	1	0.729	1.000
+Shrub vs. Shrub	Log vs. Flower bed	1.0479536574	0.317140318616	1	0.393	1.000
+Shrub vs. Shrub	Log vs. Footpath	0.854684138104	0.412733528157	1	0.492	1.000
+Shrub vs. Shrub	Log vs. Shrub	0.824137941663	0.42472411184	1	0.391	1.000
+Shrub vs. Shrub	Open field vs. Tree	1.20970288235	0.238680363415	1	0.246	1.000
+Shrub vs. Shrub	Open field vs. Bench	-0.0870902504813	[ 0.93250667]	1	0.996	1.000
+Shrub vs. Shrub	Open field vs. Flower bed	1.05616902216	0.313535502036	1	0.377	1.000
+Shrub vs. Shrub	Open field vs. Footpath	0.620641790233	0.548718472979	1	0.603	1.000
+Shrub vs. Shrub	Open field vs. Shrub	0.360912424525	0.723962090876	1	0.734	1.000
+Shrub vs. Shrub	Tree vs. Bench	2.26908089335	0.0329572718302	1	0.032	1.000
+Shrub vs. Shrub	Tree vs. Flower bed	2.16137315376	0.0352037054177	1	0.043	1.000
+Shrub vs. Shrub	Tree vs. Footpath	2.38054108611	0.0224058443373	1	0.015	1.000
+Shrub vs. Shrub	Tree vs. Shrub	0.735167532363	0.464309727071	1	0.441	1.000
+Shrub vs. Shrub	Bench vs. Flower bed	0.298447270441	0.770923957554	1	0.711	1.000
+Shrub vs. Shrub	Bench vs. Footpath	0.906011432713	0.38623949659	1	0.406	1.000
+Shrub vs. Shrub	Bench vs. Shrub	0.613148263578	0.550355551854	1	0.546	1.000
+Shrub vs. Shrub	Flower bed vs. Footpath	1.26541197244	0.226379275841	1	0.212	1.000
+Shrub vs. Shrub	Flower bed vs. Shrub	0.258195511223	0.798552404426	1	0.805	1.000
+Shrub vs. Shrub	Footpath vs. Shrub	0.627764750549	0.538041544554	1	0.573	1.000
+Canal vs. Log	Canal vs. Open field	N/A	N/A	N/A	N/A	N/A
+Canal vs. Log	Canal vs. Tree	-0.889540982931	[ 0.38874222]	1	0.422	1.000
+Canal vs. Log	Canal vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Log	Canal vs. Flower bed	-1.2245440648	[ 0.34540767]	1	0.536	1.000
+Canal vs. Log	Canal vs. Footpath	0.0515461759437	[ 0.9672137]	1	1.000	1.000
+Canal vs. Log	Canal vs. Shrub	-0.376256513991	[ 0.72583247]	1	0.973	1.000
+Canal vs. Log	Log vs. Open field	N/A	N/A	N/A	N/A	N/A
+Canal vs. Log	Log vs. Tree	2.53155463711	[ 0.02395874]	1	0.071	1.000
+Canal vs. Log	Log vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Log	Log vs. Flower bed	2.15692355887	[ 0.16372674]	1	0.253	1.000
+Canal vs. Log	Log vs. Footpath	2.48338200003	[ 0.24370551]	1	0.345	1.000
+Canal vs. Log	Log vs. Shrub	0.373070142076	[ 0.72802482]	1	0.992	1.000
+Canal vs. Log	Open field vs. Tree	0.658719711612	[ 0.5207629]	1	0.627	1.000
+Canal vs. Log	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Log	Open field vs. Flower bed	3.47541727219	[ 0.07374967]	1	0.274	1.000
+Canal vs. Log	Open field vs. Footpath	1.20724981567	[ 0.4403993]	1	0.654	1.000
+Canal vs. Log	Open field vs. Shrub	0.109555266956	[ 0.91803836]	1	0.835	1.000
+Canal vs. Log	Tree vs. Bench	1.76833826711	[ 0.09877893]	1	0.088	1.000
+Canal vs. Log	Tree vs. Flower bed	0.843499052252	[ 0.40351186]	1	0.388	1.000
+Canal vs. Log	Tree vs. Footpath	1.25369630498	[ 0.21996537]	1	0.211	1.000
+Canal vs. Log	Tree vs. Shrub	0.160432603421	[ 0.87297746]	1	0.882	1.000
+Canal vs. Log	Bench vs. Flower bed	0.394751411643	[ 0.73114596]	1	1.000	1.000
+Canal vs. Log	Bench vs. Footpath	2.02478241244	[ 0.29204284]	1	0.350	1.000
+Canal vs. Log	Bench vs. Shrub	0.264965120332	[ 0.80413019]	1	0.833	1.000
+Canal vs. Log	Flower bed vs. Footpath	1.33793297048	[ 0.23854086]	1	0.432	1.000
+Canal vs. Log	Flower bed vs. Shrub	0.0269000090916	[ 0.97891917]	1	0.972	1.000
+Canal vs. Log	Footpath vs. Shrub	0.206767828432	[ 0.8407934]	1	0.997	1.000
+Canal vs. Open field	Canal vs. Tree	0.779457293267	[ 0.44868699]	1	0.416	1.000
+Canal vs. Open field	Canal vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Open field	Canal vs. Flower bed	0.219533557215	[ 0.84660357]	1	0.766	1.000
+Canal vs. Open field	Canal vs. Footpath	2.349556603	[ 0.25616885]	1	0.342	1.000
+Canal vs. Open field	Canal vs. Shrub	1.01017230806	[ 0.36955592]	1	0.499	1.000
+Canal vs. Open field	Log vs. Open field	N/A	N/A	N/A	N/A	N/A
+Canal vs. Open field	Log vs. Tree	5.06223597482	[ 0.00017336]	[ 0.09361206]	0.001	0.540
+Canal vs. Open field	Log vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Open field	Log vs. Flower bed	4.55187489204	[ 0.04502872]	1	0.244	1.000
+Canal vs. Open field	Log vs. Footpath	5.23161360179	[ 0.12023673]	1	0.304	1.000
+Canal vs. Open field	Log vs. Shrub	1.00994885957	[ 0.36965089]	1	0.336	1.000
+Canal vs. Open field	Open field vs. Tree	2.16640945901	[ 0.04802491]	1	0.045	1.000
+Canal vs. Open field	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Open field	Open field vs. Flower bed	7.31454803635	[ 0.01818247]	1	0.260	1.000
+Canal vs. Open field	Open field vs. Footpath	3.14475851268	[ 0.19600127]	1	0.295	1.000
+Canal vs. Open field	Open field vs. Shrub	0.660608885926	[ 0.54496891]	1	0.634	1.000
+Canal vs. Open field	Tree vs. Bench	3.76683002544	[ 0.00208292]	1	0.031	1.000
+Canal vs. Open field	Tree vs. Flower bed	2.3775615342	[ 0.02183872]	1	0.029	1.000
+Canal vs. Open field	Tree vs. Footpath	3.1123781045	[ 0.0041464]	1	0.018	1.000
+Canal vs. Open field	Tree vs. Shrub	0.882495448417	[ 0.38036673]	1	0.314	1.000
+Canal vs. Open field	Bench vs. Flower bed	2.76578021287	[ 0.10964263]	1	0.268	1.000
+Canal vs. Open field	Bench vs. Footpath	4.11889499873	[ 0.15162709]	1	0.335	1.000
+Canal vs. Open field	Bench vs. Shrub	0.931088035758	[ 0.40451466]	1	0.497	1.000
+Canal vs. Open field	Flower bed vs. Footpath	3.10924456066	[ 0.02657351]	1	0.136	1.000
+Canal vs. Open field	Flower bed vs. Shrub	0.630233265317	[ 0.53869344]	1	0.546	1.000
+Canal vs. Open field	Footpath vs. Shrub	0.898978726638	[ 0.39208068]	1	0.351	1.000
+Canal vs. Tree	Canal vs. Bench	-0.425461612586	[ 0.67696774]	1	0.710	1.000
+Canal vs. Tree	Canal vs. Flower bed	-0.85485627969	0.405249723159	1	0.387	1.000
+Canal vs. Tree	Canal vs. Footpath	1.2991525063	0.21350655965	1	0.210	1.000
+Canal vs. Tree	Canal vs. Shrub	0.846516990106	0.408378244136	1	0.419	1.000
+Canal vs. Tree	Log vs. Open field	-2.0682654395	[ 0.05761103]	1	0.119	1.000
+Canal vs. Tree	Log vs. Tree	8.54538867202	2.74067435413e-09	1.47996415123e-06	0.001	0.540
+Canal vs. Tree	Log vs. Bench	-2.62872563271	[ 0.01983568]	1	0.049	1.000
+Canal vs. Tree	Log vs. Flower bed	4.06566993397	0.000899034350302	0.485478549163	0.003	1.000
+Canal vs. Tree	Log vs. Footpath	3.3736192891	0.00417791400665	1	0.019	1.000
+Canal vs. Tree	Log vs. Shrub	2.55618482623	0.0198414375114	1	0.021	1.000
+Canal vs. Tree	Open field vs. Tree	4.34039877799	0.000167685386799	0.0905501088714	0.002	1.000
+Canal vs. Tree	Open field vs. Bench	-0.928885877568	[ 0.36868774]	1	0.417	1.000
+Canal vs. Tree	Open field vs. Flower bed	4.14598243702	0.000759698879348	0.410237394848	0.004	1.000
+Canal vs. Tree	Open field vs. Footpath	2.68991944781	0.0167947462629	1	0.016	1.000
+Canal vs. Tree	Open field vs. Shrub	1.51789078062	0.146409795815	1	0.186	1.000
+Canal vs. Tree	Tree vs. Bench	7.26504492888	6.56758052386e-08	3.54649348289e-05	0.001	0.540
+Canal vs. Tree	Tree vs. Flower bed	5.76719688818	3.2876977607e-07	0.000177535679078	0.001	0.540
+Canal vs. Tree	Tree vs. Footpath	6.98895584256	1.33503306188e-08	7.20917853414e-06	0.001	0.540
+Canal vs. Tree	Tree vs. Shrub	2.08156065398	0.0402875224036	1	0.034	1.000
+Canal vs. Tree	Bench vs. Flower bed	1.98263764155	0.0648490092228	1	0.074	1.000
+Canal vs. Tree	Bench vs. Footpath	3.49902243325	0.00323000367989	1	0.012	1.000
+Canal vs. Tree	Bench vs. Shrub	2.18714590984	0.0421740568607	1	0.037	1.000
+Canal vs. Tree	Flower bed vs. Footpath	4.71561656307	0.000150523882779	0.0812828967007	0.002	1.000
+Canal vs. Tree	Flower bed vs. Shrub	1.31083598703	0.200563158014	1	0.210	1.000
+Canal vs. Tree	Footpath vs. Shrub	2.09313389671	0.0475620186396	1	0.038	1.000
+Canal vs. Bench	Canal vs. Flower bed	-0.823005822906	[ 0.49701937]	1	0.741	1.000
+Canal vs. Bench	Canal vs. Footpath	0.690527801775	[ 0.61526492]	1	0.665	1.000
+Canal vs. Bench	Canal vs. Shrub	0.00925198169859	[ 0.99306114]	1	1.000	1.000
+Canal vs. Bench	Log vs. Open field	N/A	N/A	N/A	N/A	N/A
+Canal vs. Bench	Log vs. Tree	3.23523241707	[ 0.005986]	1	0.002	1.000
+Canal vs. Bench	Log vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Bench	Log vs. Flower bed	2.82286044003	[ 0.10592571]	1	0.249	1.000
+Canal vs. Bench	Log vs. Footpath	3.24755150787	[ 0.19016523]	1	0.329	1.000
+Canal vs. Bench	Log vs. Shrub	0.550159764284	[ 0.61148673]	1	0.660	1.000
+Canal vs. Bench	Open field vs. Tree	1.0779458538	[ 0.29928147]	1	0.237	1.000
+Canal vs. Bench	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Canal vs. Bench	Open field vs. Flower bed	4.54292070411	[ 0.04519454]	1	0.219	1.000
+Canal vs. Bench	Open field vs. Footpath	1.74599082515	[ 0.33112803]	1	0.328	1.000
+Canal vs. Bench	Open field vs. Shrub	0.262780480046	[ 0.80569948]	1	0.832	1.000
+Canal vs. Bench	Tree vs. Bench	2.32403614294	[ 0.03568414]	1	0.091	1.000
+Canal vs. Bench	Tree vs. Flower bed	1.27005836082	[ 0.21073939]	1	0.243	1.000
+Canal vs. Bench	Tree vs. Footpath	1.77051881552	[ 0.08715356]	1	0.106	1.000
+Canal vs. Bench	Tree vs. Shrub	0.361208407227	[ 0.71897288]	1	0.782	1.000
+Canal vs. Bench	Bench vs. Flower bed	1.05403642639	[ 0.40240615]	1	0.494	1.000
+Canal vs. Bench	Bench vs. Footpath	2.60706848447	[ 0.2331716]	1	0.313	1.000
+Canal vs. Bench	Bench vs. Shrub	0.450186344087	[ 0.67589685]	1	0.659	1.000
+Canal vs. Bench	Flower bed vs. Footpath	1.83046144051	[ 0.12669244]	1	0.293	1.000
+Canal vs. Bench	Flower bed vs. Shrub	0.194662026375	[ 0.8484541]	1	0.895	1.000
+Canal vs. Bench	Footpath vs. Shrub	0.399243040879	[ 0.69902209]	1	0.705	1.000
+Canal vs. Flower bed	Canal vs. Footpath	1.79599911277	0.170361297298	1	0.338	1.000
+Canal vs. Flower bed	Canal vs. Shrub	1.23468668347	0.263104436015	1	0.210	1.000
+Canal vs. Flower bed	Log vs. Open field	-2.2444190608	[ 0.15394751]	1	0.233	1.000
+Canal vs. Flower bed	Log vs. Tree	7.02539037185	2.86556197526e-06	0.00154740346664	0.001	0.540
+Canal vs. Flower bed	Log vs. Bench	-2.72934947361	[ 0.11211195]	1	0.261	1.000
+Canal vs. Flower bed	Log vs. Flower bed	4.32483637132	0.0124000425774	1	0.097	1.000
+Canal vs. Flower bed	Log vs. Footpath	3.6982652923	0.0343192120111	1	0.100	1.000
+Canal vs. Flower bed	Log vs. Shrub	1.60860199294	0.158828234001	1	0.142	1.000
+Canal vs. Flower bed	Open field vs. Tree	3.18905180167	0.00570750350592	1	0.004	1.000
+Canal vs. Flower bed	Open field vs. Bench	-1.25858668947	[ 0.33519132]	1	0.513	1.000
+Canal vs. Flower bed	Open field vs. Flower bed	4.73942912349	0.00904100038879	1	0.085	1.000
+Canal vs. Flower bed	Open field vs. Footpath	2.94723529733	0.0601584027684	1	0.207	1.000
+Canal vs. Flower bed	Open field vs. Shrub	1.02661342749	0.344198149897	1	0.362	1.000
+Canal vs. Flower bed	Tree vs. Bench	5.47586933455	5.07988347087e-05	0.0274313707427	0.002	1.000
+Canal vs. Flower bed	Tree vs. Flower bed	3.64662189856	0.000674847782395	0.364417802493	0.003	1.000
+Canal vs. Flower bed	Tree vs. Footpath	4.70761849003	4.95703203569e-05	0.0267679729927	0.001	0.540
+Canal vs. Flower bed	Tree vs. Shrub	1.33543799915	0.185718975338	1	0.169	1.000
+Canal vs. Flower bed	Bench vs. Flower bed	2.50235172588	0.0665989866068	1	0.211	1.000
+Canal vs. Flower bed	Bench vs. Footpath	3.68898637464	0.0345408449235	1	0.096	1.000
+Canal vs. Flower bed	Bench vs. Shrub	1.45635052678	0.195550364525	1	0.173	1.000
+Canal vs. Flower bed	Flower bed vs. Footpath	4.15435176272	0.004271794193	1	0.013	1.000
+Canal vs. Flower bed	Flower bed vs. Shrub	0.930865346703	0.365756756217	1	0.396	1.000
+Canal vs. Flower bed	Footpath vs. Shrub	1.36956404352	0.198132602414	1	0.230	1.000
+Canal vs. Footpath	Canal vs. Shrub	-0.57571936538	0.589745236863	1	0.651	1.000
+Canal vs. Footpath	Log vs. Open field	-1.57141601069	[ 0.36079333]	1	0.674	1.000
+Canal vs. Footpath	Log vs. Tree	3.41106468266	0.00386893685678	1	0.012	1.000
+Canal vs. Footpath	Log vs. Bench	-2.34310246857	[ 0.25680047]	1	0.351	1.000
+Canal vs. Footpath	Log vs. Flower bed	2.67581040873	0.075316848173	1	0.253	1.000
+Canal vs. Footpath	Log vs. Footpath	2.69069742674	0.114818475346	1	0.340	1.000
+Canal vs. Footpath	Log vs. Shrub	0.521218515538	0.624468073457	1	0.652	1.000
+Canal vs. Footpath	Open field vs. Tree	0.877903632489	0.393840824452	1	0.381	1.000
+Canal vs. Footpath	Open field vs. Bench	-0.00262702448326	[ 0.99832759]	1	1.000	1.000
+Canal vs. Footpath	Open field vs. Flower bed	3.50790902409	0.03925685588	1	0.100	1.000
+Canal vs. Footpath	Open field vs. Footpath	1.54109055334	0.263214432139	1	0.342	1.000
+Canal vs. Footpath	Open field vs. Shrub	0.141467333914	0.893023947227	1	0.948	1.000
+Canal vs. Footpath	Tree vs. Bench	2.40193047444	0.0297125964971	1	0.034	1.000
+Canal vs. Footpath	Tree vs. Flower bed	1.14084718902	0.259968799064	1	0.279	1.000
+Canal vs. Footpath	Tree vs. Footpath	1.70270022102	0.0989654028652	1	0.100	1.000
+Canal vs. Footpath	Tree vs. Shrub	0.203924660671	0.838964699103	1	0.912	1.000
+Canal vs. Footpath	Bench vs. Flower bed	0.435973806497	0.692322234967	1	0.601	1.000
+Canal vs. Footpath	Bench vs. Footpath	2.53203774205	0.126946606938	1	0.353	1.000
+Canal vs. Footpath	Bench vs. Shrub	0.362959833216	0.731474013617	1	0.700	1.000
+Canal vs. Footpath	Flower bed vs. Footpath	1.7999338878	0.121963587556	1	0.143	1.000
+Canal vs. Footpath	Flower bed vs. Shrub	0.0189495846609	0.985131090243	1	0.992	1.000
+Canal vs. Footpath	Footpath vs. Shrub	0.271944921301	0.791196421931	1	0.879	1.000
+Canal vs. Shrub	Log vs. Open field	-1.35541723761	[ 0.24676663]	1	0.330	1.000
+Canal vs. Shrub	Log vs. Tree	5.3715368802	4.18429103992e-05	0.0225951716156	0.002	1.000
+Canal vs. Shrub	Log vs. Bench	-1.82098881823	[ 0.14271307]	1	0.140	1.000
+Canal vs. Shrub	Log vs. Flower bed	2.78266283984	0.0318847244831	1	0.060	1.000
+Canal vs. Shrub	Log vs. Footpath	2.32625161059	0.0675256814262	1	0.084	1.000
+Canal vs. Shrub	Log vs. Shrub	1.21512582999	0.258960422495	1	0.266	1.000
+Canal vs. Shrub	Open field vs. Tree	2.1237270105	0.0478106739067	1	0.037	1.000
+Canal vs. Shrub	Open field vs. Bench	-0.408940128291	[ 0.70353154]	1	0.981	1.000
+Canal vs. Shrub	Open field vs. Flower bed	2.91270717579	0.0268854200536	1	0.056	1.000
+Canal vs. Shrub	Open field vs. Footpath	1.72899247455	0.144378812902	1	0.136	1.000
+Canal vs. Shrub	Open field vs. Shrub	0.589791436217	0.571607907132	1	0.615	1.000
+Canal vs. Shrub	Tree vs. Bench	4.23961453631	0.000492894718055	0.26616314775	0.002	1.000
+Canal vs. Shrub	Tree vs. Flower bed	2.69719515431	0.00961823947674	1	0.007	1.000
+Canal vs. Shrub	Tree vs. Footpath	3.58280120304	0.00108045387009	0.583445089847	0.002	1.000
+Canal vs. Shrub	Tree vs. Shrub	0.792559096508	0.430438781713	1	0.457	1.000
+Canal vs. Shrub	Bench vs. Flower bed	1.03826303608	0.339166912045	1	0.356	1.000
+Canal vs. Shrub	Bench vs. Footpath	2.40971056881	0.0608858322161	1	0.089	1.000
+Canal vs. Shrub	Bench vs. Shrub	0.984140961962	0.353870091957	1	0.346	1.000
+Canal vs. Shrub	Flower bed vs. Footpath	2.88902236757	0.017912771885	1	0.017	1.000
+Canal vs. Shrub	Flower bed vs. Shrub	0.422285794085	0.677817552505	1	0.674	1.000
+Canal vs. Shrub	Footpath vs. Shrub	0.865298258493	0.402561323917	1	0.422	1.000
+Log vs. Open field	Log vs. Tree	0.744269397167	[ 0.46902267]	1	0.404	1.000
+Log vs. Open field	Log vs. Bench	N/A	N/A	N/A	N/A	N/A
+Log vs. Open field	Log vs. Flower bed	0.465497181177	[ 0.68734541]	1	0.747	1.000
+Log vs. Open field	Log vs. Footpath	0.542452612918	[ 0.68358074]	1	1.000	1.000
+Log vs. Open field	Log vs. Shrub	-0.076723324389	[ 0.94252796]	1	0.940	1.000
+Log vs. Open field	Open field vs. Tree	-0.406081135411	[ 0.69082182]	1	0.589	1.000
+Log vs. Open field	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Log vs. Open field	Open field vs. Flower bed	0.764043996249	[ 0.52467352]	1	0.501	1.000
+Log vs. Open field	Open field vs. Footpath	-0.161109228517	[ 0.89830851]	1	1.000	1.000
+Log vs. Open field	Open field vs. Shrub	-0.279624510414	[ 0.79362916]	1	0.720	1.000
+Log vs. Open field	Tree vs. Bench	0.356910139592	[ 0.72648139]	1	0.833	1.000
+Log vs. Open field	Tree vs. Flower bed	-0.239927450438	[ 0.81150077]	1	0.849	1.000
+Log vs. Open field	Tree vs. Footpath	-0.0589915062193	[ 0.95336351]	1	0.966	1.000
+Log vs. Open field	Tree vs. Shrub	-0.349521868501	[ 0.72769029]	1	0.768	1.000
+Log vs. Open field	Bench vs. Flower bed	-1.2797797578	[ 0.32901368]	1	0.474	1.000
+Log vs. Open field	Bench vs. Footpath	0.545822394638	[ 0.68192555]	1	1.000	1.000
+Log vs. Open field	Bench vs. Shrub	-0.205481963222	[ 0.8472293]	1	0.855	1.000
+Log vs. Open field	Flower bed vs. Footpath	0.0869500777205	[ 0.93408597]	1	0.831	1.000
+Log vs. Open field	Flower bed vs. Shrub	-0.399202087428	[ 0.6957674]	1	0.668	1.000
+Log vs. Open field	Footpath vs. Shrub	-0.282103805802	[ 0.78424366]	1	0.913	1.000
+Log vs. Tree	Log vs. Bench	-0.10554942633	[ 0.91743725]	1	0.742	1.000
+Log vs. Tree	Log vs. Flower bed	-0.414930377878	0.683703281247	1	0.729	1.000
+Log vs. Tree	Log vs. Footpath	-0.340338558152	0.738321029328	1	0.727	1.000
+Log vs. Tree	Log vs. Shrub	-1.0629578778	0.301854464771	1	0.292	1.000
+Log vs. Tree	Open field vs. Tree	-2.91916851042	0.00685401111448	1	0.009	1.000
+Log vs. Tree	Open field vs. Bench	2.4718964625	[ 0.02688591]	1	0.067	1.000
+Log vs. Tree	Open field vs. Flower bed	-0.410014448322	0.687232821173	1	0.676	1.000
+Log vs. Tree	Open field vs. Footpath	-1.30063147107	0.213012473306	1	0.159	1.000
+Log vs. Tree	Open field vs. Shrub	-1.8245636086	0.0847112052717	1	0.069	1.000
+Log vs. Tree	Tree vs. Bench	-0.724657670317	0.47467452	1	0.503	1.000
+Log vs. Tree	Tree vs. Flower bed	-2.55159203017	0.0133816029137	1	0.016	1.000
+Log vs. Tree	Tree vs. Footpath	-2.11841223181	0.0399577686646	1	0.033	1.000
+Log vs. Tree	Tree vs. Shrub	-2.16493844852	0.0330991068346	1	0.036	1.000
+Log vs. Tree	Bench vs. Flower bed	-3.46522958262	0.00318934788892	1	0.003	1.000
+Log vs. Tree	Bench vs. Footpath	-0.115999670308	0.909191547015	1	0.903	1.000
+Log vs. Tree	Bench vs. Shrub	-1.60101491246	0.126777563824	1	0.102	1.000
+Log vs. Tree	Flower bed vs. Footpath	-1.19634499458	0.246278157506	1	0.250	1.000
+Log vs. Tree	Flower bed vs. Shrub	-2.24368360652	0.0329449429701	1	0.032	1.000
+Log vs. Tree	Footpath vs. Shrub	-1.88475027499	0.0721622064526	1	0.058	1.000
+Log vs. Bench	Log vs. Flower bed	-0.338742647027	[ 0.7670618]	1	0.756	1.000
+Log vs. Bench	Log vs. Footpath	-0.380420967293	[ 0.76857929]	1	1.000	1.000
+Log vs. Bench	Log vs. Shrub	-0.290591231953	[ 0.7858076]	1	0.785	1.000
+Log vs. Bench	Open field vs. Tree	-0.912372902864	[ 0.37701618]	1	0.364	1.000
+Log vs. Bench	Open field vs. Bench	N/A	N/A	N/A	N/A	N/A
+Log vs. Bench	Open field vs. Flower bed	-0.525160432863	[ 0.65188273]	1	1.000	1.000
+Log vs. Bench	Open field vs. Footpath	-0.811736921884	[ 0.56591652]	1	0.640	1.000
+Log vs. Bench	Open field vs. Shrub	-0.464671806247	[ 0.66633304]	1	0.541	1.000
+Log vs. Bench	Tree vs. Bench	-0.31419605206	[ 0.75800534]	1	0.868	1.000
+Log vs. Bench	Tree vs. Flower bed	-0.755075349209	[ 0.45422672]	1	0.501	1.000
+Log vs. Bench	Tree vs. Footpath	-0.683148628093	[ 0.49993477]	1	0.562	1.000
+Log vs. Bench	Tree vs. Shrub	-0.591995145671	[ 0.55565828]	1	0.507	1.000
+Log vs. Bench	Bench vs. Flower bed	-2.07598624824	[ 0.17354451]	1	0.235	1.000
+Log vs. Bench	Bench vs. Footpath	-0.157393876742	[ 0.90061527]	1	1.000	1.000
+Log vs. Bench	Bench vs. Shrub	-0.429170257696	[ 0.68990441]	1	0.670	1.000
+Log vs. Bench	Flower bed vs. Footpath	-0.507867574423	[ 0.63315066]	1	0.409	1.000
+Log vs. Bench	Flower bed vs. Shrub	-0.601805216609	[ 0.55692469]	1	0.506	1.000
+Log vs. Bench	Footpath vs. Shrub	-0.514552610145	[ 0.61926234]	1	0.449	1.000
+Log vs. Flower bed	Log vs. Footpath	0.00967697487405	0.992886553537	1	1.000	1.000
+Log vs. Flower bed	Log vs. Shrub	-0.362637264374	0.729307552344	1	0.957	1.000
+Log vs. Flower bed	Open field vs. Tree	-1.19375778108	0.249972473196	1	0.257	1.000
+Log vs. Flower bed	Open field vs. Bench	2.10046507763	[ 0.17049257]	1	0.256	1.000
+Log vs. Flower bed	Open field vs. Flower bed	0.0188926348685	0.985831577403	1	1.000	1.000
+Log vs. Flower bed	Open field vs. Footpath	-0.79461820573	0.484892610709	1	0.390	1.000
+Log vs. Flower bed	Open field vs. Shrub	-0.702154817322	0.508891233409	1	0.658	1.000
+Log vs. Flower bed	Tree vs. Bench	-0.0529736566419	0.958408670901	1	0.968	1.000
+Log vs. Flower bed	Tree vs. Flower bed	-0.926295057377	0.359127201809	1	0.346	1.000
+Log vs. Flower bed	Tree vs. Footpath	-0.717959759468	0.478158297209	1	0.480	1.000
+Log vs. Flower bed	Tree vs. Shrub	-0.847976103479	0.399114038692	1	0.399	1.000
+Log vs. Flower bed	Bench vs. Flower bed	-2.47394338136	0.0686555942203	1	0.097	1.000
+Log vs. Flower bed	Bench vs. Footpath	0.195558445137	0.857451828801	1	1.000	1.000
+Log vs. Flower bed	Bench vs. Shrub	-0.604910143158	0.567396114278	1	0.692	1.000
+Log vs. Flower bed	Flower bed vs. Footpath	-0.426097292363	0.682832880181	1	0.693	1.000
+Log vs. Flower bed	Flower bed vs. Shrub	-0.898371188723	0.382308220286	1	0.395	1.000
+Log vs. Flower bed	Footpath vs. Shrub	-0.728328376499	0.481630113795	1	0.655	1.000
+Log vs. Footpath	Log vs. Shrub	-0.294751383431	0.780029689919	1	0.891	1.000
+Log vs. Footpath	Open field vs. Tree	-0.991763975065	0.337042537299	1	0.301	1.000
+Log vs. Footpath	Open field vs. Bench	2.41859530471	[ 0.24959212]	1	0.349	1.000
+Log vs. Footpath	Open field vs. Flower bed	0.00710494888651	0.99477717376	1	1.000	1.000
+Log vs. Footpath	Open field vs. Footpath	-0.769443473542	0.522079568179	1	0.675	1.000
+Log vs. Footpath	Open field vs. Shrub	-0.566276693794	0.595676604706	1	0.694	1.000
+Log vs. Footpath	Tree vs. Bench	-0.0526341324932	0.958717994837	1	0.958	1.000
+Log vs. Footpath	Tree vs. Flower bed	-0.766053057811	0.447644593225	1	0.448	1.000
+Log vs. Footpath	Tree vs. Footpath	-0.599660297247	0.553235203205	1	0.546	1.000
+Log vs. Footpath	Tree vs. Shrub	-0.695758754969	0.488730310156	1	0.610	1.000
+Log vs. Footpath	Bench vs. Flower bed	-2.34710989418	0.100569470921	1	0.104	1.000
+Log vs. Footpath	Bench vs. Footpath	0.182516221718	0.872003103469	1	1.000	1.000
+Log vs. Footpath	Bench vs. Shrub	-0.490390611935	0.644618298271	1	0.771	1.000
+Log vs. Footpath	Flower bed vs. Footpath	-0.368919977063	0.724855611184	1	0.626	1.000
+Log vs. Footpath	Flower bed vs. Shrub	-0.735145984647	0.473588807452	1	0.584	1.000
+Log vs. Footpath	Footpath vs. Shrub	-0.596098679932	0.564357671337	1	0.669	1.000
+Log vs. Shrub	Open field vs. Tree	-0.326983883839	0.747451892053	1	0.754	1.000
+Log vs. Shrub	Open field vs. Bench	0.358056390178	[ 0.7383969]	1	0.995	1.000
+Log vs. Shrub	Open field vs. Flower bed	0.371507977469	0.723025159122	1	0.954	1.000
+Log vs. Shrub	Open field vs. Footpath	0.0344186235923	0.973875109893	1	0.983	1.000
+Log vs. Shrub	Open field vs. Shrub	-0.394997662722	0.703167353883	1	0.540	1.000
+Log vs. Shrub	Tree vs. Bench	0.724400171101	0.478131063932	1	0.541	1.000
+Log vs. Shrub	Tree vs. Flower bed	-0.102570238074	0.918731382757	1	0.920	1.000
+Log vs. Shrub	Tree vs. Footpath	0.261029213958	0.795692135769	1	0.778	1.000
+Log vs. Shrub	Tree vs. Shrub	-0.570935782506	0.569684486897	1	0.580	1.000
+Log vs. Shrub	Bench vs. Flower bed	-0.482802264058	0.646346134874	1	0.725	1.000
+Log vs. Shrub	Bench vs. Footpath	0.352069045062	0.73913939417	1	0.902	1.000
+Log vs. Shrub	Bench vs. Shrub	-0.211992767413	0.837414066257	1	0.738	1.000
+Log vs. Shrub	Flower bed vs. Footpath	0.27134766481	0.792244897831	1	0.891	1.000
+Log vs. Shrub	Flower bed vs. Shrub	-0.668231647673	0.512464248238	1	0.517	1.000
+Log vs. Shrub	Footpath vs. Shrub	-0.375749605751	0.71316311266	1	0.542	1.000
+Open field vs. Tree	Open field vs. Bench	0.623177497397	[ 0.54318725]	1	0.608	1.000
+Open field vs. Tree	Open field vs. Flower bed	1.22200576739	0.239403952889	1	0.252	1.000
+Open field vs. Tree	Open field vs. Footpath	0.392659207597	0.700094688912	1	0.728	1.000
+Open field vs. Tree	Open field vs. Shrub	-0.477949151761	0.638439358286	1	0.622	1.000
+Open field vs. Tree	Tree vs. Bench	2.15650760883	0.0397802577655	1	0.040	1.000
+Open field vs. Tree	Tree vs. Flower bed	0.588100003573	0.558748257572	1	0.565	1.000
+Open field vs. Tree	Tree vs. Footpath	1.32164356691	0.193275684309	1	0.184	1.000
+Open field vs. Tree	Tree vs. Shrub	-0.589701900918	0.556901595443	1	0.575	1.000
+Open field vs. Tree	Bench vs. Flower bed	-0.695852207457	0.496505531974	1	0.478	1.000
+Open field vs. Tree	Bench vs. Footpath	1.12012205372	0.280276704935	1	0.261	1.000
+Open field vs. Tree	Bench vs. Shrub	-0.0882087040053	0.930684773123	1	0.936	1.000
+Open field vs. Tree	Flower bed vs. Footpath	1.07535714624	0.295681437421	1	0.303	1.000
+Open field vs. Tree	Flower bed vs. Shrub	-0.879031156949	0.386866090688	1	0.384	1.000
+Open field vs. Tree	Footpath vs. Shrub	-0.339633434444	0.73721448505	1	0.727	1.000
+Open field vs. Bench	Open field vs. Flower bed	3.38491376625	[ 0.07729444]	1	0.246	1.000
+Open field vs. Bench	Open field vs. Footpath	1.16157506775	[ 0.45250179]	1	0.659	1.000
+Open field vs. Bench	Open field vs. Shrub	0.0965647522936	[ 0.92771679]	1	0.843	1.000
+Open field vs. Bench	Tree vs. Bench	1.72122590709	[ 0.10722241]	1	0.101	1.000
+Open field vs. Bench	Tree vs. Flower bed	0.80733512831	[ 0.4238164]	1	0.466	1.000
+Open field vs. Bench	Tree vs. Footpath	1.209879819	[ 0.2360953]	1	0.198	1.000
+Open field vs. Bench	Tree vs. Shrub	0.143410724511	[ 0.88635562]	1	0.912	1.000
+Open field vs. Bench	Bench vs. Flower bed	0.338856879158	[ 0.76698751]	1	1.000	1.000
+Open field vs. Bench	Bench vs. Footpath	1.97541589107	[ 0.29832844]	1	0.313	1.000
+Open field vs. Bench	Bench vs. Shrub	0.249261966952	[ 0.81543455]	1	0.832	1.000
+Open field vs. Bench	Flower bed vs. Footpath	1.29617614611	[ 0.25151532]	1	0.402	1.000
+Open field vs. Bench	Flower bed vs. Shrub	0.0126770564762	[ 0.99006433]	1	0.961	1.000
+Open field vs. Bench	Footpath vs. Shrub	0.190449678051	[ 0.85318337]	1	0.992	1.000
+Open field vs. Flower bed	Open field vs. Footpath	-1.01291814482	0.385695035918	1	0.507	1.000
+Open field vs. Flower bed	Open field vs. Shrub	-0.711883347815	0.503263494337	1	0.685	1.000
+Open field vs. Flower bed	Tree vs. Bench	-0.0701816979575	0.944918742563	1	0.941	1.000
+Open field vs. Flower bed	Tree vs. Flower bed	-0.94263869912	0.350790331362	1	0.370	1.000
+Open field vs. Flower bed	Tree vs. Footpath	-0.739802216419	0.46498603769	1	0.457	1.000
+Open field vs. Flower bed	Tree vs. Shrub	-0.854273110041	0.395638467959	1	0.434	1.000
+Open field vs. Flower bed	Bench vs. Flower bed	-2.98066915535	0.0407119138511	1	0.087	1.000
+Open field vs. Flower bed	Bench vs. Footpath	0.232119651853	0.831378190805	1	0.806	1.000
+Open field vs. Flower bed	Bench vs. Shrub	-0.616873618087	0.559981949136	1	0.710	1.000
+Open field vs. Flower bed	Flower bed vs. Footpath	-0.463044165746	0.657383935522	1	0.637	1.000
+Open field vs. Flower bed	Flower bed vs. Shrub	-0.905242997073	0.378766543671	1	0.361	1.000
+Open field vs. Flower bed	Footpath vs. Shrub	-0.737358506557	0.476338818718	1	0.683	1.000
+Open field vs. Footpath	Open field vs. Shrub	-0.339516990247	0.748016774046	1	0.767	1.000
+Open field vs. Footpath	Tree vs. Bench	0.723568994467	0.480462993789	1	0.502	1.000
+Open field vs. Footpath	Tree vs. Flower bed	-0.158219927742	0.874991396183	1	0.862	1.000
+Open field vs. Footpath	Tree vs. Footpath	0.133837100055	0.894425201606	1	0.892	1.000
+Open field vs. Footpath	Tree vs. Shrub	-0.409199526902	0.683559481849	1	0.807	1.000
+Open field vs. Footpath	Bench vs. Flower bed	-1.2995681573	0.284597428685	1	0.525	1.000
+Open field vs. Footpath	Bench vs. Footpath	0.846869928929	0.486244109944	1	0.686	1.000
+Open field vs. Footpath	Bench vs. Shrub	-0.217160315681	0.836666595843	1	0.837	1.000
+Open field vs. Footpath	Flower bed vs. Footpath	0.319321443938	0.760307920655	1	0.715	1.000
+Open field vs. Footpath	Flower bed vs. Shrub	-0.494461001042	0.628143744111	1	0.763	1.000
+Open field vs. Footpath	Footpath vs. Shrub	-0.318827100522	0.756417278479	1	0.932	1.000
+Open field vs. Shrub	Tree vs. Bench	1.49238539522	0.152918047717	1	0.160	1.000
+Open field vs. Shrub	Tree vs. Flower bed	0.953642884686	0.345042434772	1	0.346	1.000
+Open field vs. Shrub	Tree vs. Footpath	1.29441725147	0.204506304259	1	0.186	1.000
+Open field vs. Shrub	Tree vs. Shrub	0.0363695612215	0.971080603222	1	0.973	1.000
+Open field vs. Shrub	Bench vs. Flower bed	-0.032329648125	0.9752577966	1	0.985	1.000
+Open field vs. Shrub	Bench vs. Footpath	0.615334943475	0.565258494886	1	0.620	1.000
+Open field vs. Shrub	Bench vs. Shrub	0.206929487685	0.841234791305	1	0.761	1.000
+Open field vs. Shrub	Flower bed vs. Footpath	0.78479608372	0.452734920482	1	0.594	1.000
+Open field vs. Shrub	Flower bed vs. Shrub	-0.184757195451	0.855485201912	1	0.794	1.000
+Open field vs. Shrub	Footpath vs. Shrub	0.124157076941	0.903090120017	1	0.833	1.000
+Tree vs. Bench	Tree vs. Flower bed	-1.84217596935	0.0705632827414	1	0.061	1.000
+Tree vs. Bench	Tree vs. Footpath	-1.2911979076	0.203533483496	1	0.207	1.000
+Tree vs. Bench	Tree vs. Shrub	-1.83560797297	0.0697932692151	1	0.075	1.000
+Tree vs. Bench	Bench vs. Flower bed	-2.41026694994	0.0283340370976	1	0.024	1.000
+Tree vs. Bench	Bench vs. Footpath	0.227681111108	0.822968468574	1	0.777	1.000
+Tree vs. Bench	Bench vs. Shrub	-1.21774789994	0.239043040231	1	0.223	1.000
+Tree vs. Bench	Flower bed vs. Footpath	-0.541797902828	0.594255191098	1	0.616	1.000
+Tree vs. Bench	Flower bed vs. Shrub	-1.9412697815	0.0623514454048	1	0.074	1.000
+Tree vs. Bench	Footpath vs. Shrub	-1.52590194832	0.14066921012	1	0.144	1.000
+Tree vs. Flower bed	Tree vs. Footpath	0.879254210489	0.382148616371	1	0.380	1.000
+Tree vs. Flower bed	Tree vs. Shrub	-1.50001167254	0.136282254113	1	0.144	1.000
+Tree vs. Flower bed	Bench vs. Flower bed	-1.01221600567	0.316729612567	1	0.313	1.000
+Tree vs. Flower bed	Bench vs. Footpath	0.901477172504	0.372134407964	1	0.392	1.000
+Tree vs. Flower bed	Bench vs. Shrub	-0.439999105194	0.661912692609	1	0.663	1.000
+Tree vs. Flower bed	Flower bed vs. Footpath	0.746501778521	0.458931204525	1	0.462	1.000
+Tree vs. Flower bed	Flower bed vs. Shrub	-1.75072740236	0.0852805062879	1	0.096	1.000
+Tree vs. Flower bed	Footpath vs. Shrub	-0.879401794757	0.383153365904	1	0.371	1.000
+Tree vs. Footpath	Tree vs. Shrub	-1.74564328213	0.0838548984144	1	0.087	1.000
+Tree vs. Footpath	Bench vs. Flower bed	-1.61262575267	0.116961428127	1	0.106	1.000
+Tree vs. Footpath	Bench vs. Footpath	0.762282249213	0.451843617216	1	0.461	1.000
+Tree vs. Footpath	Bench vs. Shrub	-0.832288835853	0.411228737953	1	0.385	1.000
+Tree vs. Footpath	Flower bed vs. Footpath	0.342101533717	0.734380203196	1	0.737	1.000
+Tree vs. Footpath	Flower bed vs. Shrub	-1.96520429344	0.0558715099153	1	0.055	1.000
+Tree vs. Footpath	Footpath vs. Shrub	-1.26383161479	0.213988716602	1	0.196	1.000
+Tree vs. Shrub	Bench vs. Flower bed	-0.0696152545926	0.944682742588	1	0.963	1.000
+Tree vs. Shrub	Bench vs. Footpath	0.76017868848	0.449530898023	1	0.543	1.000
+Tree vs. Shrub	Bench vs. Shrub	0.276374086878	0.78299175303	1	0.785	1.000
+Tree vs. Shrub	Flower bed vs. Footpath	0.93918918714	0.350496367172	1	0.401	1.000
+Tree vs. Shrub	Flower bed vs. Shrub	-0.443848854767	0.658241329804	1	0.666	1.000
+Tree vs. Shrub	Footpath vs. Shrub	0.165192679568	0.869194009308	1	0.872	1.000
+Bench vs. Flower bed	Bench vs. Footpath	2.34657724298	0.100618157937	1	0.105	1.000
+Bench vs. Flower bed	Bench vs. Shrub	0.27813486338	0.790245017322	1	0.826	1.000
+Bench vs. Flower bed	Flower bed vs. Footpath	1.72426212155	0.128318077192	1	0.168	1.000
+Bench vs. Flower bed	Flower bed vs. Shrub	-0.127924593346	0.89980271667	1	0.938	1.000
+Bench vs. Flower bed	Footpath vs. Shrub	0.15996276461	0.875809964085	1	0.961	1.000
+Bench vs. Footpath	Bench vs. Shrub	-0.549420557142	0.606353674007	1	0.678	1.000
+Bench vs. Footpath	Flower bed vs. Footpath	-0.515133497984	0.624880960082	1	0.599	1.000
+Bench vs. Footpath	Flower bed vs. Shrub	-0.788590184126	0.442637292885	1	0.552	1.000
+Bench vs. Footpath	Footpath vs. Shrub	-0.657220089065	0.525876265456	1	0.622	1.000
+Bench vs. Shrub	Flower bed vs. Footpath	0.594531929889	0.566800108062	1	0.678	1.000
+Bench vs. Shrub	Flower bed vs. Shrub	-0.439610320839	0.66545186945	1	0.616	1.000
+Bench vs. Shrub	Footpath vs. Shrub	-0.13151496652	0.897381522099	1	0.804	1.000
+Flower bed vs. Footpath	Flower bed vs. Shrub	-1.04842647227	0.307596369091	1	0.336	1.000
+Flower bed vs. Footpath	Footpath vs. Shrub	-0.770451204461	0.453838296761	1	0.471	1.000
+Flower bed vs. Shrub	Footpath vs. Shrub	0.40954464318	0.685929185391	1	0.650	1.000

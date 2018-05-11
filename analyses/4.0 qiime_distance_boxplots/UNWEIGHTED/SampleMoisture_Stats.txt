@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleMoisture	All between SampleMoisture	-0.147519213252	0.88279580833	1	0.899	1.000
+All within SampleMoisture	Dry vs. Dry	0.309420738595	0.75720542381	1	0.743	1.000
+All within SampleMoisture	Moist vs. Moist	-0.414557537201	0.678790209334	1	0.688	1.000
+All within SampleMoisture	Dry vs. Moist	-0.147519213252	0.88279580833	1	0.891	1.000
+All between SampleMoisture	Dry vs. Dry	0.435910641014	0.663190071052	1	0.653	1.000
+All between SampleMoisture	Moist vs. Moist	-0.30178887829	0.763033879939	1	0.763	1.000
+All between SampleMoisture	Dry vs. Moist	0.0	1.0	1	1.000	1.000
+Dry vs. Dry	Moist vs. Moist	-0.625939699715	0.532082718434	1	0.547	1.000
+Dry vs. Dry	Dry vs. Moist	-0.435910641014	0.663190071052	1	0.655	1.000
+Moist vs. Moist	Dry vs. Moist	0.30178887829	0.763033879939	1	0.752	1.000

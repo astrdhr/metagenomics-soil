@@ -1,0 +1,74 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SoilTexture	All between SoilTexture	-0.489160142238	0.624993782616	1	0.644	1.000
+All within SoilTexture	Loam vs. Loam	1.45651624114	0.147209557836	1	0.128	1.000
+All within SoilTexture	Sandy loam vs. Sandy loam	-2.02410989979	0.0453602823955	1	0.055	1.000
+All within SoilTexture	Slit loam vs. Slit loam	-0.552500733799	0.581480115028	1	0.592	1.000
+All within SoilTexture	Clay vs. Clay	-0.982252090416	0.328037652668	1	0.350	1.000
+All within SoilTexture	Loam vs. Sandy loam	-0.783900137047	0.434343081528	1	0.420	1.000
+All within SoilTexture	Loam vs. Slit loam	0.837109273393	0.403510730823	1	0.396	1.000
+All within SoilTexture	Loam vs. Clay	0.593357463018	0.553779793461	1	0.578	1.000
+All within SoilTexture	Sandy loam vs. Slit loam	-2.20610823858	0.0289949604913	1	0.022	1.000
+All within SoilTexture	Sandy loam vs. Clay	-1.1320103368	0.25979699778	1	0.281	1.000
+All within SoilTexture	Slit loam vs. Clay	-0.743097926702	0.458584637945	1	0.462	1.000
+All between SoilTexture	Loam vs. Loam	1.9877608209	0.0476125482588	1	0.052	1.000
+All between SoilTexture	Sandy loam vs. Sandy loam	-1.94902975683	0.0522144612472	1	0.049	1.000
+All between SoilTexture	Slit loam vs. Slit loam	-0.323728485861	0.746346822362	1	0.749	1.000
+All between SoilTexture	Clay vs. Clay	-0.847520276777	0.397365429115	1	0.394	1.000
+All between SoilTexture	Loam vs. Sandy loam	-0.518611967607	0.604367727024	1	0.581	1.000
+All between SoilTexture	Loam vs. Slit loam	1.49031827011	0.136936624614	1	0.138	1.000
+All between SoilTexture	Loam vs. Clay	1.04442633909	0.297004897146	1	0.292	1.000
+All between SoilTexture	Sandy loam vs. Slit loam	-2.12462459656	0.03435420582	1	0.033	1.000
+All between SoilTexture	Sandy loam vs. Clay	-0.972508135815	0.331539296777	1	0.320	1.000
+All between SoilTexture	Slit loam vs. Clay	-0.508856474241	0.611180946539	1	0.632	1.000
+Loam vs. Loam	Sandy loam vs. Sandy loam	-3.12545114004	0.00275359469965	0.181737250177	0.003	0.198
+Loam vs. Loam	Slit loam vs. Slit loam	-1.61711845437	0.109391828144	1	0.127	1.000
+Loam vs. Loam	Clay vs. Clay	-1.98052699306	0.0520148067176	1	0.049	1.000
+Loam vs. Loam	Loam vs. Sandy loam	-2.14125727467	0.0347589820617	1	0.029	1.000
+Loam vs. Loam	Loam vs. Slit loam	-0.700667189555	0.48458190481	1	0.431	1.000
+Loam vs. Loam	Loam vs. Clay	-0.843020294759	0.401080273543	1	0.443	1.000
+Loam vs. Loam	Sandy loam vs. Slit loam	-3.46708190598	0.000812353607859	0.0536153381187	0.002	0.132
+Loam vs. Loam	Sandy loam vs. Clay	-2.25540751151	0.027105495474	1	0.035	1.000
+Loam vs. Loam	Slit loam vs. Clay	-1.91117120203	0.0589046736302	1	0.064	1.000
+Sandy loam vs. Sandy loam	Slit loam vs. Slit loam	1.40487002047	0.167778610978	1	0.160	1.000
+Sandy loam vs. Sandy loam	Clay vs. Clay	1.05635121706	0.308696306365	1	0.291	1.000
+Sandy loam vs. Sandy loam	Loam vs. Sandy loam	1.80017860764	0.0781183903412	1	0.076	1.000
+Sandy loam vs. Sandy loam	Loam vs. Slit loam	2.31220257191	0.0227562281197	1	0.024	1.000
+Sandy loam vs. Sandy loam	Loam vs. Clay	2.53549077364	0.013898765257	0.917318506965	0.017	1.000
+Sandy loam vs. Sandy loam	Sandy loam vs. Slit loam	0.95571308834	0.34495784726	1	0.361	1.000
+Sandy loam vs. Sandy loam	Sandy loam vs. Clay	1.19888326253	0.242277276164	1	0.239	1.000
+Sandy loam vs. Sandy loam	Slit loam vs. Clay	1.49616693226	0.14102383498	1	0.128	1.000
+Slit loam vs. Slit loam	Clay vs. Clay	-0.50665748022	0.614924846226	1	0.646	1.000
+Slit loam vs. Slit loam	Loam vs. Sandy loam	-0.101129160951	0.919707435758	1	0.934	1.000
+Slit loam vs. Slit loam	Loam vs. Slit loam	1.11397198133	0.26730029785	1	0.241	1.000
+Slit loam vs. Slit loam	Loam vs. Clay	0.952688141373	0.343328355602	1	0.371	1.000
+Slit loam vs. Slit loam	Sandy loam vs. Slit loam	-1.19148597318	0.237487029511	1	0.240	1.000
+Slit loam vs. Slit loam	Sandy loam vs. Clay	-0.511600405416	0.61101650077	1	0.591	1.000
+Slit loam vs. Slit loam	Slit loam vs. Clay	-0.0920160163533	0.926918250596	1	0.931	1.000
+Clay vs. Clay	Loam vs. Sandy loam	0.587876203536	0.55915990308	1	0.565	1.000
+Clay vs. Clay	Loam vs. Slit loam	1.33994833627	0.183100816547	1	0.174	1.000
+Clay vs. Clay	Loam vs. Clay	1.40052507813	0.16626226229	1	0.178	1.000
+Clay vs. Clay	Sandy loam vs. Slit loam	-0.287355314546	0.775189312193	1	0.746	1.000
+Clay vs. Clay	Sandy loam vs. Clay	0.118798604099	0.906283133646	1	0.913	1.000
+Clay vs. Clay	Slit loam vs. Clay	0.49493376646	0.622692523125	1	0.629	1.000
+Loam vs. Sandy loam	Loam vs. Slit loam	1.44523871764	0.150609678564	1	0.167	1.000
+Loam vs. Sandy loam	Loam vs. Clay	1.30315747974	0.195605901183	1	0.199	1.000
+Loam vs. Sandy loam	Sandy loam vs. Slit loam	-1.35637501096	0.178893111563	1	0.177	1.000
+Loam vs. Sandy loam	Sandy loam vs. Clay	-0.553550708242	0.581877202228	1	0.592	1.000
+Loam vs. Sandy loam	Slit loam vs. Clay	0.000646884777791	0.999485341657	1	0.999	1.000
+Loam vs. Slit loam	Loam vs. Clay	-0.141834499167	0.887398550089	1	0.889	1.000
+Loam vs. Slit loam	Sandy loam vs. Slit loam	-2.79501724244	0.00595805437817	0.39323158896	0.004	0.264
+Loam vs. Slit loam	Sandy loam vs. Clay	-1.60576210146	0.111021934649	1	0.120	1.000
+Loam vs. Slit loam	Slit loam vs. Clay	-1.36485268513	0.174458078218	1	0.166	1.000
+Loam vs. Clay	Sandy loam vs. Slit loam	-2.64579021079	0.00963571380005	0.635957110803	0.012	0.792
+Loam vs. Clay	Sandy loam vs. Clay	-1.57335285824	0.119961522539	1	0.140	1.000
+Loam vs. Clay	Slit loam vs. Clay	-1.17417764269	0.243169345537	1	0.253	1.000
+Sandy loam vs. Slit loam	Sandy loam vs. Clay	0.524190457521	0.602291188602	1	0.603	1.000
+Sandy loam vs. Slit loam	Slit loam vs. Clay	1.21676577085	0.227316018707	1	0.226	1.000
+Sandy loam vs. Clay	Slit loam vs. Clay	0.482877277965	0.630856668905	1	0.618	1.000

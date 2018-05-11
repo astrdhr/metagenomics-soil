@@ -1,0 +1,18 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleWeatherTemp	All between SampleWeatherTemp	1.93480572273	0.0537118884987	0.537118884987	0.055	0.550
+All within SampleWeatherTemp	15 vs. 15	1.62526386881	0.105317862982	1	0.098	0.980
+All within SampleWeatherTemp	14 vs. 14	-0.544615229775	0.586311402797	1	0.589	1.000
+All within SampleWeatherTemp	15 vs. 14	1.93480572273	0.0537118884987	0.537118884987	0.058	0.580
+All between SampleWeatherTemp	15 vs. 15	0.553372799033	0.580585823541	1	0.568	1.000
+All between SampleWeatherTemp	14 vs. 14	-2.36404555989	0.0185953209221	0.185953209221	0.019	0.190
+All between SampleWeatherTemp	15 vs. 14	0.0	1.0	1	1.000	1.000
+15 vs. 15	14 vs. 14	-1.87980892729	0.0614321706107	0.614321706107	0.064	0.640
+15 vs. 15	15 vs. 14	-0.553372799033	0.580585823541	1	0.586	1.000
+14 vs. 14	15 vs. 14	2.36404555989	0.0185953209221	0.185953209221	0.015	0.150

@@ -1,0 +1,828 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleNearbyObjects	All between SampleNearbyObjects	-0.888522417471	0.374788508378	1	0.416	1.000
+All within SampleNearbyObjects	Plants vs. Plants	0.772409771065	0.441365538784	1	0.415	1.000
+All within SampleNearbyObjects	Twigs vs. Twigs	-0.487202704329	0.627084178781	1	0.614	1.000
+All within SampleNearbyObjects	N/A vs. N/A	-0.17818896118	0.858756755802	1	0.870	1.000
+All within SampleNearbyObjects	Plants vs. Radishes	0.108217802671	0.91401484507	1	0.904	1.000
+All within SampleNearbyObjects	Plants vs. Geranium Rozanne	1.77833848655	0.0780376531466	1	0.074	1.000
+All within SampleNearbyObjects	Plants vs. Bird feed	0.700357536158	0.485143543023	1	0.489	1.000
+All within SampleNearbyObjects	Plants vs. Twigs	-1.05731086188	0.292408791931	1	0.302	1.000
+All within SampleNearbyObjects	Plants vs. N/A	0.058420889348	0.95347445134	1	0.948	1.000
+All within SampleNearbyObjects	Plants vs. Bark chips	-2.21545577524	0.0287336593891	1	0.037	1.000
+All within SampleNearbyObjects	Plants vs. Ivy	-1.25579868065	0.211779353194	1	0.237	1.000
+All within SampleNearbyObjects	Plants vs. Fertiliser	-0.425535260173	0.671255865685	1	0.679	1.000
+All within SampleNearbyObjects	Radishes vs. Geranium Rozanne	0.229944247961	[ 0.81857005]	1	0.870	1.000
+All within SampleNearbyObjects	Radishes vs. Bird feed	-1.01846518018	[ 0.31073304]	1	0.366	1.000
+All within SampleNearbyObjects	Radishes vs. Twigs	1.16500675578	0.24653647026	1	0.254	1.000
+All within SampleNearbyObjects	Radishes vs. N/A	1.32596682099	0.187348354402	1	0.184	1.000
+All within SampleNearbyObjects	Radishes vs. Bark chips	-0.405906445095	[ 0.68561443]	1	0.726	1.000
+All within SampleNearbyObjects	Radishes vs. Ivy	0.0364878819594	[ 0.9709607]	1	0.991	1.000
+All within SampleNearbyObjects	Radishes vs. Fertiliser	0.193352874899	[ 0.84704579]	1	0.886	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. Bird feed	-0.0377807587498	[ 0.96993223]	1	0.974	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. Twigs	-0.737560656654	0.462351910993	1	0.458	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. N/A	0.158977939782	0.873951300659	1	0.873	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. Bark chips	1.26114308532	[ 0.20997472]	1	0.204	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. Ivy	0.779934014616	[ 0.43713563]	1	0.471	1.000
+All within SampleNearbyObjects	Geranium Rozanne vs. Fertiliser	-0.242495552693	[ 0.80885612]	1	0.872	1.000
+All within SampleNearbyObjects	Bird feed vs. Twigs	0.417895724651	0.676837990974	1	0.679	1.000
+All within SampleNearbyObjects	Bird feed vs. N/A	1.24166871348	0.216760318726	1	0.222	1.000
+All within SampleNearbyObjects	Bird feed vs. Bark chips	-0.114538363084	[ 0.90902371]	1	0.962	1.000
+All within SampleNearbyObjects	Bird feed vs. Ivy	0.234090231682	[ 0.81535811]	1	0.839	1.000
+All within SampleNearbyObjects	Bird feed vs. Fertiliser	0.625795422199	[ 0.5327694]	1	0.556	1.000
+All within SampleNearbyObjects	Twigs vs. N/A	-0.620399312677	0.535942672783	1	0.534	1.000
+All within SampleNearbyObjects	Twigs vs. Bark chips	-0.732130603409	0.465645893491	1	0.464	1.000
+All within SampleNearbyObjects	Twigs vs. Ivy	-0.608982241948	0.543791862421	1	0.571	1.000
+All within SampleNearbyObjects	Twigs vs. Fertiliser	-1.09203088703	0.277205540936	1	0.302	1.000
+All within SampleNearbyObjects	N/A vs. Bark chips	-1.44097690585	0.152174017481	1	0.141	1.000
+All within SampleNearbyObjects	N/A vs. Ivy	-1.61640629923	0.108610798143	1	0.109	1.000
+All within SampleNearbyObjects	N/A vs. Fertiliser	-1.64514968109	0.10253435165	1	0.117	1.000
+All within SampleNearbyObjects	Bark chips vs. Ivy	1.44906869659	[ 0.15021582]	1	0.147	1.000
+All within SampleNearbyObjects	Bark chips vs. Fertiliser	1.31112552678	[ 0.19259621]	1	0.186	1.000
+All within SampleNearbyObjects	Ivy vs. Fertiliser	1.1086160069	[ 0.27005854]	1	0.331	1.000
+All between SampleNearbyObjects	Plants vs. Plants	1.24267201375	0.214927860166	1	0.236	1.000
+All between SampleNearbyObjects	Twigs vs. Twigs	-0.352635306575	0.724611144948	1	0.739	1.000
+All between SampleNearbyObjects	N/A vs. N/A	0.605284572188	0.545345620057	1	0.545	1.000
+All between SampleNearbyObjects	Plants vs. Radishes	0.364581293816	0.715679981993	1	0.712	1.000
+All between SampleNearbyObjects	Plants vs. Geranium Rozanne	2.18524279328	0.0296417568769	1	0.034	1.000
+All between SampleNearbyObjects	Plants vs. Bird feed	1.0064318561	0.315016244066	1	0.329	1.000
+All between SampleNearbyObjects	Plants vs. Twigs	-0.777530473522	0.437433141687	1	0.437	1.000
+All between SampleNearbyObjects	Plants vs. N/A	0.870949218387	0.384333212815	1	0.384	1.000
+All between SampleNearbyObjects	Plants vs. Bark chips	-2.17924451172	0.0300886453718	1	0.024	1.000
+All between SampleNearbyObjects	Plants vs. Ivy	-1.11102695664	0.267443434118	1	0.281	1.000
+All between SampleNearbyObjects	Plants vs. Fertiliser	-0.213070682014	0.83141606802	1	0.840	1.000
+All between SampleNearbyObjects	Radishes vs. Geranium Rozanne	0.146738700762	[ 0.88343816]	1	0.870	1.000
+All between SampleNearbyObjects	Radishes vs. Bird feed	-1.20051652013	[ 0.23089867]	1	0.253	1.000
+All between SampleNearbyObjects	Radishes vs. Twigs	1.43445079548	0.152492213426	1	0.141	1.000
+All between SampleNearbyObjects	Radishes vs. N/A	1.82412118164	0.0690994519942	1	0.078	1.000
+All between SampleNearbyObjects	Radishes vs. Bark chips	-0.539456986821	[ 0.58997712]	1	0.614	1.000
+All between SampleNearbyObjects	Radishes vs. Ivy	-0.0620350342291	[ 0.9505768]	1	0.924	1.000
+All between SampleNearbyObjects	Radishes vs. Fertiliser	0.107250118501	[ 0.91466321]	1	0.902	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. Bird feed	-0.142184071627	[ 0.88703134]	1	0.868	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. Twigs	-0.628543494431	0.530129411717	1	0.517	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. N/A	0.546467527919	0.585138966249	1	0.594	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. Bark chips	1.25958516451	[ 0.20881132]	1	0.206	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. Ivy	0.740275218399	[ 0.45971978]	1	0.491	1.000
+All between SampleNearbyObjects	Geranium Rozanne vs. Fertiliser	-0.363107647432	[ 0.71678364]	1	0.723	1.000
+All between SampleNearbyObjects	Bird feed vs. Twigs	0.627700109724	0.530681105609	1	0.531	1.000
+All between SampleNearbyObjects	Bird feed vs. N/A	1.73662344044	0.0834502688999	1	0.083	1.000
+All between SampleNearbyObjects	Bird feed vs. Bark chips	-0.225019142279	[ 0.82211965]	1	0.836	1.000
+All between SampleNearbyObjects	Bird feed vs. Ivy	0.151212952628	[ 0.87991073]	1	0.854	1.000
+All between SampleNearbyObjects	Bird feed vs. Fertiliser	0.573932335451	[ 0.56644944]	1	0.578	1.000
+All between SampleNearbyObjects	Twigs vs. N/A	-0.102891694381	0.918110128355	1	0.906	1.000
+All between SampleNearbyObjects	Twigs vs. Bark chips	-0.614723037784	0.539206722458	1	0.558	1.000
+All between SampleNearbyObjects	Twigs vs. Ivy	-0.482445401338	0.629843755289	1	0.641	1.000
+All between SampleNearbyObjects	Twigs vs. Fertiliser	-1.00875989719	0.3139081703	1	0.303	1.000
+All between SampleNearbyObjects	N/A vs. Bark chips	-1.20573882432	0.228840668201	1	0.230	1.000
+All between SampleNearbyObjects	N/A vs. Ivy	-1.40538685537	0.160910875544	1	0.154	1.000
+All between SampleNearbyObjects	N/A vs. Fertiliser	-1.43862024929	0.151270236867	1	0.178	1.000
+All between SampleNearbyObjects	Bark chips vs. Ivy	1.46239023408	[ 0.14469521]	1	0.142	1.000
+All between SampleNearbyObjects	Bark chips vs. Fertiliser	1.31352508493	[ 0.19002329]	1	0.175	1.000
+All between SampleNearbyObjects	Ivy vs. Fertiliser	1.09498139102	[ 0.27441496]	1	0.285	1.000
+Plants vs. Plants	Twigs vs. Twigs	-0.83481855509	0.416111409227	1	0.443	1.000
+Plants vs. Plants	N/A vs. N/A	-0.84427709743	0.400452494655	1	0.366	1.000
+Plants vs. Plants	Plants vs. Radishes	-0.375684190887	0.711313290498	1	0.732	1.000
+Plants vs. Plants	Plants vs. Geranium Rozanne	1.17370129931	0.255017999093	1	0.259	1.000
+Plants vs. Plants	Plants vs. Bird feed	0.185832715453	0.854545535422	1	0.854	1.000
+Plants vs. Plants	Plants vs. Twigs	-1.36560567613	0.1818902967	1	0.160	1.000
+Plants vs. Plants	Plants vs. N/A	-0.69673512758	0.487634928507	1	0.484	1.000
+Plants vs. Plants	Plants vs. Bark chips	-2.41407439452	0.0260310080346	1	0.022	1.000
+Plants vs. Plants	Plants vs. Ivy	-1.77241273545	0.0923610401908	1	0.099	1.000
+Plants vs. Plants	Plants vs. Fertiliser	-0.931824079501	0.363117808102	1	0.389	1.000
+Plants vs. Plants	Radishes vs. Geranium Rozanne	0.451104139998	[ 0.65882283]	1	0.801	1.000
+Plants vs. Plants	Radishes vs. Bird feed	-0.827362221339	[ 0.42191092]	1	0.428	1.000
+Plants vs. Plants	Radishes vs. Twigs	0.810832786194	0.42935842241	1	0.449	1.000
+Plants vs. Plants	Radishes vs. N/A	0.50743148829	0.615972102427	1	0.634	1.000
+Plants vs. Plants	Radishes vs. Bark chips	-0.20005541037	[ 0.84431408]	1	0.937	1.000
+Plants vs. Plants	Radishes vs. Ivy	0.252990083228	[ 0.80395285]	1	0.929	1.000
+Plants vs. Plants	Radishes vs. Fertiliser	0.413631786362	[ 0.68541023]	1	0.798	1.000
+Plants vs. Plants	Geranium Rozanne vs. Bird feed	0.176933337173	[ 0.86209492]	1	0.918	1.000
+Plants vs. Plants	Geranium Rozanne vs. Twigs	-1.0192543116	0.323247668337	1	0.337	1.000
+Plants vs. Plants	Geranium Rozanne vs. N/A	-0.436813780825	0.665719990983	1	0.665	1.000
+Plants vs. Plants	Geranium Rozanne vs. Bark chips	1.50713030873	[ 0.15400681]	1	0.199	1.000
+Plants vs. Plants	Geranium Rozanne vs. Ivy	1.01433556063	[ 0.32763289]	1	0.320	1.000
+Plants vs. Plants	Geranium Rozanne vs. Fertiliser	-0.0327102075037	[ 0.97436746]	1	0.991	1.000
+Plants vs. Plants	Bird feed vs. Twigs	0.0546862695634	0.957065444305	1	0.945	1.000
+Plants vs. Plants	Bird feed vs. N/A	0.418929489277	0.678581722576	1	0.664	1.000
+Plants vs. Plants	Bird feed vs. Bark chips	0.0983277027506	[ 0.92306603]	1	0.929	1.000
+Plants vs. Plants	Bird feed vs. Ivy	0.45534994318	[ 0.65583947]	1	0.809	1.000
+Plants vs. Plants	Bird feed vs. Fertiliser	0.85648589934	[ 0.40615086]	1	0.484	1.000
+Plants vs. Plants	Twigs vs. N/A	-1.15685265845	0.252332477118	1	0.232	1.000
+Plants vs. Plants	Twigs vs. Bark chips	-1.12545253878	0.276996947695	1	0.298	1.000
+Plants vs. Plants	Twigs vs. Ivy	-0.987894007489	0.337909574504	1	0.346	1.000
+Plants vs. Plants	Twigs vs. Fertiliser	-1.41713576627	0.175621365701	1	0.182	1.000
+Plants vs. Plants	N/A vs. Bark chips	-1.94236385843	0.0625911912245	1	0.064	1.000
+Plants vs. Plants	N/A vs. Ivy	-2.0311953301	0.0521865553263	1	0.047	1.000
+Plants vs. Plants	N/A vs. Fertiliser	-2.04217044196	0.0510133072071	1	0.043	1.000
+Plants vs. Plants	Bark chips vs. Ivy	1.69958045131	[ 0.11131007]	1	0.183	1.000
+Plants vs. Plants	Bark chips vs. Fertiliser	1.55831613657	[ 0.14147158]	1	0.170	1.000
+Plants vs. Plants	Ivy vs. Fertiliser	1.35093096054	[ 0.19814815]	1	0.167	1.000
+Twigs vs. Twigs	N/A vs. N/A	0.435712882002	0.664065669201	1	0.663	1.000
+Twigs vs. Twigs	Plants vs. Radishes	0.559979452966	0.592952853998	1	0.567	1.000
+Twigs vs. Twigs	Plants vs. Geranium Rozanne	1.63446121358	0.146178232125	1	0.163	1.000
+Twigs vs. Twigs	Plants vs. Bird feed	1.21726052607	0.262944807257	1	0.299	1.000
+Twigs vs. Twigs	Plants vs. Twigs	0.0204374285216	0.983907529649	1	0.989	1.000
+Twigs vs. Twigs	Plants vs. N/A	0.475715214263	0.635497627221	1	0.650	1.000
+Twigs vs. Twigs	Plants vs. Bark chips	-0.907585843493	0.394267291274	1	0.421	1.000
+Twigs vs. Twigs	Plants vs. Ivy	-0.537014619962	0.60789582385	1	0.584	1.000
+Twigs vs. Twigs	Plants vs. Fertiliser	0.238680038175	0.818190593618	1	0.823	1.000
+Twigs vs. Twigs	Radishes vs. Geranium Rozanne	-0.0536609736823	[ 0.96208325]	1	1.000	1.000
+Twigs vs. Twigs	Radishes vs. Bird feed	-1.31221204051	[ 0.31982347]	1	0.519	1.000
+Twigs vs. Twigs	Radishes vs. Twigs	1.64011301675	0.176325229382	1	0.174	1.000
+Twigs vs. Twigs	Radishes vs. N/A	1.55336122598	0.141178294276	1	0.122	1.000
+Twigs vs. Twigs	Radishes vs. Bark chips	-0.694677093912	[ 0.55910855]	1	0.707	1.000
+Twigs vs. Twigs	Radishes vs. Ivy	-0.248688911093	[ 0.82680782]	1	0.779	1.000
+Twigs vs. Twigs	Radishes vs. Fertiliser	-0.0905496021767	[ 0.93610261]	1	1.000	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. Bird feed	-0.323560884093	[ 0.77697078]	1	0.768	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. Twigs	-0.165530850599	0.876555492761	1	1.000	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. N/A	0.48644006645	0.633685636537	1	0.626	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. Bark chips	0.98591495999	[ 0.42810936]	1	0.479	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. Ivy	0.500796716209	[ 0.66619466]	1	0.768	1.000
+Twigs vs. Twigs	Geranium Rozanne vs. Fertiliser	-0.52993870895	[ 0.64910377]	1	0.757	1.000
+Twigs vs. Twigs	Bird feed vs. Twigs	0.772403616817	0.482978239059	1	0.503	1.000
+Twigs vs. Twigs	Bird feed vs. N/A	1.33621362391	0.201397704519	1	0.201	1.000
+Twigs vs. Twigs	Bird feed vs. Bark chips	-0.400942040182	[ 0.72724113]	1	0.759	1.000
+Twigs vs. Twigs	Bird feed vs. Ivy	-0.0494813094489	[ 0.96503283]	1	1.000	1.000
+Twigs vs. Twigs	Bird feed vs. Fertiliser	0.345405956132	[ 0.76273534]	1	0.761	1.000
+Twigs vs. Twigs	Twigs vs. N/A	0.319462673203	0.750922624746	1	0.744	1.000
+Twigs vs. Twigs	Twigs vs. Bark chips	-0.267817505159	0.802082914027	1	0.799	1.000
+Twigs vs. Twigs	Twigs vs. Ivy	-0.121400329975	0.909228238175	1	1.000	1.000
+Twigs vs. Twigs	Twigs vs. Fertiliser	-0.481106142199	0.655574664233	1	0.715	1.000
+Twigs vs. Twigs	N/A vs. Bark chips	-0.242888511042	0.811381785534	1	0.813	1.000
+Twigs vs. Twigs	N/A vs. Ivy	-0.324795383778	0.749821591496	1	0.728	1.000
+Twigs vs. Twigs	N/A vs. Fertiliser	-0.336251901075	0.741338672031	1	0.721	1.000
+Twigs vs. Twigs	Bark chips vs. Ivy	1.17536721277	[ 0.3608252]	1	0.520	1.000
+Twigs vs. Twigs	Bark chips vs. Fertiliser	1.03630344121	[ 0.40892809]	1	0.517	1.000
+Twigs vs. Twigs	Ivy vs. Fertiliser	0.832148805285	[ 0.49286285]	1	0.481	1.000
+N/A vs. N/A	Plants vs. Radishes	0.166244466802	0.868317873443	1	0.873	1.000
+N/A vs. N/A	Plants vs. Geranium Rozanne	1.80377793344	0.074435619731	1	0.080	1.000
+N/A vs. N/A	Plants vs. Bird feed	0.748604219688	0.455945220432	1	0.449	1.000
+N/A vs. N/A	Plants vs. Twigs	-0.931178001094	0.35385773535	1	0.361	1.000
+N/A vs. N/A	Plants vs. N/A	0.218418689219	0.827360345692	1	0.819	1.000
+N/A vs. N/A	Plants vs. Bark chips	-2.11083723595	0.0374125324588	1	0.040	1.000
+N/A vs. N/A	Plants vs. Ivy	-1.17326579632	0.243622521949	1	0.256	1.000
+N/A vs. N/A	Plants vs. Fertiliser	-0.357393422758	0.721590041993	1	0.743	1.000
+N/A vs. N/A	Radishes vs. Geranium Rozanne	0.20116547605	[ 0.84102313]	1	0.887	1.000
+N/A vs. N/A	Radishes vs. Bird feed	-1.02645038293	[ 0.30743024]	1	0.346	1.000
+N/A vs. N/A	Radishes vs. Twigs	1.18828191036	0.237780828358	1	0.246	1.000
+N/A vs. N/A	Radishes vs. N/A	1.39084445211	0.167270080277	1	0.179	1.000
+N/A vs. N/A	Radishes vs. Bark chips	-0.42409445642	[ 0.67250889]	1	0.681	1.000
+N/A vs. N/A	Radishes vs. Ivy	0.0109313288471	[ 0.99130243]	1	1.000	1.000
+N/A vs. N/A	Radishes vs. Fertiliser	0.165183570708	[ 0.86916996]	1	0.919	1.000
+N/A vs. N/A	Geranium Rozanne vs. Bird feed	-0.0621002897099	[ 0.95062067]	1	0.981	1.000
+N/A vs. N/A	Geranium Rozanne vs. Twigs	-0.681072262767	0.497536475715	1	0.510	1.000
+N/A vs. N/A	Geranium Rozanne vs. N/A	0.241323412951	0.809784224489	1	0.809	1.000
+N/A vs. N/A	Geranium Rozanne vs. Bark chips	1.21518861458	[ 0.22747245]	1	0.252	1.000
+N/A vs. N/A	Geranium Rozanne vs. Ivy	0.741994585956	[ 0.46002264]	1	0.501	1.000
+N/A vs. N/A	Geranium Rozanne vs. Fertiliser	-0.263405343922	[ 0.7928403]	1	0.851	1.000
+N/A vs. N/A	Bird feed vs. Twigs	0.453482461778	0.651269215369	1	0.641	1.000
+N/A vs. N/A	Bird feed vs. N/A	1.30601199958	0.194457692588	1	0.213	1.000
+N/A vs. N/A	Bird feed vs. Bark chips	-0.137579415591	[ 0.89088015]	1	0.930	1.000
+N/A vs. N/A	Bird feed vs. Ivy	0.205242404062	[ 0.83784624]	1	0.876	1.000
+N/A vs. N/A	Bird feed vs. Fertiliser	0.590423333556	[ 0.55638654]	1	0.565	1.000
+N/A vs. N/A	Twigs vs. N/A	-0.460371315491	0.646012988674	1	0.663	1.000
+N/A vs. N/A	Twigs vs. Bark chips	-0.67671532222	0.500284519492	1	0.489	1.000
+N/A vs. N/A	Twigs vs. Ivy	-0.555556056196	0.579862856513	1	0.622	1.000
+N/A vs. N/A	Twigs vs. Fertiliser	-1.02970443837	0.30584830139	1	0.319	1.000
+N/A vs. N/A	N/A vs. Bark chips	-1.3206105772	0.189558078318	1	0.188	1.000
+N/A vs. N/A	N/A vs. Ivy	-1.49154090881	0.138875974738	1	0.126	1.000
+N/A vs. N/A	N/A vs. Fertiliser	-1.5194722322	0.131707433638	1	0.123	1.000
+N/A vs. N/A	Bark chips vs. Ivy	1.39998412758	[ 0.16495586]	1	0.163	1.000
+N/A vs. N/A	Bark chips vs. Fertiliser	1.26433854603	[ 0.20937307]	1	0.211	1.000
+N/A vs. N/A	Ivy vs. Fertiliser	1.06520203473	[ 0.28963391]	1	0.340	1.000
+Plants vs. Radishes	Plants vs. Geranium Rozanne	1.40472425053	0.190395761587	1	0.191	1.000
+Plants vs. Radishes	Plants vs. Bird feed	0.599456198325	0.562203629791	1	0.546	1.000
+Plants vs. Radishes	Plants vs. Twigs	-0.664549660382	0.51324462134	1	0.528	1.000
+Plants vs. Radishes	Plants vs. N/A	-0.0826758459853	0.934297059103	1	0.936	1.000
+Plants vs. Radishes	Plants vs. Bark chips	-1.78445044889	0.104667331211	1	0.109	1.000
+Plants vs. Radishes	Plants vs. Ivy	-1.45163006245	0.17724391311	1	0.170	1.000
+Plants vs. Radishes	Plants vs. Fertiliser	-0.55265450819	0.592637725219	1	0.548	1.000
+Plants vs. Radishes	Radishes vs. Geranium Rozanne	0.31184065971	[ 0.76774597]	1	0.618	1.000
+Plants vs. Radishes	Radishes vs. Bird feed	-1.10490766196	[ 0.31951109]	1	0.278	1.000
+Plants vs. Radishes	Radishes vs. Twigs	1.19310663273	0.271693305988	1	0.220	1.000
+Plants vs. Radishes	Radishes vs. N/A	0.960531655448	0.349513927736	1	0.340	1.000
+Plants vs. Radishes	Radishes vs. Bark chips	-0.409749855321	[ 0.69895371]	1	0.702	1.000
+Plants vs. Radishes	Radishes vs. Ivy	0.0922981156765	[ 0.93004518]	1	0.650	1.000
+Plants vs. Radishes	Radishes vs. Fertiliser	0.270315207239	[ 0.79772058]	1	0.629	1.000
+Plants vs. Radishes	Geranium Rozanne vs. Bird feed	0.00801489119436	[ 0.99391507]	1	0.939	1.000
+Plants vs. Radishes	Geranium Rozanne vs. Twigs	-0.688269465497	0.513438417062	1	0.477	1.000
+Plants vs. Radishes	Geranium Rozanne vs. N/A	0.0011268596872	0.999113291175	1	0.999	1.000
+Plants vs. Radishes	Geranium Rozanne vs. Bark chips	1.48208912885	[ 0.19841399]	1	0.061	1.000
+Plants vs. Radishes	Geranium Rozanne vs. Ivy	0.935992529507	[ 0.39224562]	1	0.481	1.000
+Plants vs. Radishes	Geranium Rozanne vs. Fertiliser	-0.224304197562	[ 0.83139839]	1	0.705	1.000
+Plants vs. Radishes	Bird feed vs. Twigs	0.343939859388	0.740991679706	1	0.735	1.000
+Plants vs. Radishes	Bird feed vs. N/A	0.817902929352	0.424107922157	1	0.396	1.000
+Plants vs. Radishes	Bird feed vs. Bark chips	-0.0790929154797	[ 0.94002662]	1	0.687	1.000
+Plants vs. Radishes	Bird feed vs. Ivy	0.316545699056	[ 0.76437733]	1	0.630	1.000
+Plants vs. Radishes	Bird feed vs. Fertiliser	0.761069473665	[ 0.48094794]	1	0.490	1.000
+Plants vs. Radishes	Twigs vs. N/A	-0.392647707589	0.696393331062	1	0.713	1.000
+Plants vs. Radishes	Twigs vs. Bark chips	-0.937451532246	0.379734861427	1	0.314	1.000
+Plants vs. Radishes	Twigs vs. Ivy	-0.762532247844	0.470651791662	1	0.489	1.000
+Plants vs. Radishes	Twigs vs. Fertiliser	-1.13058821626	0.295472661448	1	0.310	1.000
+Plants vs. Radishes	N/A vs. Bark chips	-1.21910404377	0.238540414478	1	0.236	1.000
+Plants vs. Radishes	N/A vs. Ivy	-1.27163325331	0.219689171261	1	0.217	1.000
+Plants vs. Radishes	N/A vs. Fertiliser	-1.27629973062	0.218072133513	1	0.237	1.000
+Plants vs. Radishes	Bark chips vs. Ivy	1.69535513627	[ 0.15077695]	1	0.065	1.000
+Plants vs. Radishes	Bark chips vs. Fertiliser	1.53881133749	[ 0.18446817]	1	0.078	1.000
+Plants vs. Radishes	Ivy vs. Fertiliser	1.3089948879	[ 0.24746459]	1	0.508	1.000
+Plants vs. Geranium Rozanne	Plants vs. Bird feed	-1.04368715989	0.321203774607	1	0.318	1.000
+Plants vs. Geranium Rozanne	Plants vs. Twigs	-2.09858660588	0.0475542668687	1	0.042	1.000
+Plants vs. Geranium Rozanne	Plants vs. N/A	-1.66232682768	0.100005467066	1	0.098	1.000
+Plants vs. Geranium Rozanne	Plants vs. Bark chips	-2.94934478624	0.0145509637845	1	0.027	1.000
+Plants vs. Geranium Rozanne	Plants vs. Ivy	-3.03076731205	0.0126605442312	1	0.022	1.000
+Plants vs. Geranium Rozanne	Plants vs. Fertiliser	-2.15183030305	0.0568885285161	1	0.061	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Geranium Rozanne	1.00295243133	[ 0.3619222]	1	0.569	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Bird feed	-0.289068866789	[ 0.78413066]	1	0.831	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Twigs	-0.113526252933	0.912800725856	1	0.926	1.000
+Plants vs. Geranium Rozanne	Radishes vs. N/A	-1.09777317649	0.286772042884	1	0.311	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Bark chips	0.344888963263	[ 0.74421195]	1	0.865	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Ivy	0.80273787071	[ 0.45856748]	1	0.566	1.000
+Plants vs. Geranium Rozanne	Radishes vs. Fertiliser	0.965082777147	[ 0.37882751]	1	0.585	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. Bird feed	0.725874733172	[ 0.50045636]	1	0.554	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. Twigs	-1.61077730699	0.151263504254	1	0.143	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. N/A	-1.36830348964	0.188055501603	1	0.197	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. Bark chips	2.0701751152	[ 0.09321888]	1	0.121	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. Ivy	1.57215551186	[ 0.17672015]	1	0.146	1.000
+Plants vs. Geranium Rozanne	Geranium Rozanne vs. Fertiliser	0.514008443274	[ 0.6291486]	1	0.719	1.000
+Plants vs. Geranium Rozanne	Bird feed vs. Twigs	-0.806381051049	0.446549439733	1	0.403	1.000
+Plants vs. Geranium Rozanne	Bird feed vs. N/A	-1.06020311531	0.303071909441	1	0.290	1.000
+Plants vs. Geranium Rozanne	Bird feed vs. Bark chips	0.646435682683	[ 0.54649412]	1	0.552	1.000
+Plants vs. Geranium Rozanne	Bird feed vs. Ivy	1.00724325063	[ 0.36004659]	1	0.588	1.000
+Plants vs. Geranium Rozanne	Bird feed vs. Fertiliser	1.41263224988	[ 0.21687517]	1	0.321	1.000
+Plants vs. Geranium Rozanne	Twigs vs. N/A	-2.13825064298	0.037840734383	1	0.039	1.000
+Plants vs. Geranium Rozanne	Twigs vs. Bark chips	-2.1320036405	0.070461415977	1	0.073	1.000
+Plants vs. Geranium Rozanne	Twigs vs. Ivy	-1.93133731262	0.0947356379263	1	0.094	1.000
+Plants vs. Geranium Rozanne	Twigs vs. Fertiliser	-2.14627655233	0.0689919104384	1	0.067	1.000
+Plants vs. Geranium Rozanne	N/A vs. Bark chips	-3.03593210904	0.00710713264461	1	0.007	1.000
+Plants vs. Geranium Rozanne	N/A vs. Ivy	-2.97794796537	0.00806266534734	1	0.010	1.000
+Plants vs. Geranium Rozanne	N/A vs. Fertiliser	-2.96116582018	0.00836173817459	1	0.004	1.000
+Plants vs. Geranium Rozanne	Bark chips vs. Ivy	2.26466570999	[ 0.07292425]	1	0.141	1.000
+Plants vs. Geranium Rozanne	Bark chips vs. Fertiliser	2.12190364066	[ 0.08729477]	1	0.141	1.000
+Plants vs. Geranium Rozanne	Ivy vs. Fertiliser	1.91231966376	[ 0.11404643]	1	0.125	1.000
+Plants vs. Bird feed	Plants vs. Twigs	-1.22617157619	0.233097340513	1	0.236	1.000
+Plants vs. Bird feed	Plants vs. N/A	-0.64371879125	0.521431934281	1	0.525	1.000
+Plants vs. Bird feed	Plants vs. Bark chips	-2.48367176496	0.0323388288731	1	0.047	1.000
+Plants vs. Bird feed	Plants vs. Ivy	-2.65590705643	0.0240677838013	1	0.027	1.000
+Plants vs. Bird feed	Plants vs. Fertiliser	-1.45929006619	0.175171917506	1	0.176	1.000
+Plants vs. Bird feed	Radishes vs. Geranium Rozanne	0.84603272223	[ 0.43614143]	1	0.566	1.000
+Plants vs. Bird feed	Radishes vs. Bird feed	-1.19340556959	[ 0.28624282]	1	0.245	1.000
+Plants vs. Bird feed	Radishes vs. Twigs	0.980255481583	0.359616465877	1	0.388	1.000
+Plants vs. Bird feed	Radishes vs. N/A	0.252360515445	0.803621602896	1	0.801	1.000
+Plants vs. Bird feed	Radishes vs. Bark chips	-0.192711636843	[ 0.85476787]	1	0.959	1.000
+Plants vs. Bird feed	Radishes vs. Ivy	0.529996723362	[ 0.61879655]	1	0.721	1.000
+Plants vs. Bird feed	Radishes vs. Fertiliser	0.78625598097	[ 0.46732683]	1	0.561	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. Bird feed	0.408669291568	[ 0.69969689]	1	0.680	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. Twigs	-1.2041001827	0.267681568592	1	0.276	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. N/A	-0.510882379232	0.615642341916	1	0.633	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. Bark chips	2.53062941622	[ 0.05248968]	1	0.122	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. Ivy	1.74451215129	[ 0.14151964]	1	0.130	1.000
+Plants vs. Bird feed	Geranium Rozanne vs. Fertiliser	0.0742411942975	[ 0.94369714]	1	0.994	1.000
+Plants vs. Bird feed	Bird feed vs. Twigs	-0.0992152966878	0.923748854247	1	0.936	1.000
+Plants vs. Bird feed	Bird feed vs. N/A	0.162712584971	0.872557504783	1	0.873	1.000
+Plants vs. Bird feed	Bird feed vs. Bark chips	0.283275815727	[ 0.7883196]	1	0.992	1.000
+Plants vs. Bird feed	Bird feed vs. Ivy	0.852805722952	[ 0.43270963]	1	0.407	1.000
+Plants vs. Bird feed	Bird feed vs. Fertiliser	1.49270682161	[ 0.19572818]	1	0.283	1.000
+Plants vs. Bird feed	Twigs vs. N/A	-1.03465825018	0.306237480482	1	0.275	1.000
+Plants vs. Bird feed	Twigs vs. Bark chips	-2.00265069588	0.0852852678922	1	0.107	1.000
+Plants vs. Bird feed	Twigs vs. Ivy	-1.66269590738	0.14032489122	1	0.159	1.000
+Plants vs. Bird feed	Twigs vs. Fertiliser	-1.88843495266	0.10090723553	1	0.116	1.000
+Plants vs. Bird feed	N/A vs. Bark chips	-2.08026043365	0.0520618270663	1	0.052	1.000
+Plants vs. Bird feed	N/A vs. Ivy	-2.0628236668	0.0538615122817	1	0.047	1.000
+Plants vs. Bird feed	N/A vs. Fertiliser	-2.05374163356	0.0548210251606	1	0.061	1.000
+Plants vs. Bird feed	Bark chips vs. Ivy	2.83763021179	[ 0.03634744]	1	0.146	1.000
+Plants vs. Bird feed	Bark chips vs. Fertiliser	2.61228219993	[ 0.04753857]	1	0.143	1.000
+Plants vs. Bird feed	Ivy vs. Fertiliser	2.28145670312	[ 0.07140788]	1	0.146	1.000
+Plants vs. Twigs	Plants vs. N/A	1.02252428491	0.309000119024	1	0.297	1.000
+Plants vs. Twigs	Plants vs. Bark chips	-1.32231924761	0.19964536901	1	0.190	1.000
+Plants vs. Twigs	Plants vs. Ivy	-0.54517978992	0.59111471584	1	0.575	1.000
+Plants vs. Twigs	Plants vs. Fertiliser	0.210192390745	0.835452010346	1	0.830	1.000
+Plants vs. Twigs	Radishes vs. Geranium Rozanne	-0.0369645268545	[ 0.97094389]	1	0.999	1.000
+Plants vs. Twigs	Radishes vs. Bird feed	-1.18967653444	[ 0.25052425]	1	0.311	1.000
+Plants vs. Twigs	Radishes vs. Twigs	1.49622419753	0.15102204313	1	0.155	1.000
+Plants vs. Twigs	Radishes vs. N/A	1.99099995291	0.0556568251401	1	0.063	1.000
+Plants vs. Twigs	Radishes vs. Bark chips	-0.624073781556	[ 0.54086408]	1	0.529	1.000
+Plants vs. Twigs	Radishes vs. Ivy	-0.215591402788	[ 0.8318717]	1	0.793	1.000
+Plants vs. Twigs	Radishes vs. Fertiliser	-0.0707509707501	[ 0.94442161]	1	0.900	1.000
+Plants vs. Twigs	Geranium Rozanne vs. Bird feed	-0.284166945396	[ 0.77971462]	1	0.792	1.000
+Plants vs. Twigs	Geranium Rozanne vs. Twigs	-0.240555395451	0.812476265963	1	0.821	1.000
+Plants vs. Twigs	Geranium Rozanne vs. N/A	0.827427629108	0.414528306223	1	0.409	1.000
+Plants vs. Twigs	Geranium Rozanne vs. Bark chips	0.915187271459	[ 0.3728929]	1	0.473	1.000
+Plants vs. Twigs	Geranium Rozanne vs. Ivy	0.47086551174	[ 0.64372216]	1	0.647	1.000
+Plants vs. Twigs	Geranium Rozanne vs. Fertiliser	-0.473189229104	[ 0.6420972]	1	0.624	1.000
+Plants vs. Twigs	Bird feed vs. Twigs	0.797405643878	0.435068251793	1	0.444	1.000
+Plants vs. Twigs	Bird feed vs. N/A	1.86099971374	0.0725701297592	1	0.074	1.000
+Plants vs. Twigs	Bird feed vs. Bark chips	-0.355040658936	[ 0.72692571]	1	0.789	1.000
+Plants vs. Twigs	Bird feed vs. Ivy	-0.0331363554942	[ 0.9739518]	1	1.000	1.000
+Plants vs. Twigs	Bird feed vs. Fertiliser	0.328542486691	[ 0.74651387]	1	0.774	1.000
+Plants vs. Twigs	Twigs vs. N/A	0.595724327438	0.553677063398	1	0.568	1.000
+Plants vs. Twigs	Twigs vs. Bark chips	-0.24497000541	0.809105952511	1	0.796	1.000
+Plants vs. Twigs	Twigs vs. Ivy	-0.1307896262	0.897316617153	1	0.886	1.000
+Plants vs. Twigs	Twigs vs. Fertiliser	-0.562462794533	0.58037714386	1	0.581	1.000
+Plants vs. Twigs	N/A vs. Bark chips	-0.385015836391	0.702941918598	1	0.708	1.000
+Plants vs. Twigs	N/A vs. Ivy	-0.525947994775	0.602791008326	1	0.599	1.000
+Plants vs. Twigs	N/A vs. Fertiliser	-0.548186442566	0.587620262071	1	0.602	1.000
+Plants vs. Twigs	Bark chips vs. Ivy	1.08870735531	[ 0.29147681]	1	0.454	1.000
+Plants vs. Twigs	Bark chips vs. Fertiliser	0.961338285011	[ 0.34985745]	1	0.465	1.000
+Plants vs. Twigs	Ivy vs. Fertiliser	0.774352229034	[ 0.44935877]	1	0.469	1.000
+Plants vs. N/A	Plants vs. Bark chips	-2.11248420484	0.0374778892494	1	0.038	1.000
+Plants vs. N/A	Plants vs. Ivy	-1.2103505131	0.229385396943	1	0.213	1.000
+Plants vs. N/A	Plants vs. Fertiliser	-0.423216859715	0.673169566225	1	0.693	1.000
+Plants vs. N/A	Radishes vs. Geranium Rozanne	0.226303276547	[ 0.82152193]	1	0.779	1.000
+Plants vs. N/A	Radishes vs. Bird feed	-0.957845105981	[ 0.34092267]	1	0.373	1.000
+Plants vs. N/A	Radishes vs. Twigs	1.09050003598	0.278574671246	1	0.279	1.000
+Plants vs. N/A	Radishes vs. N/A	1.22379488526	0.224024763692	1	0.243	1.000
+Plants vs. N/A	Radishes vs. Bark chips	-0.376817424673	[ 0.70727095]	1	0.720	1.000
+Plants vs. N/A	Radishes vs. Ivy	0.0428049484138	[ 0.96595983]	1	0.943	1.000
+Plants vs. N/A	Radishes vs. Fertiliser	0.191595420095	[ 0.84852707]	1	0.802	1.000
+Plants vs. N/A	Geranium Rozanne vs. Bird feed	-0.0276407633742	[ 0.97801502]	1	0.977	1.000
+Plants vs. N/A	Geranium Rozanne vs. Twigs	-0.711745378815	0.478571355864	1	0.487	1.000
+Plants vs. N/A	Geranium Rozanne vs. N/A	0.120858654845	0.904055590908	1	0.910	1.000
+Plants vs. N/A	Geranium Rozanne vs. Bark chips	1.20442183909	[ 0.23184988]	1	0.200	1.000
+Plants vs. N/A	Geranium Rozanne vs. Ivy	0.74798268549	[ 0.45658474]	1	0.507	1.000
+Plants vs. N/A	Geranium Rozanne vs. Fertiliser	-0.221817999353	[ 0.82500043]	1	0.817	1.000
+Plants vs. N/A	Bird feed vs. Twigs	0.381916487754	0.703476458139	1	0.687	1.000
+Plants vs. N/A	Bird feed vs. N/A	1.14289994059	0.255922399077	1	0.236	1.000
+Plants vs. N/A	Bird feed vs. Bark chips	-0.100447321039	[ 0.92023144]	1	0.904	1.000
+Plants vs. N/A	Bird feed vs. Ivy	0.230235848512	[ 0.81847502]	1	0.780	1.000
+Plants vs. N/A	Bird feed vs. Fertiliser	0.601778274676	[ 0.54896203]	1	0.570	1.000
+Plants vs. N/A	Twigs vs. N/A	-0.622793253062	0.534564089846	1	0.519	1.000
+Plants vs. N/A	Twigs vs. Bark chips	-0.708619311802	0.480499678844	1	0.497	1.000
+Plants vs. N/A	Twigs vs. Ivy	-0.591642353421	0.55566041519	1	0.587	1.000
+Plants vs. N/A	Twigs vs. Fertiliser	-1.04856056603	0.29735274942	1	0.297	1.000
+Plants vs. N/A	N/A vs. Bark chips	-1.39047997243	0.167598336152	1	0.175	1.000
+Plants vs. N/A	N/A vs. Ivy	-1.55440401729	0.12337873573	1	0.128	1.000
+Plants vs. N/A	N/A vs. Fertiliser	-1.58113893371	0.117135534505	1	0.125	1.000
+Plants vs. N/A	Bark chips vs. Ivy	1.38267410442	[ 0.17047375]	1	0.123	1.000
+Plants vs. N/A	Bark chips vs. Fertiliser	1.2518314676	[ 0.21414766]	1	0.240	1.000
+Plants vs. N/A	Ivy vs. Fertiliser	1.05974599067	[ 0.29233441]	1	0.276	1.000
+Plants vs. Bark chips	Plants vs. Ivy	0.871224187542	0.40406250161	1	0.413	1.000
+Plants vs. Bark chips	Plants vs. Fertiliser	1.55932754891	0.149978461379	1	0.148	1.000
+Plants vs. Bark chips	Radishes vs. Geranium Rozanne	-0.611364938077	[ 0.56768309]	1	0.506	1.000
+Plants vs. Bark chips	Radishes vs. Bird feed	-1.70575492571	[ 0.14876897]	1	0.108	1.000
+Plants vs. Bark chips	Radishes vs. Twigs	2.41735836745	0.0462712883139	1	0.066	1.000
+Plants vs. Bark chips	Radishes vs. N/A	3.46065006547	0.00279005102798	1	0.004	1.000
+Plants vs. Bark chips	Radishes vs. Bark chips	-1.16876911688	[ 0.29518297]	1	0.332	1.000
+Plants vs. Bark chips	Radishes vs. Ivy	-0.780954101073	[ 0.47017049]	1	0.503	1.000
+Plants vs. Bark chips	Radishes vs. Fertiliser	-0.643441940549	[ 0.54828253]	1	0.471	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. Bird feed	-0.846060031031	[ 0.43612756]	1	0.484	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. Twigs	0.617805047296	0.556261216982	1	0.516	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. N/A	1.84524966341	0.0815185454762	1	0.080	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. Bark chips	0.292612280791	[ 0.7815725]	1	0.700	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. Ivy	-0.129228805205	[ 0.90221415]	1	0.912	1.000
+Plants vs. Bark chips	Geranium Rozanne vs. Fertiliser	-1.02551864113	[ 0.35214824]	1	0.326	1.000
+Plants vs. Bark chips	Bird feed vs. Twigs	1.6688103715	0.139086628054	1	0.183	1.000
+Plants vs. Bark chips	Bird feed vs. N/A	3.15842697941	0.00543690016269	1	0.007	1.000
+Plants vs. Bark chips	Bird feed vs. Bark chips	-0.913347854852	[ 0.40295236]	1	0.471	1.000
+Plants vs. Bark chips	Bird feed vs. Ivy	-0.607730454893	[ 0.56990854]	1	0.487	1.000
+Plants vs. Bark chips	Bird feed vs. Fertiliser	-0.264350928161	[ 0.80205999]	1	0.828	1.000
+Plants vs. Bark chips	Twigs vs. N/A	2.01860579387	0.0493800681196	1	0.043	1.000
+Plants vs. Bark chips	Twigs vs. Bark chips	0.788098446879	0.456492946115	1	0.417	1.000
+Plants vs. Bark chips	Twigs vs. Ivy	0.87497721307	0.410600791443	1	0.391	1.000
+Plants vs. Bark chips	Twigs vs. Fertiliser	0.403669407689	0.698502615665	1	0.673	1.000
+Plants vs. Bark chips	N/A vs. Bark chips	1.32434685321	0.201958651871	1	0.204	1.000
+Plants vs. Bark chips	N/A vs. Ivy	1.1324305697	0.272313807943	1	0.245	1.000
+Plants vs. Bark chips	N/A vs. Fertiliser	1.09961647332	0.285989151001	1	0.287	1.000
+Plants vs. Bark chips	Bark chips vs. Ivy	0.457353032309	[ 0.66660294]	1	0.674	1.000
+Plants vs. Bark chips	Bark chips vs. Fertiliser	0.336428261554	[ 0.75020813]	1	0.631	1.000
+Plants vs. Bark chips	Ivy vs. Fertiliser	0.158902855261	[ 0.8799644]	1	0.863	1.000
+Plants vs. Ivy	Plants vs. Fertiliser	1.1680001011	0.269899336744	1	0.258	1.000
+Plants vs. Ivy	Radishes vs. Geranium Rozanne	-0.553704263022	[ 0.60362954]	1	0.583	1.000
+Plants vs. Ivy	Radishes vs. Bird feed	-2.97707397542	[ 0.03090396]	1	0.128	1.000
+Plants vs. Ivy	Radishes vs. Twigs	3.40723712414	0.0113303291351	1	0.012	1.000
+Plants vs. Ivy	Radishes vs. N/A	3.09957957765	0.00618500428133	1	0.010	1.000
+Plants vs. Ivy	Radishes vs. Bark chips	-1.78799589558	[ 0.13380989]	1	0.272	1.000
+Plants vs. Ivy	Radishes vs. Ivy	-0.92923514854	[ 0.39541657]	1	0.306	1.000
+Plants vs. Ivy	Radishes vs. Fertiliser	-0.62473418575	[ 0.55954445]	1	0.568	1.000
+Plants vs. Ivy	Geranium Rozanne vs. Bird feed	-1.07340289545	[ 0.33214027]	1	0.282	1.000
+Plants vs. Ivy	Geranium Rozanne vs. Twigs	0.145185078717	0.888656789214	1	0.958	1.000
+Plants vs. Ivy	Geranium Rozanne vs. N/A	1.19741765831	0.246675413583	1	0.258	1.000
+Plants vs. Ivy	Geranium Rozanne vs. Bark chips	1.44802367461	[ 0.20727233]	1	0.259	1.000
+Plants vs. Ivy	Geranium Rozanne vs. Ivy	0.513917073854	[ 0.62920804]	1	0.537	1.000
+Plants vs. Ivy	Geranium Rozanne vs. Fertiliser	-1.47078825648	[ 0.20131159]	1	0.276	1.000
+Plants vs. Ivy	Bird feed vs. Twigs	1.81444685866	0.112479877344	1	0.135	1.000
+Plants vs. Ivy	Bird feed vs. N/A	2.67364256654	0.0154940956883	1	0.014	1.000
+Plants vs. Ivy	Bird feed vs. Bark chips	-1.22240213348	[ 0.27603038]	1	0.284	1.000
+Plants vs. Ivy	Bird feed vs. Ivy	-0.545656221128	[ 0.60875352]	1	0.574	1.000
+Plants vs. Ivy	Bird feed vs. Fertiliser	0.214708506571	[ 0.83847692]	1	0.832	1.000
+Plants vs. Ivy	Twigs vs. N/A	1.06242135407	0.293590409078	1	0.279	1.000
+Plants vs. Ivy	Twigs vs. Bark chips	0.303253931101	0.770510709603	1	0.882	1.000
+Plants vs. Ivy	Twigs vs. Ivy	0.480698522618	0.645390833746	1	0.631	1.000
+Plants vs. Ivy	Twigs vs. Fertiliser	-0.265283625223	0.798433561387	1	0.882	1.000
+Plants vs. Ivy	N/A vs. Bark chips	0.371954954105	0.714269107232	1	0.683	1.000
+Plants vs. Ivy	N/A vs. Ivy	0.194900115892	0.847654132329	1	0.871	1.000
+Plants vs. Ivy	N/A vs. Fertiliser	0.167400401874	0.868921355557	1	0.872	1.000
+Plants vs. Ivy	Bark chips vs. Ivy	1.81281844809	[ 0.12960141]	1	0.124	1.000
+Plants vs. Ivy	Bark chips vs. Fertiliser	1.54504788162	[ 0.18299422]	1	0.232	1.000
+Plants vs. Ivy	Ivy vs. Fertiliser	1.15194332323	[ 0.30142988]	1	0.267	1.000
+Plants vs. Fertiliser	Radishes vs. Geranium Rozanne	0.0961274875539	[ 0.9271533]	1	0.806	1.000
+Plants vs. Fertiliser	Radishes vs. Bird feed	-2.07989845007	[ 0.0920738]	1	0.057	1.000
+Plants vs. Fertiliser	Radishes vs. Twigs	2.25808214975	0.0584966071273	1	0.052	1.000
+Plants vs. Fertiliser	Radishes vs. N/A	1.85549367611	0.0799770478714	1	0.074	1.000
+Plants vs. Fertiliser	Radishes vs. Bark chips	-1.01218487324	[ 0.3578965]	1	0.388	1.000
+Plants vs. Fertiliser	Radishes vs. Ivy	-0.241074443742	[ 0.81907118]	1	0.646	1.000
+Plants vs. Fertiliser	Radishes vs. Fertiliser	0.0323473084868	[ 0.97544663]	1	0.798	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. Bird feed	-0.370527558154	[ 0.7261683]	1	0.629	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. Twigs	-0.439337226923	0.673659975973	1	0.696	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. N/A	0.466512566684	0.646445169628	1	0.639	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. Bark chips	1.89354696097	[ 0.11682688]	1	0.094	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. Ivy	1.05478093144	[ 0.33980389]	1	0.369	1.000
+Plants vs. Fertiliser	Geranium Rozanne vs. Fertiliser	-0.72735336497	[ 0.49962567]	1	0.645	1.000
+Plants vs. Fertiliser	Bird feed vs. Twigs	0.947900366584	0.374746783367	1	0.351	1.000
+Plants vs. Fertiliser	Bird feed vs. N/A	1.58384709996	0.130639944928	1	0.133	1.000
+Plants vs. Fertiliser	Bird feed vs. Bark chips	-0.50431903247	[ 0.63546979]	1	0.633	1.000
+Plants vs. Fertiliser	Bird feed vs. Ivy	0.103354097599	[ 0.9216994]	1	0.792	1.000
+Plants vs. Fertiliser	Bird feed vs. Fertiliser	0.786111400812	[ 0.46740421]	1	0.547	1.000
+Plants vs. Fertiliser	Twigs vs. N/A	0.170040804415	0.865723702556	1	0.859	1.000
+Plants vs. Fertiliser	Twigs vs. Bark chips	-0.741287897133	0.4826410996	1	0.420	1.000
+Plants vs. Fertiliser	Twigs vs. Ivy	-0.484337796145	0.642932412929	1	0.640	1.000
+Plants vs. Fertiliser	Twigs vs. Fertiliser	-0.97087199119	0.363955495835	1	0.422	1.000
+Plants vs. Fertiliser	N/A vs. Bark chips	-0.681788456707	0.504051658954	1	0.528	1.000
+Plants vs. Fertiliser	N/A vs. Ivy	-0.772663301399	0.449749102443	1	0.454	1.000
+Plants vs. Fertiliser	N/A vs. Fertiliser	-0.784054125618	0.44320446203	1	0.477	1.000
+Plants vs. Fertiliser	Bark chips vs. Ivy	2.22110857277	[ 0.07702083]	1	0.126	1.000
+Plants vs. Fertiliser	Bark chips vs. Fertiliser	1.98066829039	[ 0.10448879]	1	0.096	1.000
+Plants vs. Fertiliser	Ivy vs. Fertiliser	1.6276863616	[ 0.16452009]	1	0.093	1.000
+Radishes vs. Geranium Rozanne	Radishes vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Radishes vs. Twigs	1.46832558655	[ 0.27974606]	1	0.509	1.000
+Radishes vs. Geranium Rozanne	Radishes vs. N/A	0.929844266809	[ 0.36939711]	1	0.253	1.000
+Radishes vs. Geranium Rozanne	Radishes vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Radishes vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Radishes vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. Twigs	-0.134414685655	[ 0.90538088]	1	1.000	1.000
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. N/A	0.244147517718	[ 0.81092748]	1	0.831	1.000
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Bird feed vs. Twigs	0.506685184344	[ 0.66271392]	1	1.000	1.000
+Radishes vs. Geranium Rozanne	Bird feed vs. N/A	0.773416487266	[ 0.4531108]	1	0.371	1.000
+Radishes vs. Geranium Rozanne	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Twigs vs. N/A	0.130469232611	[ 0.89683325]	1	0.925	1.000
+Radishes vs. Geranium Rozanne	Twigs vs. Bark chips	-0.594363056348	[ 0.61254955]	1	0.675	1.000
+Radishes vs. Geranium Rozanne	Twigs vs. Ivy	-0.218604692208	[ 0.84723742]	1	0.740	1.000
+Radishes vs. Geranium Rozanne	Twigs vs. Fertiliser	-0.3763553822	[ 0.74282748]	1	1.000	1.000
+Radishes vs. Geranium Rozanne	N/A vs. Bark chips	-0.226095871624	[ 0.82464283]	1	0.763	1.000
+Radishes vs. Geranium Rozanne	N/A vs. Ivy	-0.267808351027	[ 0.79304894]	1	0.724	1.000
+Radishes vs. Geranium Rozanne	N/A vs. Fertiliser	-0.273085275461	[ 0.78907775]	1	0.863	1.000
+Radishes vs. Geranium Rozanne	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Geranium Rozanne	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Radishes vs. Twigs	-0.558881304908	[ 0.63246986]	1	0.734	1.000
+Radishes vs. Bird feed	Radishes vs. N/A	-1.0309390532	[ 0.32136904]	1	0.264	1.000
+Radishes vs. Bird feed	Radishes vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Radishes vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Radishes vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Geranium Rozanne vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Geranium Rozanne vs. Twigs	-0.962924482742	[ 0.43718679]	1	0.482	1.000
+Radishes vs. Bird feed	Geranium Rozanne vs. N/A	-0.862797351196	[ 0.40388547]	1	0.445	1.000
+Radishes vs. Bird feed	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Bird feed vs. Twigs	-0.83164063352	[ 0.49309295]	1	0.481	1.000
+Radishes vs. Bird feed	Bird feed vs. N/A	-0.915830992429	[ 0.37643162]	1	0.389	1.000
+Radishes vs. Bird feed	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Twigs vs. N/A	-1.22336145081	[ 0.22817799]	1	0.287	1.000
+Radishes vs. Bird feed	Twigs vs. Bark chips	-4.43908901994	[ 0.04718443]	1	0.278	1.000
+Radishes vs. Bird feed	Twigs vs. Ivy	-2.44888857107	[ 0.13402775]	1	0.265	1.000
+Radishes vs. Bird feed	Twigs vs. Fertiliser	-1.5349095135	[ 0.26456978]	1	0.522	1.000
+Radishes vs. Bird feed	N/A vs. Bark chips	-1.92196583162	[ 0.0768024]	1	0.015	1.000
+Radishes vs. Bird feed	N/A vs. Ivy	-1.80512247823	[ 0.09425782]	1	0.074	1.000
+Radishes vs. Bird feed	N/A vs. Fertiliser	-1.78123015612	[ 0.09823861]	1	0.118	1.000
+Radishes vs. Bird feed	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bird feed	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Twigs	Radishes vs. N/A	-0.811361230175	0.429845473374	1	0.445	1.000
+Radishes vs. Twigs	Radishes vs. Bark chips	0.435811030152	[ 0.70550157]	1	0.768	1.000
+Radishes vs. Twigs	Radishes vs. Ivy	1.15418499332	[ 0.36771394]	1	0.535	1.000
+Radishes vs. Twigs	Radishes vs. Fertiliser	1.40890735246	[ 0.29422351]	1	0.506	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. Bird feed	1.03358521501	[ 0.40993821]	1	0.496	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. Twigs	-1.3598398302	0.245480543863	1	0.287	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. N/A	-0.95705401855	0.353712022224	1	0.393	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. Bark chips	3.1428190199	[ 0.08807252]	1	0.285	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. Ivy	2.36141644285	[ 0.14208481]	1	0.269	1.000
+Radishes vs. Twigs	Geranium Rozanne vs. Fertiliser	0.701162828809	[ 0.55580142]	1	0.775	1.000
+Radishes vs. Twigs	Bird feed vs. Twigs	-0.772244756254	0.48306241012	1	0.679	1.000
+Radishes vs. Twigs	Bird feed vs. N/A	-0.75492261192	0.461984753798	1	0.443	1.000
+Radishes vs. Twigs	Bird feed vs. Bark chips	0.908943778502	[ 0.45932386]	1	0.511	1.000
+Radishes vs. Twigs	Bird feed vs. Ivy	1.47505796663	[ 0.27816248]	1	0.501	1.000
+Radishes vs. Twigs	Bird feed vs. Fertiliser	2.11112129949	[ 0.16918677]	1	0.274	1.000
+Radishes vs. Twigs	Twigs vs. N/A	-1.46189205972	0.151041112494	1	0.161	1.000
+Radishes vs. Twigs	Twigs vs. Bark chips	-3.15210443019	0.0344442717497	1	0.086	1.000
+Radishes vs. Twigs	Twigs vs. Ivy	-2.46717609647	0.0691561236688	1	0.101	1.000
+Radishes vs. Twigs	Twigs vs. Fertiliser	-2.11064449589	0.102416017845	1	0.083	1.000
+Radishes vs. Twigs	N/A vs. Bark chips	-2.43854422885	0.02765646545	1	0.030	1.000
+Radishes vs. Twigs	N/A vs. Ivy	-2.33254313603	0.034011925114	1	0.026	1.000
+Radishes vs. Twigs	N/A vs. Fertiliser	-2.30865863219	0.0356228156385	1	0.038	1.000
+Radishes vs. Twigs	Bark chips vs. Ivy	3.44797859789	[ 0.07479918]	1	0.240	1.000
+Radishes vs. Twigs	Bark chips vs. Fertiliser	3.22398209629	[ 0.08423126]	1	0.232	1.000
+Radishes vs. Twigs	Ivy vs. Fertiliser	2.89514070417	[ 0.10147014]	1	0.248	1.000
+Radishes vs. N/A	Radishes vs. Bark chips	-0.0688388613806	[ 0.94616548]	1	0.924	1.000
+Radishes vs. N/A	Radishes vs. Ivy	0.625996821369	[ 0.5421524]	1	0.591	1.000
+Radishes vs. N/A	Radishes vs. Fertiliser	0.872372933817	[ 0.39883132]	1	0.318	1.000
+Radishes vs. N/A	Geranium Rozanne vs. Bird feed	0.509348621973	[ 0.61904344]	1	0.546	1.000
+Radishes vs. N/A	Geranium Rozanne vs. Twigs	-1.67648463832	0.114354686077	1	0.087	1.000
+Radishes vs. N/A	Geranium Rozanne vs. N/A	-0.947002410771	0.35235667093	1	0.364	1.000
+Radishes vs. N/A	Geranium Rozanne vs. Bark chips	2.5494711571	[ 0.02421682]	1	0.042	1.000
+Radishes vs. N/A	Geranium Rozanne vs. Ivy	1.79367205946	[ 0.09614725]	1	0.102	1.000
+Radishes vs. N/A	Geranium Rozanne vs. Fertiliser	0.187818405784	[ 0.85391891]	1	0.774	1.000
+Radishes vs. N/A	Bird feed vs. Twigs	-0.291303998734	0.774808387585	1	0.825	1.000
+Radishes vs. N/A	Bird feed vs. N/A	-0.0811605149615	0.935935843105	1	0.933	1.000
+Radishes vs. N/A	Bird feed vs. Bark chips	0.38879119356	[ 0.70372376]	1	0.664	1.000
+Radishes vs. N/A	Bird feed vs. Ivy	0.936356053361	[ 0.36615956]	1	0.273	1.000
+Radishes vs. N/A	Bird feed vs. Fertiliser	1.5515781004	[ 0.14475978]	1	0.124	1.000
+Radishes vs. N/A	Twigs vs. N/A	-1.79927300425	0.0775640959489	1	0.058	1.000
+Radishes vs. N/A	Twigs vs. Bark chips	-2.12096875192	0.050999681905	1	0.047	1.000
+Radishes vs. N/A	Twigs vs. Ivy	-1.87346078816	0.080622210214	1	0.085	1.000
+Radishes vs. N/A	Twigs vs. Fertiliser	-2.353115706	0.032679606731	1	0.032	1.000
+Radishes vs. N/A	N/A vs. Bark chips	-3.01813578848	0.00563168849775	1	0.012	1.000
+Radishes vs. N/A	N/A vs. Ivy	-3.03824172281	0.00536256497573	1	0.004	1.000
+Radishes vs. N/A	N/A vs. Fertiliser	-3.03395021745	0.00541895647044	1	0.005	1.000
+Radishes vs. N/A	Bark chips vs. Ivy	2.84463185973	[ 0.01379822]	1	0.055	1.000
+Radishes vs. N/A	Bark chips vs. Fertiliser	2.6279748397	[ 0.02086756]	1	0.042	1.000
+Radishes vs. N/A	Ivy vs. Fertiliser	2.30990828255	[ 0.03795428]	1	0.129	1.000
+Radishes vs. Bark chips	Radishes vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Radishes vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Geranium Rozanne vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Geranium Rozanne vs. Twigs	-0.556398465019	[ 0.63388334]	1	0.747	1.000
+Radishes vs. Bark chips	Geranium Rozanne vs. N/A	-0.319651221868	[ 0.75431162]	1	0.872	1.000
+Radishes vs. Bark chips	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Bird feed vs. Twigs	-0.174962502416	[ 0.8772189]	1	1.000	1.000
+Radishes vs. Bark chips	Bird feed vs. N/A	-0.0869656569997	[ 0.93202408]	1	0.922	1.000
+Radishes vs. Bark chips	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Twigs vs. N/A	-0.559075526447	[ 0.57915139]	1	0.660	1.000
+Radishes vs. Bark chips	Twigs vs. Bark chips	-2.55259215447	[ 0.12527695]	1	0.166	1.000
+Radishes vs. Bark chips	Twigs vs. Ivy	-1.35455217716	[ 0.30829053]	1	0.530	1.000
+Radishes vs. Bark chips	Twigs vs. Fertiliser	-0.966440197905	[ 0.43578525]	1	0.493	1.000
+Radishes vs. Bark chips	N/A vs. Bark chips	-1.08985103487	[ 0.29556888]	1	0.299	1.000
+Radishes vs. Bark chips	N/A vs. Ivy	-1.05080648545	[ 0.31248957]	1	0.260	1.000
+Radishes vs. Bark chips	N/A vs. Fertiliser	-1.04122667681	[ 0.31674834]	1	0.185	1.000
+Radishes vs. Bark chips	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Bark chips	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Radishes vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Geranium Rozanne vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Geranium Rozanne vs. Twigs	-0.262802449259	[ 0.81729841]	1	0.752	1.000
+Radishes vs. Ivy	Geranium Rozanne vs. N/A	0.0726128217467	[ 0.94321954]	1	0.854	1.000
+Radishes vs. Ivy	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Bird feed vs. Twigs	0.299295169968	[ 0.79295228]	1	1.000	1.000
+Radishes vs. Ivy	Bird feed vs. N/A	0.511646853577	[ 0.61747796]	1	0.560	1.000
+Radishes vs. Ivy	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Twigs vs. N/A	-0.0793234510167	[ 0.93716126]	1	0.980	1.000
+Radishes vs. Ivy	Twigs vs. Bark chips	-1.19015054114	[ 0.3561068]	1	0.477	1.000
+Radishes vs. Ivy	Twigs vs. Ivy	-0.564214557554	[ 0.62944225]	1	0.785	1.000
+Radishes vs. Ivy	Twigs vs. Fertiliser	-0.555887566918	[ 0.63417451]	1	0.516	1.000
+Radishes vs. Ivy	N/A vs. Bark chips	-0.488891739932	[ 0.63306268]	1	0.655	1.000
+Radishes vs. Ivy	N/A vs. Ivy	-0.506034046658	[ 0.62130464]	1	0.600	1.000
+Radishes vs. Ivy	N/A vs. Fertiliser	-0.506790838267	[ 0.62078801]	1	0.580	1.000
+Radishes vs. Ivy	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Ivy	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Geranium Rozanne vs. Bird feed	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Geranium Rozanne vs. Twigs	-0.158698634805	[ 0.88848307]	1	1.000	1.000
+Radishes vs. Fertiliser	Geranium Rozanne vs. N/A	0.21170252672	[ 0.835622]	1	0.832	1.000
+Radishes vs. Fertiliser	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Bird feed vs. Twigs	0.467458326411	[ 0.68615769]	1	1.000	1.000
+Radishes vs. Fertiliser	Bird feed vs. N/A	0.723903976922	[ 0.4819492]	1	0.343	1.000
+Radishes vs. Fertiliser	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Twigs vs. N/A	0.0907879209492	[ 0.92810321]	1	0.957	1.000
+Radishes vs. Fertiliser	Twigs vs. Bark chips	-0.70705349178	[ 0.55281337]	1	0.729	1.000
+Radishes vs. Fertiliser	Twigs vs. Ivy	-0.283975192947	[ 0.80312901]	1	0.740	1.000
+Radishes vs. Fertiliser	Twigs vs. Fertiliser	-0.410313061047	[ 0.72135583]	1	1.000	1.000
+Radishes vs. Fertiliser	N/A vs. Bark chips	-0.275802489479	[ 0.78703527]	1	0.676	1.000
+Radishes vs. Fertiliser	N/A vs. Ivy	-0.312867634843	[ 0.75934378]	1	0.762	1.000
+Radishes vs. Fertiliser	N/A vs. Fertiliser	-0.317289597149	[ 0.7560622]	1	0.843	1.000
+Radishes vs. Fertiliser	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Radishes vs. Fertiliser	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Geranium Rozanne vs. Twigs	-0.312091004005	[ 0.78450334]	1	0.736	1.000
+Geranium Rozanne vs. Bird feed	Geranium Rozanne vs. N/A	0.00675999422	[ 0.99470898]	1	0.907	1.000
+Geranium Rozanne vs. Bird feed	Geranium Rozanne vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Bird feed vs. Twigs	0.21967734822	[ 0.84650546]	1	1.000	1.000
+Geranium Rozanne vs. Bird feed	Bird feed vs. N/A	0.411152487458	[ 0.68765794]	1	0.695	1.000
+Geranium Rozanne vs. Bird feed	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Twigs vs. N/A	-0.159863666703	[ 0.87377346]	1	0.925	1.000
+Geranium Rozanne vs. Bird feed	Twigs vs. Bark chips	-1.41887564108	[ 0.29173058]	1	0.437	1.000
+Geranium Rozanne vs. Bird feed	Twigs vs. Ivy	-0.696895510088	[ 0.55797533]	1	0.745	1.000
+Geranium Rozanne vs. Bird feed	Twigs vs. Fertiliser	-0.624810661041	[ 0.59587641]	1	0.513	1.000
+Geranium Rozanne vs. Bird feed	N/A vs. Bark chips	-0.589780081457	[ 0.56544848]	1	0.524	1.000
+Geranium Rozanne vs. Bird feed	N/A vs. Ivy	-0.597489804678	[ 0.56044442]	1	0.500	1.000
+Geranium Rozanne vs. Bird feed	N/A vs. Fertiliser	-0.596511299963	[ 0.5610782]	1	0.536	1.000
+Geranium Rozanne vs. Bird feed	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bird feed	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Twigs	Geranium Rozanne vs. N/A	0.670267732088	0.512875001474	1	0.499	1.000
+Geranium Rozanne vs. Twigs	Geranium Rozanne vs. Bark chips	0.54994280175	[ 0.63757042]	1	0.735	1.000
+Geranium Rozanne vs. Twigs	Geranium Rozanne vs. Ivy	0.23058729182	[ 0.83907524]	1	1.000	1.000
+Geranium Rozanne vs. Twigs	Geranium Rozanne vs. Fertiliser	-0.447950449285	[ 0.69803713]	1	0.760	1.000
+Geranium Rozanne vs. Twigs	Bird feed vs. Twigs	0.761977122962	0.488526454199	1	0.715	1.000
+Geranium Rozanne vs. Twigs	Bird feed vs. N/A	1.48780679928	0.157521110932	1	0.167	1.000
+Geranium Rozanne vs. Twigs	Bird feed vs. Bark chips	-0.363031365202	[ 0.75135956]	1	0.767	1.000
+Geranium Rozanne vs. Twigs	Bird feed vs. Ivy	-0.131663193994	[ 0.90730094]	1	1.000	1.000
+Geranium Rozanne vs. Twigs	Bird feed vs. Fertiliser	0.128292859362	[ 0.90965424]	1	1.000	1.000
+Geranium Rozanne vs. Twigs	Twigs vs. N/A	0.578810819756	0.565736581382	1	0.588	1.000
+Geranium Rozanne vs. Twigs	Twigs vs. Bark chips	0.012383487927	0.990712680764	1	1.000	1.000
+Geranium Rozanne vs. Twigs	Twigs vs. Ivy	0.0997534936948	0.925339573028	1	0.971	1.000
+Geranium Rozanne vs. Twigs	Twigs vs. Fertiliser	-0.219175279163	0.83724316867	1	1.000	1.000
+Geranium Rozanne vs. Twigs	N/A vs. Bark chips	0.0695574806338	0.945464711992	1	0.949	1.000
+Geranium Rozanne vs. Twigs	N/A vs. Ivy	-0.0269314264868	0.978869463897	1	0.985	1.000
+Geranium Rozanne vs. Twigs	N/A vs. Fertiliser	-0.0418172309424	0.967195952328	1	0.969	1.000
+Geranium Rozanne vs. Twigs	Bark chips vs. Ivy	0.674660067218	[ 0.56942922]	1	0.750	1.000
+Geranium Rozanne vs. Twigs	Bark chips vs. Fertiliser	0.583113764333	[ 0.61880837]	1	0.770	1.000
+Geranium Rozanne vs. Twigs	Ivy vs. Fertiliser	0.448717854275	[ 0.6975671]	1	0.733	1.000
+Geranium Rozanne vs. N/A	Geranium Rozanne vs. Bark chips	1.15849519574	[ 0.26750167]	1	0.153	1.000
+Geranium Rozanne vs. N/A	Geranium Rozanne vs. Ivy	0.731814733641	[ 0.47726773]	1	0.773	1.000
+Geranium Rozanne vs. N/A	Geranium Rozanne vs. Fertiliser	-0.174757371508	[ 0.86396264]	1	0.865	1.000
+Geranium Rozanne vs. N/A	Bird feed vs. Twigs	0.293568507846	0.773110420882	1	0.792	1.000
+Geranium Rozanne vs. N/A	Bird feed vs. N/A	0.850879642834	0.40260481796	1	0.392	1.000
+Geranium Rozanne vs. N/A	Bird feed vs. Bark chips	-0.0612997579357	[ 0.9520529]	1	0.853	1.000
+Geranium Rozanne vs. N/A	Bird feed vs. Ivy	0.247823695824	[ 0.80814215]	1	0.826	1.000
+Geranium Rozanne vs. N/A	Bird feed vs. Fertiliser	0.595142484832	[ 0.56196543]	1	0.758	1.000
+Geranium Rozanne vs. N/A	Twigs vs. N/A	-0.524801271975	0.601869345686	1	0.609	1.000
+Geranium Rozanne vs. N/A	Twigs vs. Bark chips	-0.722062085498	0.481362158629	1	0.496	1.000
+Geranium Rozanne vs. N/A	Twigs vs. Ivy	-0.607128948554	0.552845410674	1	0.574	1.000
+Geranium Rozanne vs. N/A	Twigs vs. Fertiliser	-1.00019400175	0.333079303496	1	0.356	1.000
+Geranium Rozanne vs. N/A	N/A vs. Bark chips	-1.2704595764	0.215172316798	1	0.202	1.000
+Geranium Rozanne vs. N/A	N/A vs. Ivy	-1.3734307609	0.181346766262	1	0.179	1.000
+Geranium Rozanne vs. N/A	N/A vs. Fertiliser	-1.38810135478	0.17688680458	1	0.180	1.000
+Geranium Rozanne vs. N/A	Bark chips vs. Ivy	1.32512585909	[ 0.20794885]	1	0.095	1.000
+Geranium Rozanne vs. N/A	Bark chips vs. Fertiliser	1.20281383501	[ 0.25049786]	1	0.184	1.000
+Geranium Rozanne vs. N/A	Ivy vs. Fertiliser	1.02325185088	[ 0.32485376]	1	0.231	1.000
+Geranium Rozanne vs. Bark chips	Geranium Rozanne vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Bird feed vs. Twigs	1.61215587071	[ 0.24825054]	1	0.256	1.000
+Geranium Rozanne vs. Bark chips	Bird feed vs. N/A	2.16875202207	[ 0.04923909]	1	0.022	1.000
+Geranium Rozanne vs. Bark chips	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Twigs vs. N/A	1.24874709503	[ 0.21884093]	1	0.254	1.000
+Geranium Rozanne vs. Bark chips	Twigs vs. Bark chips	2.5814195469	[ 0.12298662]	1	0.222	1.000
+Geranium Rozanne vs. Bark chips	Twigs vs. Ivy	1.62363239045	[ 0.24593729]	1	0.405	1.000
+Geranium Rozanne vs. Bark chips	Twigs vs. Fertiliser	0.580622069496	[ 0.62020185]	1	1.000	1.000
+Geranium Rozanne vs. Bark chips	N/A vs. Bark chips	1.17470989902	[ 0.26118008]	1	0.333	1.000
+Geranium Rozanne vs. Bark chips	N/A vs. Ivy	1.00202869513	[ 0.33461704]	1	0.332	1.000
+Geranium Rozanne vs. Bark chips	N/A vs. Fertiliser	0.97265767749	[ 0.34847475]	1	0.230	1.000
+Geranium Rozanne vs. Bark chips	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Bark chips	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Geranium Rozanne vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Bird feed vs. Twigs	1.09628783207	[ 0.38733326]	1	0.261	1.000
+Geranium Rozanne vs. Ivy	Bird feed vs. N/A	1.51761851445	[ 0.15304764]	1	0.144	1.000
+Geranium Rozanne vs. Ivy	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Twigs vs. N/A	0.72690258603	[ 0.47141585]	1	0.554	1.000
+Geranium Rozanne vs. Ivy	Twigs vs. Bark chips	1.09944018472	[ 0.3862346]	1	0.409	1.000
+Geranium Rozanne vs. Ivy	Twigs vs. Ivy	0.763952217776	[ 0.52471772]	1	0.657	1.000
+Geranium Rozanne vs. Ivy	Twigs vs. Fertiliser	0.134048418002	[ 0.90563641]	1	1.000	1.000
+Geranium Rozanne vs. Ivy	N/A vs. Bark chips	0.521023705137	[ 0.61111091]	1	0.580	1.000
+Geranium Rozanne vs. Ivy	N/A vs. Ivy	0.409459073454	[ 0.68886921]	1	0.620	1.000
+Geranium Rozanne vs. Ivy	N/A vs. Fertiliser	0.391331567522	[ 0.70189094]	1	0.716	1.000
+Geranium Rozanne vs. Ivy	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Ivy	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Bird feed vs. Twigs	0.000218020328891	[ 0.99984584]	1	1.000	1.000
+Geranium Rozanne vs. Fertiliser	Bird feed vs. N/A	0.134148852329	[ 0.89533946]	1	0.887	1.000
+Geranium Rozanne vs. Fertiliser	Bird feed vs. Bark chips	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Twigs vs. N/A	-0.381865490098	[ 0.70453325]	1	0.803	1.000
+Geranium Rozanne vs. Fertiliser	Twigs vs. Bark chips	-2.04933570143	[ 0.17695216]	1	0.176	1.000
+Geranium Rozanne vs. Fertiliser	Twigs vs. Ivy	-1.06261856088	[ 0.39929169]	1	0.497	1.000
+Geranium Rozanne vs. Fertiliser	Twigs vs. Fertiliser	-0.814790939077	[ 0.50078398]	1	0.520	1.000
+Geranium Rozanne vs. Fertiliser	N/A vs. Bark chips	-0.867869674173	[ 0.40120289]	1	0.436	1.000
+Geranium Rozanne vs. Fertiliser	N/A vs. Ivy	-0.849579333707	[ 0.41093231]	1	0.342	1.000
+Geranium Rozanne vs. Fertiliser	N/A vs. Fertiliser	-0.843817641553	[ 0.41402944]	1	0.325	1.000
+Geranium Rozanne vs. Fertiliser	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Geranium Rozanne vs. Fertiliser	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Twigs	Bird feed vs. N/A	0.213851065208	0.833542894761	1	0.844	1.000
+Bird feed vs. Twigs	Bird feed vs. Bark chips	0.137391295838	[ 0.90330492]	1	1.000	1.000
+Bird feed vs. Twigs	Bird feed vs. Ivy	0.511129781549	[ 0.66009579]	1	1.000	1.000
+Bird feed vs. Twigs	Bird feed vs. Fertiliser	0.93104744449	[ 0.45011816]	1	1.000	1.000
+Bird feed vs. Twigs	Twigs vs. N/A	-0.650166362634	0.519043512122	1	0.552	1.000
+Bird feed vs. Twigs	Twigs vs. Bark chips	-1.34783478696	0.248987020043	1	0.406	1.000
+Bird feed vs. Twigs	Twigs vs. Ivy	-1.09389278504	0.335456986937	1	0.277	1.000
+Bird feed vs. Twigs	Twigs vs. Fertiliser	-1.23234760983	0.285302978856	1	0.309	1.000
+Bird feed vs. Twigs	N/A vs. Bark chips	-1.38588908776	0.186040434068	1	0.197	1.000
+Bird feed vs. Twigs	N/A vs. Ivy	-1.37713034156	0.188676921298	1	0.176	1.000
+Bird feed vs. Twigs	N/A vs. Fertiliser	-1.37140545404	0.19041653586	1	0.165	1.000
+Bird feed vs. Twigs	Bark chips vs. Ivy	1.81361677907	[ 0.21141177]	1	0.268	1.000
+Bird feed vs. Twigs	Bark chips vs. Fertiliser	1.66573828553	[ 0.23768503]	1	0.240	1.000
+Bird feed vs. Twigs	Ivy vs. Fertiliser	1.44864306604	[ 0.2844411]	1	0.259	1.000
+Bird feed vs. N/A	Bird feed vs. Bark chips	0.307290255447	[ 0.76348974]	1	0.825	1.000
+Bird feed vs. N/A	Bird feed vs. Ivy	0.77902649981	[ 0.44991317]	1	0.350	1.000
+Bird feed vs. N/A	Bird feed vs. Fertiliser	1.30905053755	[ 0.21318449]	1	0.213	1.000
+Bird feed vs. N/A	Twigs vs. N/A	-1.68477130408	0.0978045320044	1	0.094	1.000
+Bird feed vs. N/A	Twigs vs. Bark chips	-1.78685838692	0.0941818029558	1	0.080	1.000
+Bird feed vs. N/A	Twigs vs. Ivy	-1.5857627931	0.133645176314	1	0.117	1.000
+Bird feed vs. N/A	Twigs vs. Fertiliser	-2.05622534203	0.0575941517957	1	0.058	1.000
+Bird feed vs. N/A	N/A vs. Bark chips	-2.74020445763	0.0109494444916	1	0.012	1.000
+Bird feed vs. N/A	N/A vs. Ivy	-2.78322618977	0.00989398614061	1	0.014	1.000
+Bird feed vs. N/A	N/A vs. Fertiliser	-2.78389121211	0.00987844944967	1	0.012	1.000
+Bird feed vs. N/A	Bark chips vs. Ivy	2.42303788219	[ 0.0307296]	1	0.023	1.000
+Bird feed vs. N/A	Bark chips vs. Fertiliser	2.23638425182	[ 0.04348627]	1	0.019	1.000
+Bird feed vs. N/A	Ivy vs. Fertiliser	1.96236461663	[ 0.07148699]	1	0.014	1.000
+Bird feed vs. Bark chips	Bird feed vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Bark chips	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Bark chips	Twigs vs. N/A	-0.243103025196	[ 0.80913777]	1	0.864	1.000
+Bird feed vs. Bark chips	Twigs vs. Bark chips	-1.6552660012	[ 0.23970357]	1	0.277	1.000
+Bird feed vs. Bark chips	Twigs vs. Ivy	-0.834022997007	[ 0.49201515]	1	0.742	1.000
+Bird feed vs. Bark chips	Twigs vs. Fertiliser	-0.696043573582	[ 0.55841027]	1	0.497	1.000
+Bird feed vs. Bark chips	N/A vs. Bark chips	-0.694049492163	[ 0.4998664]	1	0.545	1.000
+Bird feed vs. Bark chips	N/A vs. Ivy	-0.692010517878	[ 0.50110439]	1	0.417	1.000
+Bird feed vs. Bark chips	N/A vs. Fertiliser	-0.689238561885	[ 0.50279033]	1	0.403	1.000
+Bird feed vs. Bark chips	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Bark chips	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Bark chips	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Ivy	Bird feed vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Ivy	Twigs vs. N/A	0.134965321673	[ 0.89329971]	1	0.913	1.000
+Bird feed vs. Ivy	Twigs vs. Bark chips	-0.581594672116	[ 0.61965761]	1	0.739	1.000
+Bird feed vs. Ivy	Twigs vs. Ivy	-0.211197890844	[ 0.8522985]	1	0.761	1.000
+Bird feed vs. Ivy	Twigs vs. Fertiliser	-0.372507809072	[ 0.74528522]	1	1.000	1.000
+Bird feed vs. Ivy	N/A vs. Bark chips	-0.220463865738	[ 0.82893446]	1	0.745	1.000
+Bird feed vs. Ivy	N/A vs. Ivy	-0.262702911095	[ 0.7968968]	1	0.746	1.000
+Bird feed vs. Ivy	N/A vs. Fertiliser	-0.268076706971	[ 0.79284684]	1	0.870	1.000
+Bird feed vs. Ivy	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Ivy	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Ivy	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Fertiliser	Twigs vs. N/A	0.559747843995	[ 0.57869691]	1	0.647	1.000
+Bird feed vs. Fertiliser	Twigs vs. Bark chips	0.62473962984	[ 0.59591485]	1	0.680	1.000
+Bird feed vs. Fertiliser	Twigs vs. Ivy	0.488583568654	[ 0.67345762]	1	0.667	1.000
+Bird feed vs. Fertiliser	Twigs vs. Fertiliser	-0.00899592227031	[ 0.99363905]	1	1.000	1.000
+Bird feed vs. Fertiliser	N/A vs. Bark chips	0.311638063964	[ 0.76025713]	1	0.674	1.000
+Bird feed vs. Fertiliser	N/A vs. Ivy	0.219650000942	[ 0.82955511]	1	0.778	1.000
+Bird feed vs. Fertiliser	N/A vs. Fertiliser	0.205123963008	[ 0.84065221]	1	0.830	1.000
+Bird feed vs. Fertiliser	Bark chips vs. Ivy	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Fertiliser	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bird feed vs. Fertiliser	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Twigs vs. N/A	Twigs vs. Bark chips	-0.587756450787	0.559769980654	1	0.590	1.000
+Twigs vs. N/A	Twigs vs. Ivy	-0.453195761387	0.652686506084	1	0.675	1.000
+Twigs vs. N/A	Twigs vs. Fertiliser	-0.964432985541	0.340221696451	1	0.352	1.000
+Twigs vs. N/A	N/A vs. Bark chips	-1.07122981325	0.288830650007	1	0.297	1.000
+Twigs vs. N/A	N/A vs. Ivy	-1.24031965277	0.220219528466	1	0.229	1.000
+Twigs vs. N/A	N/A vs. Fertiliser	-1.26710458573	0.210555462415	1	0.207	1.000
+Twigs vs. N/A	Bark chips vs. Ivy	1.45254198235	[ 0.15396173]	1	0.182	1.000
+Twigs vs. N/A	Bark chips vs. Fertiliser	1.30295027658	[ 0.19986232]	1	0.235	1.000
+Twigs vs. N/A	Ivy vs. Fertiliser	1.08333995042	[ 0.28498759]	1	0.292	1.000
+Twigs vs. Bark chips	Twigs vs. Ivy	0.218288881245	0.83788849682	1	0.875	1.000
+Twigs vs. Bark chips	Twigs vs. Fertiliser	-0.377727951715	0.724821137114	1	0.886	1.000
+Twigs vs. Bark chips	N/A vs. Bark chips	0.0622961395911	0.951149527901	1	0.959	1.000
+Twigs vs. Bark chips	N/A vs. Ivy	-0.0521824913633	0.959071881755	1	0.952	1.000
+Twigs vs. Bark chips	N/A vs. Fertiliser	-0.0691441158753	0.945788251093	1	0.956	1.000
+Twigs vs. Bark chips	Bark chips vs. Ivy	3.1601739688	[ 0.08723037]	1	0.163	1.000
+Twigs vs. Bark chips	Bark chips vs. Fertiliser	2.73535044975	[ 0.11169983]	1	0.154	1.000
+Twigs vs. Bark chips	Ivy vs. Fertiliser	2.11168197097	[ 0.16911844]	1	0.270	1.000
+Twigs vs. Ivy	Twigs vs. Fertiliser	-0.4664195886	0.665184201541	1	0.778	1.000
+Twigs vs. Ivy	N/A vs. Bark chips	-0.10108622196	0.920820836427	1	0.919	1.000
+Twigs vs. Ivy	N/A vs. Ivy	-0.198936950398	0.844983466704	1	0.842	1.000
+Twigs vs. Ivy	N/A vs. Fertiliser	-0.212977991509	0.834211584333	1	0.816	1.000
+Twigs vs. Ivy	Bark chips vs. Ivy	1.95936156054	[ 0.18914778]	1	0.147	1.000
+Twigs vs. Ivy	Bark chips vs. Fertiliser	1.71292603955	[ 0.22885872]	1	0.396	1.000
+Twigs vs. Ivy	Ivy vs. Fertiliser	1.35114271165	[ 0.3092002]	1	0.432	1.000
+Twigs vs. Fertiliser	N/A vs. Bark chips	0.504723810151	0.621086483731	1	0.605	1.000
+Twigs vs. Fertiliser	N/A vs. Ivy	0.366779032921	0.718906308987	1	0.718	1.000
+Twigs vs. Fertiliser	N/A vs. Fertiliser	0.344574109213	0.735198126749	1	0.753	1.000
+Twigs vs. Fertiliser	Bark chips vs. Ivy	0.755021580111	[ 0.52903575]	1	1.000	1.000
+Twigs vs. Fertiliser	Bark chips vs. Fertiliser	0.627006983561	[ 0.59468887]	1	1.000	1.000
+Twigs vs. Fertiliser	Ivy vs. Fertiliser	0.439073253175	[ 0.70349029]	1	1.000	1.000
+N/A vs. Bark chips	N/A vs. Ivy	-0.180349910741	0.858276243388	1	0.860	1.000
+N/A vs. Bark chips	N/A vs. Fertiliser	-0.208425403123	0.836521010028	1	0.850	1.000
+N/A vs. Bark chips	Bark chips vs. Ivy	1.42999265457	[ 0.17631125]	1	0.255	1.000
+N/A vs. Bark chips	Bark chips vs. Fertiliser	1.24260727234	[ 0.2359601]	1	0.322	1.000
+N/A vs. Bark chips	Ivy vs. Fertiliser	0.967513377953	[ 0.35094337]	1	0.477	1.000
+N/A vs. Ivy	N/A vs. Fertiliser	-0.0286379356211	0.977372048095	1	0.973	1.000
+N/A vs. Ivy	Bark chips vs. Ivy	1.23344371857	[ 0.2392474]	1	0.232	1.000
+N/A vs. Ivy	Bark chips vs. Fertiliser	1.06357798468	[ 0.30687774]	1	0.312	1.000
+N/A vs. Ivy	Ivy vs. Fertiliser	0.814204070334	[ 0.43019058]	1	0.368	1.000
+N/A vs. Fertiliser	Bark chips vs. Ivy	1.1996817949	[ 0.2516712]	1	0.112	1.000
+N/A vs. Fertiliser	Bark chips vs. Fertiliser	1.03303912088	[ 0.32042181]	1	0.262	1.000
+N/A vs. Fertiliser	Ivy vs. Fertiliser	0.78839686746	[ 0.4446042]	1	0.361	1.000
+Bark chips vs. Ivy	Bark chips vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bark chips vs. Ivy	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A
+Bark chips vs. Fertiliser	Ivy vs. Fertiliser	N/A	N/A	N/A	N/A	N/A

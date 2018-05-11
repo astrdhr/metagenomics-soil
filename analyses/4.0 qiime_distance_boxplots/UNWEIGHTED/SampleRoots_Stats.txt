@@ -1,0 +1,36 @@
+# The tests of significance were performed using a two-sided Student's two-sample t-test.
+# Alternative hypothesis: Group 1 mean != Group 2 mean
+# The nonparametric p-values were calculated using 999 Monte Carlo permutations.
+# The nonparametric p-values contain the correct number of significant digits.
+# Entries marked with "N/A" could not be calculated because at least one of the groups
+# of distances was empty, both groups each contained only a single distance, or
+# the test could not be performed (e.g. no variance in groups with the same mean).
+Group 1	Group 2	t statistic	Parametric p-value	Parametric p-value (Bonferroni-corrected)	Nonparametric p-value	Nonparametric p-value (Bonferroni-corrected)
+All within SampleRoots	All between SampleRoots	0.622175765668	0.534177272857	1	0.517	1.000
+All within SampleRoots	No roots vs. No roots	-1.1388460758	[ 0.25620878]	1	0.256	1.000
+All within SampleRoots	N/A vs. N/A	0.0787851741606	0.937249708106	1	0.946	1.000
+All within SampleRoots	Roots vs. Roots	-0.385894282859	0.69994121433	1	0.689	1.000
+All within SampleRoots	No roots vs. N/A	0.554765256196	0.579608742181	1	0.568	1.000
+All within SampleRoots	No roots vs. Roots	0.706267454447	0.480819842311	1	0.464	1.000
+All within SampleRoots	N/A vs. Roots	0.383364872372	0.701681993642	1	0.680	1.000
+All between SampleRoots	No roots vs. No roots	-1.06614568818	[ 0.28755355]	1	0.328	1.000
+All between SampleRoots	N/A vs. N/A	-0.496909532277	0.619550377864	1	0.636	1.000
+All between SampleRoots	Roots vs. Roots	-0.734455588719	0.463359432876	1	0.473	1.000
+All between SampleRoots	No roots vs. N/A	0.219282314208	0.826609063526	1	0.817	1.000
+All between SampleRoots	No roots vs. Roots	0.456511934825	0.648448983058	1	0.663	1.000
+All between SampleRoots	N/A vs. Roots	-0.210033718281	0.833755119394	1	0.851	1.000
+No roots vs. No roots	N/A vs. N/A	-1.09365652379	[ 0.27583581]	1	0.304	1.000
+No roots vs. No roots	Roots vs. Roots	-1.40166291242	[ 0.16982211]	1	0.225	1.000
+No roots vs. No roots	No roots vs. N/A	-0.921487435882	[ 0.36310455]	1	0.353	1.000
+No roots vs. No roots	No roots vs. Roots	-0.805816478367	[ 0.43147672]	1	0.551	1.000
+No roots vs. No roots	N/A vs. Roots	-1.1274950666	[ 0.26121074]	1	0.293	1.000
+N/A vs. N/A	Roots vs. Roots	-0.416770078327	0.677324599686	1	0.677	1.000
+N/A vs. N/A	No roots vs. N/A	0.484207770704	0.628805025241	1	0.643	1.000
+N/A vs. N/A	No roots vs. Roots	0.644211985189	0.520311358398	1	0.480	1.000
+N/A vs. N/A	N/A vs. Roots	0.28147410728	0.778532778736	1	0.795	1.000
+Roots vs. Roots	No roots vs. N/A	0.733669915934	0.465600146744	1	0.453	1.000
+Roots vs. Roots	No roots vs. Roots	0.880101117996	0.382853969802	1	0.389	1.000
+Roots vs. Roots	N/A vs. Roots	0.621378311331	0.535072755714	1	0.538	1.000
+No roots vs. N/A	No roots vs. Roots	0.226971476069	0.821335876857	1	0.812	1.000
+No roots vs. N/A	N/A vs. Roots	-0.337520212063	0.736085968031	1	0.748	1.000
+No roots vs. Roots	N/A vs. Roots	-0.551777247361	0.581793037316	1	0.572	1.000
