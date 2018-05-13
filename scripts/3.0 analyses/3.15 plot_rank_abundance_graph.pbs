@@ -1,7 +1,7 @@
 #!/bin/bash --login
-#PBS -l walltime=00:05:00
+#PBS -l walltime=00:01:00
 #PBS -l select=1:ncpus=2
-#PBS -N dissimilarity_uw
+#PBS -N rank_abundance
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -18,9 +18,11 @@ echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l)
 source activate qiime1
 
-# Calculate mean, median and standard deviation from a set of distance matrices
-time dissimilarity_mtx_stats.py \
--i /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac/rare_dm \
--o /lustre/home/d411/alorax1/data/2018/dissimilarity_uw_unifrac_stats
+# Plotting a rank abundance curve from an OTU table
+time plot_rank_abundance_graph.py \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
+-s '*' \
+-o /lustre/home/d411/alorax1/data/2018/rank_abundance/normal.png \
+-f png
 
 source deactivate

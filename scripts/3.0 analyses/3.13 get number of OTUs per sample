@@ -1,0 +1,9 @@
+# This script is written on the command line
+# Where the files you want to use are in the current working directory
+
+module load miniconda/python2
+source activate qiime1
+
+biom summarize-table \
+-i open_ref_output/otu_table_mc2_w_tax.biom \
+--qualitative -o stats_OTUs_per_sample.txt
