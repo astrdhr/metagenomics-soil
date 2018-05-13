@@ -38,4 +38,22 @@ Habitat,SampleDistanceFromTree,SampleTrees,SampleLeaves,SampleFauna,SampleRoots,
 --save_raw_data \
 -n 999
 
+# Running means.txt from dissimilarity_mtx_stats.pbs (unweighted)
+time make_distance_boxplots.py \
+-m /lustre/home/d411/alorax1/test/all/allyears_map.txt \
+-o /lustre/home/d411/alorax1/data/2018/dissimilarity_uw_unifrac_stats/boxplot \
+-d /lustre/home/d411/alorax1/data/2018/dissimilarity_uw_unifrac_stats/means.txt \
+-f "Year" \
+--save_raw_data \
+-n 999
+
+# Running means.txt from dissimilarity_mtx_stats.pbs (weighted)
+time make_distance_boxplots.py \
+-m /lustre/home/d411/alorax1/test/all/allyears_map.txt \
+-o /lustre/home/d411/alorax1/data/2018/dissimilarity_w_unifrac_stats/boxplot \
+-d /lustre/home/d411/alorax1/data/2018/dissimilarity_w_unifrac_stats/means.txt \
+-f "Year" \
+--save_raw_data \
+-n 999
+
 source deactivate

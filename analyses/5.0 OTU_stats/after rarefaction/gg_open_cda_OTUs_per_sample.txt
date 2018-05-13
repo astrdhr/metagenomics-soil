@@ -1,0 +1,42 @@
+Num samples: 29
+Num observations: 24197
+
+Observations/sample summary:
+ Min: 3123
+ Max: 6707
+ Median: 3978.000
+ Mean: 4041.759
+ Std. dev.: 584.600
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Observations/sample detail:
+515rcbc36: 3123
+515rcbc25: 3481
+515rcbc32: 3523
+515rcbc13: 3533
+515rcbc35: 3688
+515rcbc21: 3704
+515rcbc10: 3763
+515rcbc9: 3795
+515rcbc34: 3806
+515rcbc26: 3896
+515rcbc14: 3922
+515rcbc8: 3948
+515rcbc27: 3956
+515rcbc23: 3966
+515rcbc30: 3978
+515rcbc28: 3978
+515rcbc22: 4001
+515rcbc24: 4056
+515rcbc31: 4073
+515rcbc33: 4093
+515rcbc11: 4097
+515rcbc18: 4099
+515rcbc16: 4159
+515rcbc37: 4264
+515rcbc15: 4290
+515rcbc17: 4368
+515rcbc29: 4406
+515rcbc19: 4538
+515rcbc12: 6707

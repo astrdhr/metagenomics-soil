@@ -82,7 +82,7 @@ time core_diversity_analyses.py \
 -i /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/otu_table_mc2_w_tax.biom \
 -o cda_silva \
 -m /lustre/home/d411/alorax1/new/2018_02_smb/2018_map.tsv \
--t /lustre/home/d411/alorax1/new/2018_02_smb/16S_SILVA128_otus/rep_set.tre \
+-t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre \
 -e 35000 \ #this number is obtained by determining sequence count where curve levels off from alpha_rarefaction.py script
 -a \
 -O 12

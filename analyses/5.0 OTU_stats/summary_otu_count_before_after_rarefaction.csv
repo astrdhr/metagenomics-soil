@@ -1,0 +1,6 @@
+A table comparing OTU count before and after rarefaction (sampling depth = 35000) using different OTU picking methods.,,,,
+ ,OTU count before rarefaction,,OTU count after rarefaction,
+OTU picking method,Silva,GG,Silva,GG
+De novo,149318,149318,28108,28228
+Closed,15827,11716,10741,8461
+Open,69319,24197,25411,24177
