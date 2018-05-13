@@ -4,7 +4,7 @@ output:
   html_notebook: null
   html_document:
     df_print: paged
-    code_folding: hide
+    code_folding: show
 ---
 
 # Loading the libraries
@@ -28,7 +28,7 @@ Here's what the table contains:
 data1
 ```
 
-# Generating the boxplot
+# Generating a basic boxplot
 ```{r}
 ggplot(melt(data1), aes(variable, value)) + geom_boxplot()
 ```
