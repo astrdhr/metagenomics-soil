@@ -21,7 +21,7 @@ source activate qiime1
 # Core Diversity Analyses
 core_diversity_analyses.py \
 --recover_from_failure \
--i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_no_singletons.biom \
 -o /lustre/home/d411/alorax1/data/2018/120000_core_diversity_analyses_updated_map_v2 \
 -m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
 -t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre \

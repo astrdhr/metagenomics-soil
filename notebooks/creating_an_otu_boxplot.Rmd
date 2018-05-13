@@ -1,0 +1,64 @@
+---
+title: "Drawing a boxplot for observed OTU count vs OTU picking method"
+output:
+  html_notebook: null
+  html_document:
+    df_print: paged
+    code_folding: hide
+---
+
+# Loading the libraries
+```{r}
+library(reshape2)
+library(ggplot2)
+```
+
+# Loading the table onto R
+```{r}
+data1 <- read.csv("summary_otu_count_for_boxplot.csv")
+```
+
+```{r}
+attach(data1)
+names(data1)
+```
+
+Here's what the table contains:
+```{R}
+data1
+```
+
+# Generating the boxplot
+```{r}
+ggplot(melt(data1), aes(variable, value)) + geom_boxplot()
+```
+
+# Adding some colour, axes labels and a legend
+```{r}
+ggplot(melt(data1), aes(variable, value)) + 
+geom_boxplot(aes(color=factor(variable))) + 
+theme_bw() + 
+theme(legend.text = element_text(size = 9), legend.title = element_text(size = 9)) +
+theme(axis.text = element_text(size = 9)) +
+theme(axis.title = element_text(size = 9)) +
+labs(x = "OTU picking method", y = "Observed OTU count",colour = "legend") +
+annotation_logticks(sides = "rl") +
+theme(panel.grid.minor = element_blank()) +
+guides(title.hjust = 1.0) +
+theme(plot.margin = unit(c(0,1,0,0),"mm"))
+```
+
+# Putting in a fill colour instead
+```{r}
+ggplot(melt(data1), aes(variable, value)) + 
+  geom_boxplot(aes(fill = variable)) + 
+  theme_bw() + 
+  theme(legend.text = element_text(size = 9), legend.title = element_text(size = 9)) +
+  theme(axis.text = element_text(size = 9)) +
+  theme(axis.title = element_text(size = 9)) +
+  labs(x = "OTU picking method", y = "Observed OTU count",colour = "legend") +
+  annotation_logticks(sides = "rl") +
+  theme(panel.grid.minor = element_blank()) +
+  guides(title.hjust = 1.0) +
+  theme(plot.margin = unit(c(0,1,0,0),"mm"))
+```

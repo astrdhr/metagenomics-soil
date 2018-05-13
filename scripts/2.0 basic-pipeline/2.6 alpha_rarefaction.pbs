@@ -20,7 +20,7 @@ source activate qiime1
 
 # Performing alpha rarefaction to determine sampling depth for core diversity analyses
 alpha_rarefaction.py \
--i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom \
+-i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_no_singletons.biom \
 -m /lustre/home/d411/alorax1/data/2018/2018_02_smb/2018_map.tsv \
 -o /lustre/home/d411/alorax1/data/2018/alpha_rare \
 -a \

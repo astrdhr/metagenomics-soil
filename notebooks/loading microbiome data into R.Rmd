@@ -1,0 +1,23 @@
+---
+title: "Loading microbiome data into R"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+source("https://bioconductor.org/biocLite.R")
+```
+
+```{r}
+biocLite("biomformat")
+library('biomformat')
+```
+
+```{}
+biom convert -i otu_table_mc2_w_tax.biom -o otu_table_json.biom --to-json
+```
+
+```{r}
+silva.otus.biom <- read_biom('otu_table_json.biom')
+```
