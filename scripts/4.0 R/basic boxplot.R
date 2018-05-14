@@ -5,7 +5,7 @@ library(ggplot2)
 # Loading the data onto R
 data1 <- read.csv("summary_otu_count_for_boxplot.csv")
 
-# Double check R has properly loaded the data 
+# Double check R has properly loaded the data
 attach(data1)
 names(data1)
 
