@@ -1,0 +1,32 @@
+Call: capscale(formula = as.dist(qiime.data$distmat) ~ factor, data =
+factors.frame)
+
+              Inertia Proportion Rank
+Total          5.3219     1.0000     
+Constrained    0.6088     0.1144    2
+Unconstrained  4.7131     0.8856   38
+Inertia is squared Unknown distance 
+
+Eigenvalues for constrained axes:
+  CAP1   CAP2 
+0.4474 0.1614 
+
+Eigenvalues for unconstrained axes:
+  MDS1   MDS2   MDS3   MDS4   MDS5   MDS6   MDS7   MDS8 
+0.6389 0.3236 0.2445 0.2324 0.1748 0.1533 0.1406 0.1311 
+(Showed only 8 of all 38 unconstrained eigenvalues)
+
+
+Permutation test for capscale under reduced model 
+
+Permutation: free
+Number of permutations: 999
+ 
+Model: capscale(formula = as.dist(qiime.data$distmat) ~ factor, data =
+factors.frame)
+Permutation test for all constrained eigenvalues
+         Df Inertia      F Pr(>F)    
+Model     2  0.6088 2.4542  0.001 ***
+Residual 38  4.7131                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

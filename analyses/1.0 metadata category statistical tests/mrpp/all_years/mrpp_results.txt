@@ -1,0 +1,20 @@
+
+Call:
+mrpp(dat = as.dist(qiime.data$distmat), grouping = qiime.data$map[[opts$category]],      permutations = opts$num_permutations) 
+
+Dissimilarity index: 
+Weights for groups:  n 
+
+Class means and counts:
+
+      2016   2017   2018 
+delta 0.4744 0.5465 0.483
+n     4      8      29   
+
+Chance corrected within-group agreement A: 0.03408 
+Based on observed delta 0.4945 and expected delta 0.512 
+
+Significance of delta: 0.001 
+Permutation: free
+Number of permutations: 999
+

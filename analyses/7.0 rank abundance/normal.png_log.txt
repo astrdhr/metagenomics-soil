@@ -1,0 +1,2 @@
+OTU table file: /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom
+sample names: *

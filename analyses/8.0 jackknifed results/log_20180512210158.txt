@@ -1,0 +1,161 @@
+Logging started at 21:01:58 on 12 May 2018
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set_aligned/97/97_otus_aligned.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/rep_set/rep_set_16S_only/97/97_otus_16S.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/taxonomy/16S_only/97/consensus_taxonomy_7_levels.txt
+temp_dir	/lustre/home/d411/alorax1/qiime_tmp/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+parallel:jobs_to_start	36
+
+Input file md5 sums:
+/lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom: 487973ce94685d2015c8b6407b363079
+/lustre/home/d411/alorax1/data/2018/updated_2018_map_v3.txt: bf612bfd166cdac2abf7cc1c315bc434
+/lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre: 9ed6c235cdff636963de40045ab2a4df
+
+Executing commands.
+
+# Beta Diversity (weighted_unifrac, unweighted_unifrac) command 
+beta_diversity.py -i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom -o /lustre/home/d411/alorax1/data/2018/jackknifed/unrarefied_bdiv  -t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre
+
+Stdout:
+
+Stderr:
+
+# Rarefaction command 
+multiple_rarefactions_even_depth.py -i /lustre/home/d411/alorax1/data/2018/otu_open_ref/otu_table_mc2_w_tax.biom -d 35000 -o /lustre/home/d411/alorax1/data/2018/jackknifed/rarefaction/ 
+
+Stdout:
+
+Stderr:
+
+# UPGMA on full distance matrix: weighted_unifrac command 
+upgma_cluster.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unrarefied_bdiv/weighted_unifrac_otu_table_mc2_w_tax.txt -o /lustre/home/d411/alorax1/data/2018/jackknifed/unrarefied_bdiv/otu_table_mc2_w_tax_weighted_unifrac_upgma.tre 
+
+Stdout:
+
+Stderr:
+
+# Beta diversity on rarefied OTU tables (weighted_unifrac) command 
+parallel_beta_diversity.py -T -i /lustre/home/d411/alorax1/data/2018/jackknifed/rarefaction/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_dm/  -m weighted_unifrac  -t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre --jobs_to_start 36
+
+Stdout:
+
+Stderr:
+
+# UPGMA on rarefied distance matrix (weighted_unifrac) command 
+upgma_cluster.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_dm/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_upgma/ 
+
+Stdout:
+
+Stderr:
+
+# consensus on rarefied distance matrices (weighted_unifrac) command 
+consensus_tree.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_upgma/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_upgma_consensus.tre 
+
+Stdout:
+
+Stderr:
+
+# Tree compare (weighted_unifrac) command 
+tree_compare.py -s /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_upgma/ -m /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_upgma_consensus.tre -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//upgma_cmp/ 
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (weighted_unifrac) command 
+principal_coordinates.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//rare_dm/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//pcoa/ 
+
+Stdout:
+
+Stderr:
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00119820532184 and the largest is 0.266957725024.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.000711087347178 and the largest is 0.267325921887.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00105731325779 and the largest is 0.267020310001.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00108463458311 and the largest is 0.269237677797.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.0012951111324 and the largest is 0.265955201511.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00112454222237 and the largest is 0.268430895503.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00117437802409 and the largest is 0.268184979108.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00110896366327 and the largest is 0.267064337182.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.000885759671558 and the largest is 0.26919678186.
+  RuntimeWarning
+/lustre/home/d411/alorax1/.conda/envs/qiime1/lib/python2.7/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:107: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00102116709765 and the largest is 0.26654403923.
+  RuntimeWarning
+
+# emperor plots (weighted_unifrac) command 
+make_emperor.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//pcoa/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/weighted_unifrac//emperor_pcoa_plots/ -m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v3.txt 
+
+Stdout:
+
+Stderr:
+
+# UPGMA on full distance matrix: unweighted_unifrac command 
+upgma_cluster.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unrarefied_bdiv/unweighted_unifrac_otu_table_mc2_w_tax.txt -o /lustre/home/d411/alorax1/data/2018/jackknifed/unrarefied_bdiv/otu_table_mc2_w_tax_unweighted_unifrac_upgma.tre 
+
+Stdout:
+
+Stderr:
+
+# Beta diversity on rarefied OTU tables (unweighted_unifrac) command 
+parallel_beta_diversity.py -T -i /lustre/home/d411/alorax1/data/2018/jackknifed/rarefaction/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_dm/  -m unweighted_unifrac  -t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre --jobs_to_start 36
+
+Stdout:
+
+Stderr:
+
+# UPGMA on rarefied distance matrix (unweighted_unifrac) command 
+upgma_cluster.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_dm/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_upgma/ 
+
+Stdout:
+
+Stderr:
+
+# consensus on rarefied distance matrices (unweighted_unifrac) command 
+consensus_tree.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_upgma/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_upgma_consensus.tre 
+
+Stdout:
+
+Stderr:
+
+# Tree compare (unweighted_unifrac) command 
+tree_compare.py -s /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_upgma/ -m /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_upgma_consensus.tre -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//upgma_cmp/ 
+
+Stdout:
+
+Stderr:
+
+# Principal coordinates (unweighted_unifrac) command 
+principal_coordinates.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//rare_dm/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//pcoa/ 
+
+Stdout:
+
+Stderr:
+
+# emperor plots (unweighted_unifrac) command 
+make_emperor.py -i /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//pcoa/ -o /lustre/home/d411/alorax1/data/2018/jackknifed/unweighted_unifrac//emperor_pcoa_plots/ -m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v3.txt 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 21:04:50 on 12 May 2018
