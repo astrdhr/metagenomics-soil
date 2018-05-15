@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #PBS -l walltime=00:03:00
 #PBS -l select=1:ncpus=2
-#PBS -N compare_33
+#PBS -N 15
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -18,13 +18,11 @@ echo "loading virtualenv"
 # NB qiime1 and not qiimel (number one not letter l)
 source activate qiime1
 
-# Comparing categories
-compare_categories.py \
---method adonis \
--i /lustre/home/d411/alorax1/data/2018/5000_core_diversity_analyses_updated_map_v2/bdiv_even5000/unweighted_unifrac_dm.txt \
--m /lustre/home/d411/alorax1/data/2018/updated_2018_map_v2.txt \
--c SampleAbioticFactors \
--o /lustre/home/d411/alorax1/data/2018/compare_cat/adonis/SampleAbioticFactors \
--n 999
+# Make OTU heatmap
+time make_otu_heatmap.py \
+-i /lustre/home/d411/alorax1/data/2018/new_heatmaps/taxa_summaries/90_core/core_table_90_L2.biom \
+-o /lustre/home/d411/alorax1/data/2018/new_heatmaps/90_core.pdf \
+-t /lustre/home/d411/alorax1/silva128/SILVA_128_QIIME_release/trees/97/97_otus.tre \
+--color_scheme winter
 
 source deactivate
