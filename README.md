@@ -17,6 +17,8 @@ QIIME v1.9.1 was used for the initial data processing and analyses. The (serial 
 - The `scripts` are numbered in the order that they were carried out, as well as the `analyses`.
 - The `core diversity analyses` results for `2018` and `all years` datasets can be viewed at https://alorax.github.io, along with the 2D PCoA plots for `all years`, as this data is interactive.
 
+For a very brief overview of the scripts I used, a log file can be found [here](https://github.com/Alorax/BIOC3301-repo/blob/master/log.md).
+
 ## Primer
 
 The `16S rRNA` (ribosomal RNA) gene encodes for part of the ribosome (more specifically, the 30S small subunit) found in `prokaryotic cells`. Sections of this gene are `conserved` across the genomes of all `bacterial species`, and variations within the `coding sequence` are used to reconstruct `phylogenies`; allowing different bacterial species to be told apart along with how they are related to each other. Hence, highly complex bacterial `communities` are commonly identified using `16S rRNA gene sequencing`.
