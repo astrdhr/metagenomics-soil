@@ -15,7 +15,7 @@ QIIME v1.9.1 was used for the initial data processing and analyses. The (serial 
 - Mapping files are located in the `maps` folder.
 - All figures are located in the `figures` folder.
 - The `scripts` are numbered in the order that they were carried out, as well as the `analyses`.
-- The `core diversity analyses` results for `2018` and `all years` datasets can be viewed at http://astrdhr.me/metagenomics-research/index.html, along with the 2D PCoA plots for `all years`, as this data is interactive.
+- The `core diversity analyses` results for `2018` and `all years` datasets can be viewed at http://astrdhr.github.io/metagenomics-research/index.html, along with the 2D PCoA plots for `all years`, as this data is interactive.
 
 For a very brief overview of the scripts I used, a log file can be found [here](https://github.com/Alorax/BIOC3301-repo/blob/master/log.md).
 
