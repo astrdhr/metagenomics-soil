@@ -1,23 +1,24 @@
-# 16S Metagenomics Notebook
+# 16S rRNA Metagenomics Analysis
 ![](https://img.shields.io/badge/Module-BIOC3301-red.svg)
 [![](https://img.shields.io/badge/language-R-blue.svg)](https://www.r-project.org/)
 [![](https://img.shields.io/badge/cluster-Cirrus-178F8B.svg)](http://www.cirrus.ac.uk/)
 
-Here I lay bare all my scripts used in the Illumina data processing and further downstream analyses for my work.
+**This repository is part of the assessment for the BIOC3301 Module at UCL.**
+
+The project involved analysing microbial diversity by extracting 16S rRNA gene sequences from soil samples collected in London parks. The data was then processed and analysed using QIIME and further statistical tests were conducted using [R](https://www.r-project.org/). This repository contains all the scripts used for the NGS quality control and data processing stages, as well as for further downstream analysis.
+
+For a brief overview of all the scripts used, a log file can be found [here](https://github.com/Alorax/BIOC3301-repo/blob/master/log.md).
 
 ## Setup information
-QIIME v1.9.1 was used for the initial data processing and analyses. The (serial batch/parallel) bash scripts were submitted as jobs to be run on Cirrus, a High Performance Computing (HPC) system. These PBS scripts are located in the `Scripts` folder. A few notes:
-- In my actual workflow I used `all_scripts.pbs`, and commented out the scripts I no longer needed. I found this method to be more efficient as I only worked with a single script, thus avoiding a cluttered folder and confusion with using the wrong script.
-- However, for ease of understanding the different scripts used, I have provided appropriately named separate files for each.
-- Comments are added in-line for each script and clarification of their use.
-- For further downstream statistical tests, I mostly worked with QIIME and [R](https://www.r-project.org/).
-- The resulting output of each of these scripts can be found in the `basic pipeline` (containing quality filtering and preprocessing outputs) and `analyses` (containing further downstream analyses and statistical tests) folders.
+QIIME v1.9.1 was used for the initial data processing and analysis. The (serial batch/parallel) bash scripts were submitted as jobs to be run on Cirrus, a High Performance Computing (HPC) system. To summarise this repository:
+- PBS scripts are located in the `scripts` folder.
+- The quality filtering and preprocessing outputs can be found in the `basic pipeline` folder.
+- Further downstream analysis and statistical tests can be found in the `analyses` folder.
 - Mapping files are located in the `maps` folder.
 - All figures are located in the `figures` folder.
-- The `scripts` are numbered in the order that they were carried out, as well as the `analyses`.
+- The files in `scripts` and `analyses` are numbered in the order they were carried out.
+- Comments are added in-line for each script and clarification of their use.
 - The `core diversity analyses` results for `2018` and `all years` datasets can be viewed at http://astrdhr.github.io/metagenomics-research/index.html, along with the 2D PCoA plots for `all years`, as this data is interactive.
-
-For a very brief overview of the scripts I used, a log file can be found [here](https://github.com/Alorax/BIOC3301-repo/blob/master/log.md).
 
 ## Primer
 
